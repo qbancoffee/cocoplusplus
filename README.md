@@ -18,7 +18,7 @@ created this repository so that I could make changes to the board that I would l
 this available so that anyone can contribute ideas and expertise.
 
 ### Goals
-I still don't know what all of the goals are yet but I'll list some ideas that I've had or that others have mentioned or recommended.
+I still don't know what all of the goals are but I'll list some ideas that I've had or that others have mentioned or recommended.
 - Having fun
 - Mod for potential DMA
 - USB keyboard
