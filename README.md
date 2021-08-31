@@ -1,4 +1,4 @@
-# TRS-80 Color Computer 3 [26-3334]
+# CoCo++
 
 This directory contains a KiCad project
 for the schematic for a board based on the TRS-80 Color Computer 3
