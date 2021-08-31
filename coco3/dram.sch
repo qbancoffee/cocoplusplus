@@ -4,13 +4,13 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 2 8
-Title "TRS-80 Color Computer 3 (26-3334)"
-Date "2021-07-06"
-Rev "1.0.1"
-Comp "Tandy Corporation"
+Title "CoCo++"
+Date "2021-08-31"
+Rev "1.0.0"
+Comp ""
 Comment1 ""
-Comment2 "& Color Computer 3 Revised Schematic (Ty Sopko).pdf"
-Comment3 "Based on  Color Computer 3 Service Manual (Tandy).pdf"
+Comment2 ""
+Comment3 ""
 Comment4 "Kicad schematic capture by Rocky Hill"
 $EndDescr
 $Comp
