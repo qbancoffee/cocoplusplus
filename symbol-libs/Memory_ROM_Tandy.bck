@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC68A364
+D CoCo BASIC ROM
+K ROM, Tandy, CoCo
+$ENDCMP
+#
+#End Doc Library
