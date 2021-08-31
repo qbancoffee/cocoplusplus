@@ -1,28 +1,31 @@
 # CoCo++
+I spent some time transcribing the CoCo 3 schematic into KiCAD to contribute to the bit preserve project.
+Using that schematic, I created a drop in replacement board which I subsequently ordered, assembled, and tested.
+At this point I consider that project done and time to move on. If you are interested in the bit preserve
+project here is the link.<br>
+[Bit Preserve, recreating classic computer schematics](https://github.com/baldengineer/bit-preserve)
 
-This directory contains a KiCad project
-for the schematic for a board based on the TRS-80 Color Computer 3
-model 26-3334.
+So now it's time to have fun....<br>
+I want to base this board on the CoCo 3 for several reasons.
 
-## Sources
+- It's the latest real CoCo.
+- I never used one in my youth.
+- When people upgrade to to the GIME-X, they may want to use their otherwise unused GIME
+- If used with a GIME-X then there would be a new CoCo added to the world. 
 
-### Schematic
+To start this I stripped the CoCo 3 portion out of the bit-preserve project and
+created this repository so that I could make changes to the board that I would like to see. I'm making
+this available so that anyone can contribute ideas and expertise.
 
-Schematics are available in several locations including:
-https://colorcomputerarchive.com/repo/Documents/Manuals/Hardware/Color%20Computer%203%20Service%20Manual%20%28Tandy%29.pdf
-https://colorcomputerarchive.com/repo/Documents/Manuals/Hardware/Color%20Computer%203%20Revised%20Schematic%20%28Ty%20Sopko%29.pdf
+### Goals
+I still don't know what all of the goals are yet but I'll list some ideas that I've had or that others have mentioned or recommended.
+- Mod for potential DMA
+- USB keyboard
+- A different form factor
+- HDMI out
+- Surface mount components
 
-
- 
-## Tested
-- Successfully tested board after fixing missing connection.
-- Audio and Video work.
-- Reset switch works.
-- Testing expansion port by adding 512 KB memory upgrade.
-- Joystick port 1 works.
-- Keyboard works.
-- Cartridge connector works.
-
-## Videos
-[Playing Joust using a new CoCo 3 board](https://youtu.be/vjpey5T-lSU)
+### Videos
+- [Testing new CoCo 3 board](https://youtu.be/XzGmMZHgejc)
+- [Running NitrOS 9 Ease Of Use](https://youtu.be/wSlYcxvCpys)
 
