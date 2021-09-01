@@ -22,7 +22,9 @@ I still don't know what all of the goals are but I'll list some ideas that I've 
 - Having fun
 - Mod for potential DMA
 - USB keyboard
+- Reduce overall size 
 - A different form factor
+- [Fit it in a polycase ZN-45](https://www.polycase.com/zn-45)
 - HDMI out
 - Surface mount components
 - 12V power supply with standard barrel connector
