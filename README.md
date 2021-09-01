@@ -25,6 +25,7 @@ I still don't know what all of the goals are but I'll list some ideas that I've 
 - A different form factor
 - HDMI out
 - Surface mount components
+- 12V power supply with standard barrel connector
 
 ### Videos
 - [Testing new CoCo 3 board](https://youtu.be/XzGmMZHgejc)
