@@ -36,4 +36,10 @@ K TTL DFF DFF8 REG 3State
 F http://www.ti.com/lit/gpn/sn74LS374
 $ENDCMP
 #
+$CMP W65C21N6TPLG-14
+D Peripheral Interface Adapter
+K W65C21N
+F https://www.mouser.com/datasheet/2/436/w65c21-661.pdf
+$ENDCMP
+#
 #End Doc Library
