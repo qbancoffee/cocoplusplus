@@ -111,11 +111,11 @@ AR Path="/602A51A8/60349BCC" Ref="C?"  Part="1"
 AR Path="/60308A73/60349BCC" Ref="C4"  Part="1" 
 F 0 "C4" V 5250 2550 50  0000 C CNN
 F 1 ".1uF" V 5000 2550 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5150 2550 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 5150 2550 50  0001 C CNN
-F 4 "digikey" V 5150 2550 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 5150 2550 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" H 5150 2550 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5150 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 5150 2550 50  0001 C CNN
+F 4 "JLCPCB" V 5150 2550 50  0001 C CNN "Vendor"
+F 5 "C15850" V 5150 2550 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" H 5150 2550 50  0001 C CNN "Manufacturer part#"
 	1    5150 2550
 	0    -1   -1   0   
 $EndComp

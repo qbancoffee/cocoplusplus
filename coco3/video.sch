@@ -24,11 +24,11 @@ AR Path="/60F62EEA" Ref="C?"  Part="1"
 AR Path="/612A4892/60F62EEA" Ref="C68"  Part="1" 
 F 0 "C68" V 7350 2200 50  0000 C CNN
 F 1 "1000pF" V 7250 2200 50  0000 C CIN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7150 2200 50  0001 C CNN
-F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 7150 2200 50  0001 C CNN
-F 4 "digikey" V 7150 2200 50  0001 C CNN "Vendor"
-F 5 "BC2659CT-ND" V 7150 2200 50  0001 C CNN "Vendor part#"
-F 6 "K102K10X7RF5UH5" V 7150 2200 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7150 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808311543_Samsung-Electro-Mechanics-CL21B102KBCNNNC_C46653.pdf" H 7150 2200 50  0001 C CNN
+F 4 "JLCPCB" V 7150 2200 50  0001 C CNN "Vendor"
+F 5 "C46653" V 7150 2200 50  0001 C CNN "Vendor part#"
+F 6 "CL21B102KBCNNNC" V 7150 2200 50  0001 C CNN "Manufacturer part#"
 	1    7150 2200
 	0    -1   -1   0   
 $EndComp
@@ -48,11 +48,11 @@ AR Path="/6111712D" Ref="C?"  Part="1"
 AR Path="/612A4892/6111712D" Ref="C51"  Part="1" 
 F 0 "C51" H 4800 4600 50  0000 C CNN
 F 1 ".1uF" H 4850 4800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4950 4700 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 4950 4700 50  0001 C CNN
-F 4 "digikey" V 4950 4700 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 4950 4700 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 4950 4700 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4950 4700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4950 4700 50  0001 C CNN
+F 4 "JLCPCB" V 4950 4700 50  0001 C CNN "Vendor"
+F 5 "C15850" V 4950 4700 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 4950 4700 50  0001 C CNN "Manufacturer part#"
 	1    4950 4700
 	-1   0    0    1   
 $EndComp
@@ -126,11 +126,11 @@ U 1 1 60F73DCD
 P 3150 4450
 F 0 "C62" V 3350 4400 50  0000 L CNN
 F 1 "220uF 25V" V 3250 4300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3150 4450 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 3150 4450 50  0001 C CNN
-F 4 "digikey" H 3150 4450 50  0001 C CNN "Vendor"
-F 5 "P5153-ND" H 3150 4450 50  0001 C CNN "Vendor part#"
-F 6 "ECA-1EM221" H 3150 4450 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 3150 4450 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809291333_Lelon-VEJ221M1ETR-0810_C134765.pdf" H 3150 4450 50  0001 C CNN
+F 4 "JLCPCB" H 3150 4450 50  0001 C CNN "Vendor"
+F 5 "C134765" H 3150 4450 50  0001 C CNN "Vendor part#"
+F 6 "VEJ221M1ETR-0810" H 3150 4450 50  0001 C CNN "Manufacturer part#"
 	1    3150 4450
 	0    1    -1   0   
 $EndComp
@@ -140,11 +140,11 @@ U 1 1 60F71E97
 P 4000 4700
 F 0 "C63" H 3800 4750 50  0000 L CNN
 F 1 "220uF 25V" H 3550 4600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4000 4700 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 4000 4700 50  0001 C CNN
-F 4 "digikey" H 4000 4700 50  0001 C CNN "Vendor"
-F 5 "P5153-ND" H 4000 4700 50  0001 C CNN "Vendor part#"
-F 6 "ECA-1EM221" H 4000 4700 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 4000 4700 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809291333_Lelon-VEJ221M1ETR-0810_C134765.pdf" H 4000 4700 50  0001 C CNN
+F 4 "JLCPCB" H 4000 4700 50  0001 C CNN "Vendor"
+F 5 "C134765" H 4000 4700 50  0001 C CNN "Vendor part#"
+F 6 "VEJ221M1ETR-0810" H 4000 4700 50  0001 C CNN "Manufacturer part#"
 	1    4000 4700
 	-1   0    0    -1  
 $EndComp
@@ -232,11 +232,11 @@ AR Path="/602A51A8/6123BC0B" Ref="C?"  Part="1"
 AR Path="/612A4892/6123BC0B" Ref="C57"  Part="1" 
 F 0 "C57" H 9150 2600 50  0000 L CNN
 F 1 ".022uF" H 9050 2500 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 9350 2600 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C410C223K5R5TA7200.pdf" H 9350 2600 50  0001 C CNN
-F 4 "digikey" H 9350 2600 50  0001 C CNN "Vendor"
-F 5 "399-4464-1-ND" H 9350 2600 50  0001 C CNN "Vendor part#"
-F 6 "C410C223K5R5TA7200" H 9350 2600 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9350 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 9350 2600 50  0001 C CNN
+F 4 "JLCPCB" H 9350 2600 50  0001 C CNN "Vendor"
+F 5 "C1729" H 9350 2600 50  0001 C CNN "Vendor part#"
+F 6 "CL21B223KBANNNC" H 9350 2600 50  0001 C CNN "Manufacturer part#"
 	1    9350 2600
 	1    0    0    -1  
 $EndComp
@@ -253,11 +253,11 @@ AR Path="/60273794/61208127" Ref="C?"  Part="1"
 AR Path="/612A4892/61208127" Ref="C56"  Part="1" 
 F 0 "C56" V 9200 2450 50  0000 C CNN
 F 1 "10uF 25v" V 9050 2450 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8950 2450 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 8950 2450 50  0001 C CNN
-F 4 "digikey" V 8950 2450 50  0001 C CNN "Vendor"
-F 5 "493-1809-ND" V 8950 2450 50  0001 C CNN "Vendor part#"
-F 6 "UPW1E100MDD" V 8950 2450 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 8950 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809291326_Lelon-VE-100M1ETR-0405_C134721.pdf" H 8950 2450 50  0001 C CNN
+F 4 "JLCPCB" V 8950 2450 50  0001 C CNN "Vendor"
+F 5 "C134721" V 8950 2450 50  0001 C CNN "Vendor part#"
+F 6 "VE-100M1ETR-0405" V 8950 2450 50  0001 C CNN "Manufacturer part#"
 	1    8950 2450
 	0    -1   -1   0   
 $EndComp
@@ -360,11 +360,11 @@ AR Path="/60273794/6119DBB2" Ref="C?"  Part="1"
 AR Path="/612A4892/6119DBB2" Ref="C34"  Part="1" 
 F 0 "C34" H 7650 2500 50  0000 C CNN
 F 1 "100pF" H 7700 2650 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7500 2600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/45171/kseries.pdf" H 7500 2600 50  0001 C CNN
-F 4 "digikey" H 7500 2600 50  0001 C CNN "Vendor"
-F 5 "BC1042CT-ND" H 7500 2600 50  0001 C CNN "Vendor part#"
-F 6 "K101J15C0GF5TH5" H 7500 2600 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7500 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810241824_Samsung-Electro-Mechanics-CL21C101JBANNNC_C1790.pdf" H 7500 2600 50  0001 C CNN
+F 4 "JLCPCB" H 7500 2600 50  0001 C CNN "Vendor"
+F 5 "C1790" H 7500 2600 50  0001 C CNN "Vendor part#"
+F 6 "CL21C101JBANNNC" H 7500 2600 50  0001 C CNN "Manufacturer part#"
 	1    7500 2600
 	-1   0    0    1   
 $EndComp
@@ -394,11 +394,11 @@ AR Path="/60273794/611819DB" Ref="C?"  Part="1"
 AR Path="/612A4892/611819DB" Ref="C55"  Part="1" 
 F 0 "C55" V 8200 2200 50  0000 C CNN
 F 1 "10uF 25v" V 7900 2200 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8050 2200 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 8050 2200 50  0001 C CNN
-F 4 "digikey" V 8050 2200 50  0001 C CNN "Vendor"
-F 5 "493-1809-ND" V 8050 2200 50  0001 C CNN "Vendor part#"
-F 6 "UPW1E100MDD" V 8050 2200 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 8050 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809291326_Lelon-VE-100M1ETR-0405_C134721.pdf" H 8050 2200 50  0001 C CNN
+F 4 "JLCPCB" V 8050 2200 50  0001 C CNN "Vendor"
+F 5 "C134721" V 8050 2200 50  0001 C CNN "Vendor part#"
+F 6 "VE-100M1ETR-0405" V 8050 2200 50  0001 C CNN "Manufacturer part#"
 	1    8050 2200
 	0    1    -1   0   
 $EndComp
@@ -412,11 +412,11 @@ AR Path="/603CF7B8/6117E7A2" Ref="R?"  Part="1"
 AR Path="/612A4892/6117E7A2" Ref="R35"  Part="1" 
 F 0 "R35" H 8100 2650 50  0000 L CNN
 F 1 " 220K" H 8050 2550 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8300 2600 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 8300 2600 50  0001 C CNN
-F 4 "digikey" H 8300 2600 50  0001 C CNN "Vendor"
-F 5 "CF14JT220KCT-ND" H 8300 2600 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT220K" H 8300 2600 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 8300 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301411_UNI-ROYAL-Uniroyal-Elec-1206W4F2203T5E_C17956.pdf" H 8300 2600 50  0001 C CNN
+F 4 "JLCPCB" H 8300 2600 50  0001 C CNN "Vendor"
+F 5 "C17956" H 8300 2600 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F2203T5E" H 8300 2600 50  0001 C CNN "Manufacturer part#"
 	1    8300 2600
 	1    0    0    -1  
 $EndComp
@@ -430,11 +430,11 @@ AR Path="/603CF7B8/61173530" Ref="R?"  Part="1"
 AR Path="/612A4892/61173530" Ref="R33"  Part="1" 
 F 0 "R33" H 8100 1800 50  0000 L CNN
 F 1 " 220K" H 8050 1700 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8300 1800 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 8300 1800 50  0001 C CNN
-F 4 "digikey" H 8300 1800 50  0001 C CNN "Vendor"
-F 5 "CF14JT220KCT-ND" H 8300 1800 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT220K" H 8300 1800 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 8300 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301411_UNI-ROYAL-Uniroyal-Elec-1206W4F2203T5E_C17956.pdf" H 8300 1800 50  0001 C CNN
+F 4 "JLCPCB" H 8300 1800 50  0001 C CNN "Vendor"
+F 5 "C17956" H 8300 1800 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F2203T5E" H 8300 1800 50  0001 C CNN "Manufacturer part#"
 	1    8300 1800
 	1    0    0    -1  
 $EndComp
@@ -448,11 +448,11 @@ AR Path="/603CF7B8/6116EE42" Ref="R?"  Part="1"
 AR Path="/612A4892/6116EE42" Ref="R36"  Part="1" 
 F 0 "R36" H 8400 2650 50  0000 L CNN
 F 1 "1K" H 8700 2600 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8600 2600 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 8600 2600 50  0001 C CNN
-F 4 "digikey" H 8600 2600 50  0001 C CNN "Vendor"
-F 5 "CF14JT1K00CT-ND" H 8600 2600 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT1K00" H 8600 2600 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 8600 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810242121_UNI-ROYAL-Uniroyal-Elec-1206W4F1001T5_C4410.pdf" H 8600 2600 50  0001 C CNN
+F 4 "JLCPCB" H 8600 2600 50  0001 C CNN "Vendor"
+F 5 "C4410" H 8600 2600 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1001T5" H 8600 2600 50  0001 C CNN "Manufacturer part#"
 	1    8600 2600
 	1    0    0    -1  
 $EndComp
@@ -466,11 +466,11 @@ AR Path="/603CF7B8/6116B3A7" Ref="R?"  Part="1"
 AR Path="/612A4892/6116B3A7" Ref="R34"  Part="1" 
 F 0 "R34" H 8400 1800 50  0000 L CNN
 F 1 "100" H 8400 1900 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8600 1800 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 8600 1800 50  0001 C CNN
-F 4 "digikey" H 8600 1800 50  0001 C CNN "Vendor"
-F 5 "CF14JT100RCT-ND" H 8600 1800 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT100R" H 8600 1800 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 8600 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301422_UNI-ROYAL-Uniroyal-Elec-1206W4F1000T5E_C17901.pdf" H 8600 1800 50  0001 C CNN
+F 4 "JLCPCB" H 8600 1800 50  0001 C CNN "Vendor"
+F 5 "C17901" H 8600 1800 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1000T5E" H 8600 1800 50  0001 C CNN "Manufacturer part#"
 	1    8600 1800
 	-1   0    0    1   
 $EndComp
@@ -508,12 +508,12 @@ L Device:CP_Small C54
 U 1 1 610DEA6F
 P 5700 2500
 F 0 "C54" V 5925 2500 50  0000 C CNN
-F 1 "470uF" V 5834 2500 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5700 2500 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 5700 2500 50  0001 C CNN
-F 4 "digikey" H 5700 2500 50  0001 C CNN "Vendor"
-F 5 "P5141-ND" H 5700 2500 50  0001 C CNN "Vendor part#"
-F 6 "ECA-1CM471" H 5700 2500 50  0001 C CNN "Manufacturer part#"
+F 1 "470uF 16V" V 5834 2500 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 5700 2500 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809291327_Lelon-VEJ471M1CTR-0810_C176671.pdf" H 5700 2500 50  0001 C CNN
+F 4 "JLCPCB" H 5700 2500 50  0001 C CNN "Vendor"
+F 5 "C176671" H 5700 2500 50  0001 C CNN "Vendor part#"
+F 6 "VEJ471M1CTR-0810" H 5700 2500 50  0001 C CNN "Manufacturer part#"
 	1    5700 2500
 	0    -1   -1   0   
 $EndComp
@@ -586,11 +586,11 @@ AR Path="/603CF7B8/61069253" Ref="R?"  Part="1"
 AR Path="/612A4892/61069253" Ref="R30"  Part="1" 
 F 0 "R30" V 4950 2200 50  0000 L CNN
 F 1 "100" V 4750 2200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4850 2250 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4850 2250 50  0001 C CNN
-F 4 "digikey" H 4850 2250 50  0001 C CNN "Vendor"
-F 5 "CF14JT100RCT-ND" H 4850 2250 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT100R" H 4850 2250 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 4850 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301422_UNI-ROYAL-Uniroyal-Elec-1206W4F1000T5E_C17901.pdf" H 4850 2250 50  0001 C CNN
+F 4 "JLCPCB" H 4850 2250 50  0001 C CNN "Vendor"
+F 5 "C17901" H 4850 2250 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1000T5E" H 4850 2250 50  0001 C CNN "Manufacturer part#"
 	1    4850 2250
 	0    -1   -1   0   
 $EndComp
@@ -604,11 +604,11 @@ AR Path="/603CF7B8/610683B1" Ref="R?"  Part="1"
 AR Path="/612A4892/610683B1" Ref="R72"  Part="1" 
 F 0 "R72" H 5150 2650 50  0000 L CNN
 F 1 " 120" H 5150 2750 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5350 2700 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5350 2700 50  0001 C CNN
-F 4 "digikey" H 5350 2700 50  0001 C CNN "Vendor"
-F 5 "CF14JT120RCT-ND" H 5350 2700 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT120R" H 5350 2700 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 5350 2700 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809140216_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf" H 5350 2700 50  0001 C CNN
+F 4 "JLCPCB" H 5350 2700 50  0001 C CNN "Vendor"
+F 5 "C17909" H 5350 2700 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1200T5E" H 5350 2700 50  0001 C CNN "Manufacturer part#"
 	1    5350 2700
 	-1   0    0    1   
 $EndComp
@@ -621,11 +621,11 @@ AR Path="/60273794/61065212" Ref="C?"  Part="1"
 AR Path="/612A4892/61065212" Ref="C53"  Part="1" 
 F 0 "C53" H 5500 1700 50  0000 C CNN
 F 1 ".033uF" H 5400 1900 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5600 1800 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C410C333K5R5TA7200.pdf" H 5600 1800 50  0001 C CNN
-F 4 "digikey" H 5600 1800 50  0001 C CNN "Vendor"
-F 5 "399-4470-1-ND" H 5600 1800 50  0001 C CNN "Vendor part#"
-F 6 "C410C333K5R5TA7200" H 5600 1800 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5600 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811061723_FH-Guangdong-Fenghua-Advanced-Tech-0805B333K500NT_C1739.pdf" H 5600 1800 50  0001 C CNN
+F 4 "JLCPCB" H 5600 1800 50  0001 C CNN "Vendor"
+F 5 "C1739" H 5600 1800 50  0001 C CNN "Vendor part#"
+F 6 "0805B333K500NT" H 5600 1800 50  0001 C CNN "Manufacturer part#"
 	1    5600 1800
 	-1   0    0    1   
 $EndComp
@@ -639,11 +639,11 @@ AR Path="/603CF7B8/610647EE" Ref="R?"  Part="1"
 AR Path="/612A4892/610647EE" Ref="R71"  Part="1" 
 F 0 "R71" H 5350 1650 50  0000 L CNN
 F 1 "10" H 5400 1800 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5350 1800 50  0001 C CNN
-F 3 " https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 5350 1800 50  0001 C CNN
-F 4 "digikey" H 5350 1800 50  0001 C CNN "Vendor"
-F 5 "10QBK-ND" H 5350 1800 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-10R" H 5350 1800 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 5350 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" H 5350 1800 50  0001 C CNN
+F 4 "JLCPCB" H 5350 1800 50  0001 C CNN "Vendor"
+F 5 "C17903" H 5350 1800 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F100JT5E" H 5350 1800 50  0001 C CNN "Manufacturer part#"
 	1    5350 1800
 	-1   0    0    1   
 $EndComp
@@ -780,11 +780,11 @@ AR Path="/60273794/60FDAB5D" Ref="C?"  Part="1"
 AR Path="/612A4892/60FDAB5D" Ref="C52"  Part="1" 
 F 0 "C52" H 4200 1100 50  0000 C CNN
 F 1 ".033uF" H 4100 1300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 4300 1200 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C410C333K5R5TA7200.pdf" H 4300 1200 50  0001 C CNN
-F 4 "digikey" H 4300 1200 50  0001 C CNN "Vendor"
-F 5 "399-4470-1-ND" H 4300 1200 50  0001 C CNN "Vendor part#"
-F 6 "C410C333K5R5TA7200" H 4300 1200 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4300 1200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811061723_FH-Guangdong-Fenghua-Advanced-Tech-0805B333K500NT_C1739.pdf" H 4300 1200 50  0001 C CNN
+F 4 "JLCPCB" H 4300 1200 50  0001 C CNN "Vendor"
+F 5 "C1739" H 4300 1200 50  0001 C CNN "Vendor part#"
+F 6 "0805B333K500NT" H 4300 1200 50  0001 C CNN "Manufacturer part#"
 	1    4300 1200
 	-1   0    0    1   
 $EndComp
@@ -797,11 +797,11 @@ AR Path="/60FD83FF" Ref="C?"  Part="1"
 AR Path="/612A4892/60FD83FF" Ref="C50"  Part="1" 
 F 0 "C50" H 3850 1100 50  0000 C CNN
 F 1 ".1uF" H 3900 1300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4000 1200 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 4000 1200 50  0001 C CNN
-F 4 "digikey" V 4000 1200 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 4000 1200 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 4000 1200 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4000 1200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4000 1200 50  0001 C CNN
+F 4 "JLCPCB" V 4000 1200 50  0001 C CNN "Vendor"
+F 5 "C15850" V 4000 1200 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 4000 1200 50  0001 C CNN "Manufacturer part#"
 	1    4000 1200
 	-1   0    0    1   
 $EndComp
@@ -815,11 +815,11 @@ AR Path="/603CF7B8/60FD7738" Ref="R?"  Part="1"
 AR Path="/612A4892/60FD7738" Ref="R68"  Part="1" 
 F 0 "R68" V 3250 1600 50  0000 L CNN
 F 1 "10" V 3050 1600 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3150 1650 50  0001 C CNN
-F 3 " https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 3150 1650 50  0001 C CNN
-F 4 "digikey" H 3150 1650 50  0001 C CNN "Vendor"
-F 5 "10QBK-ND" H 3150 1650 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-10R" H 3150 1650 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3150 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" H 3150 1650 50  0001 C CNN
+F 4 "JLCPCB" H 3150 1650 50  0001 C CNN "Vendor"
+F 5 "C17903" H 3150 1650 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F100JT5E" H 3150 1650 50  0001 C CNN "Manufacturer part#"
 	1    3150 1650
 	0    -1   -1   0   
 $EndComp
@@ -835,11 +835,11 @@ AR Path="/60FD08E0" Ref="C?"  Part="1"
 AR Path="/612A4892/60FD08E0" Ref="C37"  Part="1" 
 F 0 "C37" H 2950 2400 50  0000 C CNN
 F 1 "39pF" H 3000 2550 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3150 2550 50  0001 C CNN
-F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 3150 2550 50  0001 C CNN
-F 4 "digikey" V 3150 2550 50  0001 C CNN "Vendor"
-F 5 "BC1008CT-ND" V 3150 2550 50  0001 C CNN "Vendor part#"
-F 6 "K390J15C0GF5TL2" V 3150 2550 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3150 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191333_Walsin-Tech-Corp-0805N390J500CT_C296098.pdf" H 3150 2550 50  0001 C CNN
+F 4 "JLCPCB" V 3150 2550 50  0001 C CNN "Vendor"
+F 5 "C296098" V 3150 2550 50  0001 C CNN "Vendor part#"
+F 6 "0805N390J500CT" V 3150 2550 50  0001 C CNN "Manufacturer part#"
 	1    3150 2550
 	1    0    0    1   
 $EndComp
@@ -871,11 +871,11 @@ AR Path="/603CF7B8/60FCDE5D" Ref="R?"  Part="1"
 AR Path="/612A4892/60FCDE5D" Ref="R69"  Part="1" 
 F 0 "R69" H 3850 2100 50  0000 L CNN
 F 1 "100" H 3800 2200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3750 2100 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3750 2100 50  0001 C CNN
-F 4 "digikey" H 3750 2100 50  0001 C CNN "Vendor"
-F 5 "CF14JT100RCT-ND" H 3750 2100 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT100R" H 3750 2100 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3750 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301422_UNI-ROYAL-Uniroyal-Elec-1206W4F1000T5E_C17901.pdf" H 3750 2100 50  0001 C CNN
+F 4 "JLCPCB" H 3750 2100 50  0001 C CNN "Vendor"
+F 5 "C17901" H 3750 2100 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1000T5E" H 3750 2100 50  0001 C CNN "Manufacturer part#"
 	1    3750 2100
 	-1   0    0    1   
 $EndComp
@@ -925,11 +925,11 @@ AR Path="/603CF7B8/60FBE5E9" Ref="R?"  Part="1"
 AR Path="/612A4892/60FBE5E9" Ref="R28"  Part="1" 
 F 0 "R28" H 3750 1050 50  0000 L CNN
 F 1 "10" H 3800 1200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3750 1200 50  0001 C CNN
-F 3 " https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 3750 1200 50  0001 C CNN
-F 4 "digikey" H 3750 1200 50  0001 C CNN "Vendor"
-F 5 "10QBK-ND" H 3750 1200 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-10R" H 3750 1200 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3750 1200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" H 3750 1200 50  0001 C CNN
+F 4 "JLCPCB" H 3750 1200 50  0001 C CNN "Vendor"
+F 5 "C17903" H 3750 1200 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F100JT5E" H 3750 1200 50  0001 C CNN "Manufacturer part#"
 	1    3750 1200
 	-1   0    0    1   
 $EndComp
@@ -1007,11 +1007,11 @@ AR Path="/603CF7B8/60F1FC15" Ref="R?"  Part="1"
 AR Path="/612A4892/60F1FC15" Ref="R40"  Part="1" 
 F 0 "R40" V 1050 2750 50  0000 L CNN
 F 1 "1K" V 1250 2750 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1150 2800 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 1150 2800 50  0001 C CNN
-F 4 "digikey" H 1150 2800 50  0001 C CNN "Vendor"
-F 5 "CF14JT1K00CT-ND" H 1150 2800 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT1K00" H 1150 2800 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1150 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810242121_UNI-ROYAL-Uniroyal-Elec-1206W4F1001T5_C4410.pdf" H 1150 2800 50  0001 C CNN
+F 4 "JLCPCB" H 1150 2800 50  0001 C CNN "Vendor"
+F 5 "C4410" H 1150 2800 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1001T5" H 1150 2800 50  0001 C CNN "Manufacturer part#"
 	1    1150 2800
 	0    1    1    0   
 $EndComp
@@ -1027,11 +1027,11 @@ AR Path="/603CF7B8/60F211BD" Ref="R?"  Part="1"
 AR Path="/612A4892/60F211BD" Ref="R42"  Part="1" 
 F 0 "R42" H 1450 3150 50  0000 L CNN
 F 1 "2K" H 1450 3250 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1350 3200 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rnf_rnmf.pdf" H 1350 3200 50  0001 C CNN
-F 4 "digikey" H 1350 3200 50  0001 C CNN "Vendor"
-F 5 "RNF14FTD2K00CT-ND" H 1350 3200 50  0001 C CNN "Vendor part#"
-F 6 "RNF14FTD2K00" H 1350 3200 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1350 3200 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1811091710_UNI-ROYAL-Uniroyal-Elec-1206W4F2001T5E_C17944.pdf" H 1350 3200 50  0001 C CNN
+F 4 "JLCPCB" H 1350 3200 50  0001 C CNN "Vendor"
+F 5 "C17944" H 1350 3200 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F2001T5E" H 1350 3200 50  0001 C CNN "Manufacturer part#"
 	1    1350 3200
 	-1   0    0    1   
 $EndComp
@@ -1045,11 +1045,11 @@ AR Path="/603CF7B8/60F21ACF" Ref="R?"  Part="1"
 AR Path="/612A4892/60F21ACF" Ref="R39"  Part="1" 
 F 0 "R39" H 1750 2400 50  0000 L CNN
 F 1 "10" H 1700 2500 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1650 2400 50  0001 C CNN
-F 3 " https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 1650 2400 50  0001 C CNN
-F 4 "digikey" H 1650 2400 50  0001 C CNN "Vendor"
-F 5 "10QBK-ND" H 1650 2400 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-10R" H 1650 2400 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1650 2400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" H 1650 2400 50  0001 C CNN
+F 4 "JLCPCB" H 1650 2400 50  0001 C CNN "Vendor"
+F 5 "C17903" H 1650 2400 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F100JT5E" H 1650 2400 50  0001 C CNN "Manufacturer part#"
 	1    1650 2400
 	-1   0    0    1   
 $EndComp
@@ -1063,11 +1063,11 @@ AR Path="/603CF7B8/60F21D8C" Ref="R?"  Part="1"
 AR Path="/612A4892/60F21D8C" Ref="R38"  Part="1" 
 F 0 "R38" H 1450 2400 50  0000 L CNN
 F 1 "3K" H 1450 2500 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1350 2400 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rnf_rnmf.pdf" H 1350 2400 50  0001 C CNN
-F 4 "digikey" H 1350 2400 50  0001 C CNN "Vendor"
-F 5 "3.0KQBK-ND" H 1350 2400 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-3K" H 1350 2400 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1350 2400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301427_UNI-ROYAL-Uniroyal-Elec-1206W4F3001T5E_C18012.pdf" H 1350 2400 50  0001 C CNN
+F 4 "JLCPCB" H 1350 2400 50  0001 C CNN "Vendor"
+F 5 "C18012" H 1350 2400 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F3001T5E" H 1350 2400 50  0001 C CNN "Manufacturer part#"
 	1    1350 2400
 	-1   0    0    1   
 $EndComp
@@ -1081,11 +1081,11 @@ AR Path="/603CF7B8/60F21FC3" Ref="R?"  Part="1"
 AR Path="/612A4892/60F21FC3" Ref="R43"  Part="1" 
 F 0 "R43" H 1500 3150 50  0000 L CNN
 F 1 " 120" H 1450 3250 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1650 3200 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 1650 3200 50  0001 C CNN
-F 4 "digikey" H 1650 3200 50  0001 C CNN "Vendor"
-F 5 "CF14JT120RCT-ND" H 1650 3200 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT120R" H 1650 3200 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1650 3200 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809140216_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf" H 1650 3200 50  0001 C CNN
+F 4 "JLCPCB" H 1650 3200 50  0001 C CNN "Vendor"
+F 5 "C17909" H 1650 3200 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1200T5E" H 1650 3200 50  0001 C CNN "Manufacturer part#"
 	1    1650 3200
 	-1   0    0    1   
 $EndComp
@@ -1157,11 +1157,11 @@ AR Path="/60F2CC3A" Ref="C?"  Part="1"
 AR Path="/612A4892/60F2CC3A" Ref="C42"  Part="1" 
 F 0 "C42" H 1700 2300 50  0000 C CNN
 F 1 ".1uF" H 1750 2500 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1850 2400 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 1850 2400 50  0001 C CNN
-F 4 "digikey" V 1850 2400 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 1850 2400 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 1850 2400 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1850 2400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 1850 2400 50  0001 C CNN
+F 4 "JLCPCB" V 1850 2400 50  0001 C CNN "Vendor"
+F 5 "C15850" V 1850 2400 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 1850 2400 50  0001 C CNN "Manufacturer part#"
 	1    1850 2400
 	-1   0    0    1   
 $EndComp
@@ -1211,11 +1211,11 @@ AR Path="/603CF7B8/60F3CC20" Ref="R?"  Part="1"
 AR Path="/612A4892/60F3CC20" Ref="R47"  Part="1" 
 F 0 "R47" V 1050 4550 50  0000 L CNN
 F 1 "1K" V 1250 4550 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1150 4600 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 1150 4600 50  0001 C CNN
-F 4 "digikey" H 1150 4600 50  0001 C CNN "Vendor"
-F 5 "CF14JT1K00CT-ND" H 1150 4600 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT1K00" H 1150 4600 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1150 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810242121_UNI-ROYAL-Uniroyal-Elec-1206W4F1001T5_C4410.pdf" H 1150 4600 50  0001 C CNN
+F 4 "JLCPCB" H 1150 4600 50  0001 C CNN "Vendor"
+F 5 "C4410" H 1150 4600 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1001T5" H 1150 4600 50  0001 C CNN "Manufacturer part#"
 	1    1150 4600
 	0    1    1    0   
 $EndComp
@@ -1231,11 +1231,11 @@ AR Path="/603CF7B8/60F3CC2A" Ref="R?"  Part="1"
 AR Path="/612A4892/60F3CC2A" Ref="R49"  Part="1" 
 F 0 "R49" H 1450 4950 50  0000 L CNN
 F 1 "2K" H 1450 5050 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1350 5000 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rnf_rnmf.pdf" H 1350 5000 50  0001 C CNN
-F 4 "digikey" H 1350 5000 50  0001 C CNN "Vendor"
-F 5 "RNF14FTD2K00CT-ND" H 1350 5000 50  0001 C CNN "Vendor part#"
-F 6 "RNF14FTD2K00" H 1350 5000 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1350 5000 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1811091710_UNI-ROYAL-Uniroyal-Elec-1206W4F2001T5E_C17944.pdf" H 1350 5000 50  0001 C CNN
+F 4 "JLCPCB" H 1350 5000 50  0001 C CNN "Vendor"
+F 5 "C17944" H 1350 5000 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F2001T5E" H 1350 5000 50  0001 C CNN "Manufacturer part#"
 	1    1350 5000
 	-1   0    0    1   
 $EndComp
@@ -1249,11 +1249,11 @@ AR Path="/603CF7B8/60F3CC33" Ref="R?"  Part="1"
 AR Path="/612A4892/60F3CC33" Ref="R46"  Part="1" 
 F 0 "R46" H 1750 4200 50  0000 L CNN
 F 1 "10" H 1700 4300 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1650 4200 50  0001 C CNN
-F 3 " https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 1650 4200 50  0001 C CNN
-F 4 "digikey" H 1650 4200 50  0001 C CNN "Vendor"
-F 5 "10QBK-ND" H 1650 4200 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-10R" H 1650 4200 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1650 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" H 1650 4200 50  0001 C CNN
+F 4 "JLCPCB" H 1650 4200 50  0001 C CNN "Vendor"
+F 5 "C17903" H 1650 4200 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F100JT5E" H 1650 4200 50  0001 C CNN "Manufacturer part#"
 	1    1650 4200
 	-1   0    0    1   
 $EndComp
@@ -1267,11 +1267,11 @@ AR Path="/603CF7B8/60F3CC3C" Ref="R?"  Part="1"
 AR Path="/612A4892/60F3CC3C" Ref="R45"  Part="1" 
 F 0 "R45" H 1450 4200 50  0000 L CNN
 F 1 "3K" H 1450 4300 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1350 4200 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rnf_rnmf.pdf" H 1350 4200 50  0001 C CNN
-F 4 "digikey" H 1350 4200 50  0001 C CNN "Vendor"
-F 5 "3.0KQBK-ND" H 1350 4200 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-3K" H 1350 4200 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1350 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301427_UNI-ROYAL-Uniroyal-Elec-1206W4F3001T5E_C18012.pdf" H 1350 4200 50  0001 C CNN
+F 4 "JLCPCB" H 1350 4200 50  0001 C CNN "Vendor"
+F 5 "C18012" H 1350 4200 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F3001T5E" H 1350 4200 50  0001 C CNN "Manufacturer part#"
 	1    1350 4200
 	-1   0    0    1   
 $EndComp
@@ -1285,11 +1285,11 @@ AR Path="/603CF7B8/60F3CC45" Ref="R?"  Part="1"
 AR Path="/612A4892/60F3CC45" Ref="R50"  Part="1" 
 F 0 "R50" H 1500 4950 50  0000 L CNN
 F 1 " 120" H 1450 5050 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1650 5000 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 1650 5000 50  0001 C CNN
-F 4 "digikey" H 1650 5000 50  0001 C CNN "Vendor"
-F 5 "CF14JT120RCT-ND" H 1650 5000 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT120R" H 1650 5000 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1650 5000 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809140216_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf" H 1650 5000 50  0001 C CNN
+F 4 "JLCPCB" H 1650 5000 50  0001 C CNN "Vendor"
+F 5 "C17909" H 1650 5000 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1200T5E" H 1650 5000 50  0001 C CNN "Manufacturer part#"
 	1    1650 5000
 	-1   0    0    1   
 $EndComp
@@ -1376,11 +1376,11 @@ AR Path="/603CF7B8/60F4899A" Ref="R?"  Part="1"
 AR Path="/612A4892/60F4899A" Ref="R54"  Part="1" 
 F 0 "R54" V 1050 6350 50  0000 L CNN
 F 1 "1K" V 1250 6350 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1150 6400 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 1150 6400 50  0001 C CNN
-F 4 "digikey" H 1150 6400 50  0001 C CNN "Vendor"
-F 5 "CF14JT1K00CT-ND" H 1150 6400 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT1K00" H 1150 6400 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1150 6400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810242121_UNI-ROYAL-Uniroyal-Elec-1206W4F1001T5_C4410.pdf" H 1150 6400 50  0001 C CNN
+F 4 "JLCPCB" H 1150 6400 50  0001 C CNN "Vendor"
+F 5 "C4410" H 1150 6400 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1001T5" H 1150 6400 50  0001 C CNN "Manufacturer part#"
 	1    1150 6400
 	0    1    1    0   
 $EndComp
@@ -1396,11 +1396,11 @@ AR Path="/603CF7B8/60F489A4" Ref="R?"  Part="1"
 AR Path="/612A4892/60F489A4" Ref="R56"  Part="1" 
 F 0 "R56" H 1450 6750 50  0000 L CNN
 F 1 "2K" H 1450 6850 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1350 6800 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rnf_rnmf.pdf" H 1350 6800 50  0001 C CNN
-F 4 "digikey" H 1350 6800 50  0001 C CNN "Vendor"
-F 5 "RNF14FTD2K00CT-ND" H 1350 6800 50  0001 C CNN "Vendor part#"
-F 6 "RNF14FTD2K00" H 1350 6800 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1350 6800 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1811091710_UNI-ROYAL-Uniroyal-Elec-1206W4F2001T5E_C17944.pdf" H 1350 6800 50  0001 C CNN
+F 4 "JLCPCB" H 1350 6800 50  0001 C CNN "Vendor"
+F 5 "C17944" H 1350 6800 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F2001T5E" H 1350 6800 50  0001 C CNN "Manufacturer part#"
 	1    1350 6800
 	-1   0    0    1   
 $EndComp
@@ -1414,11 +1414,11 @@ AR Path="/603CF7B8/60F489AD" Ref="R?"  Part="1"
 AR Path="/612A4892/60F489AD" Ref="R53"  Part="1" 
 F 0 "R53" H 1750 6000 50  0000 L CNN
 F 1 "10" H 1700 6100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1650 6000 50  0001 C CNN
-F 3 " https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 1650 6000 50  0001 C CNN
-F 4 "digikey" H 1650 6000 50  0001 C CNN "Vendor"
-F 5 "10QBK-ND" H 1650 6000 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-10R" H 1650 6000 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1650 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" H 1650 6000 50  0001 C CNN
+F 4 "JLCPCB" H 1650 6000 50  0001 C CNN "Vendor"
+F 5 "C17903" H 1650 6000 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F100JT5E" H 1650 6000 50  0001 C CNN "Manufacturer part#"
 	1    1650 6000
 	-1   0    0    1   
 $EndComp
@@ -1432,11 +1432,11 @@ AR Path="/603CF7B8/60F489B6" Ref="R?"  Part="1"
 AR Path="/612A4892/60F489B6" Ref="R52"  Part="1" 
 F 0 "R52" H 1450 6000 50  0000 L CNN
 F 1 "3K" H 1450 6100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1350 6000 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rnf_rnmf.pdf" H 1350 6000 50  0001 C CNN
-F 4 "digikey" H 1350 6000 50  0001 C CNN "Vendor"
-F 5 "3.0KQBK-ND" H 1350 6000 50  0001 C CNN "Vendor part#"
-F 6 "CFR-25JB-52-3K" H 1350 6000 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1350 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301427_UNI-ROYAL-Uniroyal-Elec-1206W4F3001T5E_C18012.pdf" H 1350 6000 50  0001 C CNN
+F 4 "JLCPCB" H 1350 6000 50  0001 C CNN "Vendor"
+F 5 "C18012" H 1350 6000 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F3001T5E" H 1350 6000 50  0001 C CNN "Manufacturer part#"
 	1    1350 6000
 	-1   0    0    1   
 $EndComp
@@ -1450,11 +1450,11 @@ AR Path="/603CF7B8/60F489BF" Ref="R?"  Part="1"
 AR Path="/612A4892/60F489BF" Ref="R57"  Part="1" 
 F 0 "R57" H 1500 6750 50  0000 L CNN
 F 1 " 120" H 1450 6850 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1650 6800 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 1650 6800 50  0001 C CNN
-F 4 "digikey" H 1650 6800 50  0001 C CNN "Vendor"
-F 5 "CF14JT120RCT-ND" H 1650 6800 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT120R" H 1650 6800 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1650 6800 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809140216_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf" H 1650 6800 50  0001 C CNN
+F 4 "JLCPCB" H 1650 6800 50  0001 C CNN "Vendor"
+F 5 "C17909" H 1650 6800 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1200T5E" H 1650 6800 50  0001 C CNN "Manufacturer part#"
 	1    1650 6800
 	-1   0    0    1   
 $EndComp
@@ -1623,11 +1623,11 @@ AR Path="/63DB5A33" Ref="C?"  Part="1"
 AR Path="/612A4892/63DB5A33" Ref="C59"  Part="1" 
 F 0 "C59" H 9950 4850 50  0000 C CNN
 F 1 "1000pF" H 9850 5050 50  0000 C CIN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10100 4950 50  0001 C CNN
-F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 10100 4950 50  0001 C CNN
-F 4 "digikey" V 10100 4950 50  0001 C CNN "Vendor"
-F 5 "BC2659CT-ND" V 10100 4950 50  0001 C CNN "Vendor part#"
-F 6 "K102K10X7RF5UH5" V 10100 4950 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10100 4950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808311543_Samsung-Electro-Mechanics-CL21B102KBCNNNC_C46653.pdf" H 10100 4950 50  0001 C CNN
+F 4 "JLCPCB" V 10100 4950 50  0001 C CNN "Vendor"
+F 5 "C46653" V 10100 4950 50  0001 C CNN "Vendor part#"
+F 6 "CL21B102KBCNNNC" V 10100 4950 50  0001 C CNN "Manufacturer part#"
 	1    10100 4950
 	-1   0    0    1   
 $EndComp
@@ -1664,11 +1664,11 @@ AR Path="/63DACE76" Ref="C?"  Part="1"
 AR Path="/612A4892/63DACE76" Ref="C58"  Part="1" 
 F 0 "C58" H 7800 4950 50  0000 C CNN
 F 1 "1000pF" H 7700 5150 50  0000 C CIN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7950 5050 50  0001 C CNN
-F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 7950 5050 50  0001 C CNN
-F 4 "digikey" V 7950 5050 50  0001 C CNN "Vendor"
-F 5 "BC2659CT-ND" V 7950 5050 50  0001 C CNN "Vendor part#"
-F 6 "K102K10X7RF5UH5" V 7950 5050 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7950 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808311543_Samsung-Electro-Mechanics-CL21B102KBCNNNC_C46653.pdf" H 7950 5050 50  0001 C CNN
+F 4 "JLCPCB" V 7950 5050 50  0001 C CNN "Vendor"
+F 5 "C46653" V 7950 5050 50  0001 C CNN "Vendor part#"
+F 6 "CL21B102KBCNNNC" V 7950 5050 50  0001 C CNN "Manufacturer part#"
 	1    7950 5050
 	-1   0    0    1   
 $EndComp
@@ -1711,11 +1711,11 @@ AR Path="/61257512/612B1CF5" Ref="R?"  Part="1"
 AR Path="/612A4892/612B1CF5" Ref="R62"  Part="1" 
 F 0 "R62" V 8350 4250 50  0000 L CNN
 F 1 "4.7K" V 8600 4300 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8450 4350 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 8450 4350 50  0001 C CNN
-F 4 "digikey" H 8450 4350 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70CT-ND  " H 8450 4350 50  0001 C CNN "Vendor part#"
-F 6 "Stackpole Electronics Inc" H 8450 4350 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 8450 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301414_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf" H 8450 4350 50  0001 C CNN
+F 4 "JLCPCB" H 8450 4350 50  0001 C CNN "Vendor"
+F 5 "C17936" H 8450 4350 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F4701T5E" H 8450 4350 50  0001 C CNN "Manufacturer part#"
 	1    8450 4350
 	0    -1   -1   0   
 $EndComp
@@ -1734,11 +1734,11 @@ AR Path="/61257512/612B1CE6" Ref="R?"  Part="1"
 AR Path="/612A4892/612B1CE6" Ref="R61"  Part="1" 
 F 0 "R61" H 8500 4100 50  0000 L CNN
 F 1 "4.7K" H 8800 4050 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8700 4100 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 8700 4100 50  0001 C CNN
-F 4 "digikey" H 8700 4100 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70CT-ND  " H 8700 4100 50  0001 C CNN "Vendor part#"
-F 6 "Stackpole Electronics Inc" H 8700 4100 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 8700 4100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301414_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf" H 8700 4100 50  0001 C CNN
+F 4 "JLCPCB" H 8700 4100 50  0001 C CNN "Vendor"
+F 5 "C17936" H 8700 4100 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F4701T5E" H 8700 4100 50  0001 C CNN "Manufacturer part#"
 	1    8700 4100
 	1    0    0    -1  
 $EndComp

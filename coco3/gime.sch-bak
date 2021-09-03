@@ -19,11 +19,11 @@ U 1 1 61273002
 P 4750 2600
 F 0 "IC12" H 4550 3250 50  0000 C CNN
 F 1 "74LS244" H 5000 3250 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4750 2600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 4750 2600 50  0001 C CNN
-F 4 "digikey" H 4750 2600 50  0001 C CNN "Vendor"
-F 5 "296-1653-5-ND" H 4750 2600 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS244N" H 4750 2600 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4750 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809192013_Texas-Instruments-SN74LS244DWR_C7751.pdf" H 4750 2600 50  0001 C CNN
+F 4 "JLCPCB" H 4750 2600 50  0001 C CNN "Vendor"
+F 5 "C7751" H 4750 2600 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS244DWR" H 4750 2600 50  0001 C CNN "Manufacturer part#"
 	1    4750 2600
 	1    0    0    -1  
 $EndComp
@@ -33,11 +33,11 @@ U 1 1 60ECEC4C
 P 11800 4150
 F 0 "IC9" H 11600 4650 50  0000 C CNN
 F 1 "74LS138" H 12000 4600 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 11800 4150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 11800 4150 50  0001 C CNN
-F 4 "digikey" H 11800 4150 50  0001 C CNN "Vendor"
-F 5 "296-1639-5-ND" H 11800 4150 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS138N" H 11800 4150 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 11800 4150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2004251708_XINLUDA-XL74LS138_C513515.pdf" H 11800 4150 50  0001 C CNN
+F 4 "JLCPCB" H 11800 4150 50  0001 C CNN "Vendor"
+F 5 "C513515" H 11800 4150 50  0001 C CNN "Vendor part#"
+F 6 "XL74LS138" H 11800 4150 50  0001 C CNN "Manufacturer part#"
 	1    11800 4150
 	1    0    0    -1  
 $EndComp
@@ -85,11 +85,11 @@ U 1 1 60F3A179
 P 4750 5250
 F 0 "IC13" H 4500 5900 50  0000 C CNN
 F 1 "74LS374" H 4950 5900 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4750 5250 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74as374.pdf" H 4750 5250 50  0001 C CNN
-F 4 "digikey" H 4750 5250 50  0001 C CNN "Vendor"
-F 5 "296-1498-5-ND" H 4750 5250 50  0001 C CNN "Vendor part#"
-F 6 "SN74ALS374AN" H 4750 5250 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4750 5250 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809251730_Texas-Instruments-SN74LS374NSR_C7764.pdf" H 4750 5250 50  0001 C CNN
+F 4 "JLCPCB" H 4750 5250 50  0001 C CNN "Vendor"
+F 5 "C7764" H 4750 5250 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS374NSR" H 4750 5250 50  0001 C CNN "Manufacturer part#"
 	1    4750 5250
 	1    0    0    -1  
 $EndComp
@@ -99,11 +99,11 @@ U 1 1 60F4C25D
 P 2800 2600
 F 0 "IC10" H 2600 3250 50  0000 C CNN
 F 1 "74LS244" H 3050 3250 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 2800 2600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 2800 2600 50  0001 C CNN
-F 4 "digikey" H 2800 2600 50  0001 C CNN "Vendor"
-F 5 "296-1653-5-ND" H 2800 2600 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS244N" H 2800 2600 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 2800 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809192013_Texas-Instruments-SN74LS244DWR_C7751.pdf" H 2800 2600 50  0001 C CNN
+F 4 "JLCPCB" H 2800 2600 50  0001 C CNN "Vendor"
+F 5 "C7751" H 2800 2600 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS244DWR" H 2800 2600 50  0001 C CNN "Manufacturer part#"
 	1    2800 2600
 	1    0    0    -1  
 $EndComp
@@ -113,11 +113,11 @@ U 1 1 60F4DA91
 P 2800 5250
 F 0 "IC11" H 2600 5950 50  0000 C CNN
 F 1 "74LS244" H 3050 5950 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 2800 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 2800 5250 50  0001 C CNN
-F 4 "digikey" H 2800 5250 50  0001 C CNN "Vendor"
-F 5 "296-1653-5-ND" H 2800 5250 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS244N" H 2800 5250 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 2800 5250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809192013_Texas-Instruments-SN74LS244DWR_C7751.pdf" H 2800 5250 50  0001 C CNN
+F 4 "JLCPCB" H 2800 5250 50  0001 C CNN "Vendor"
+F 5 "C7751" H 2800 5250 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS244DWR" H 2800 5250 50  0001 C CNN "Manufacturer part#"
 	1    2800 5250
 	1    0    0    -1  
 $EndComp
@@ -327,11 +327,11 @@ AR Path="/603CF7B8/60FC30B8" Ref="C?"  Part="1"
 AR Path="/61257512/60FC30B8" Ref="C39"  Part="1" 
 F 0 "C39" V 2750 4300 50  0000 C CNN
 F 1 ".1uF" V 2500 4300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2600 4300 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 2600 4300 50  0001 C CNN
-F 4 "digikey" V 2600 4300 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 2600 4300 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 2600 4300 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2600 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 2600 4300 50  0001 C CNN
+F 4 "JLCPCB" V 2600 4300 50  0001 C CNN "Vendor"
+F 5 "C15850" V 2600 4300 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 2600 4300 50  0001 C CNN "Manufacturer part#"
 	1    2600 4300
 	0    -1   -1   0   
 $EndComp
@@ -388,11 +388,11 @@ AR Path="/603CF7B8/60FE04F9" Ref="C?"  Part="1"
 AR Path="/61257512/60FE04F9" Ref="C41"  Part="1" 
 F 0 "C41" V 4700 4300 50  0000 C CNN
 F 1 ".1uF" V 4450 4300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4550 4300 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 4550 4300 50  0001 C CNN
-F 4 "digikey" V 4550 4300 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 4550 4300 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 4550 4300 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4550 4300 50  0001 C CNN
+F 4 "JLCPCB" V 4550 4300 50  0001 C CNN "Vendor"
+F 5 "C15850" V 4550 4300 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 4550 4300 50  0001 C CNN "Manufacturer part#"
 	1    4550 4300
 	0    -1   -1   0   
 $EndComp
@@ -449,11 +449,11 @@ AR Path="/603CF7B8/60FE20A6" Ref="C?"  Part="1"
 AR Path="/61257512/60FE20A6" Ref="C38"  Part="1" 
 F 0 "C38" V 2750 1650 50  0000 C CNN
 F 1 ".1uF" V 2500 1650 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2600 1650 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 2600 1650 50  0001 C CNN
-F 4 "digikey" V 2600 1650 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 2600 1650 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 2600 1650 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2600 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 2600 1650 50  0001 C CNN
+F 4 "JLCPCB" V 2600 1650 50  0001 C CNN "Vendor"
+F 5 "C15850" V 2600 1650 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 2600 1650 50  0001 C CNN "Manufacturer part#"
 	1    2600 1650
 	0    -1   -1   0   
 $EndComp
@@ -510,11 +510,11 @@ AR Path="/603CF7B8/60FE3D08" Ref="C?"  Part="1"
 AR Path="/61257512/60FE3D08" Ref="C40"  Part="1" 
 F 0 "C40" V 4700 1650 50  0000 C CNN
 F 1 ".1uF" V 4450 1650 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4550 1650 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 4550 1650 50  0001 C CNN
-F 4 "digikey" V 4550 1650 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 4550 1650 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 4550 1650 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4550 1650 50  0001 C CNN
+F 4 "JLCPCB" V 4550 1650 50  0001 C CNN "Vendor"
+F 5 "C15850" V 4550 1650 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 4550 1650 50  0001 C CNN "Manufacturer part#"
 	1    4550 1650
 	0    -1   -1   0   
 $EndComp
@@ -806,11 +806,11 @@ AR Path="/61128F2F" Ref="IC?"  Part="7"
 AR Path="/61257512/61128F2F" Ref="IC15"  Part="1" 
 F 0 "IC15" H 4900 6900 50  0000 L CNN
 F 1 "74LS04" H 4600 6950 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4750 6750 50  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls04" H 4750 6750 50  0001 C CNN
-F 4 "digikey" H 4750 6750 50  0001 C CNN "Vendor"
-F 5 "296-1629-5-ND" H 4750 6750 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS04N" H 4750 6750 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4750 6750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810292010_Texas-Instruments-SN74LS04DR_C6796.pdf" H 4750 6750 50  0001 C CNN
+F 4 "JLCPCB" H 4750 6750 50  0001 C CNN "Vendor"
+F 5 "C6796" H 4750 6750 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS04DR" H 4750 6750 50  0001 C CNN "Manufacturer part#"
 	1    4750 6750
 	1    0    0    -1  
 $EndComp
@@ -1088,11 +1088,11 @@ AR Path="/6130817F" Ref="IC?"  Part="7"
 AR Path="/61257512/6130817F" Ref="IC15"  Part="3" 
 F 0 "IC15" H 10300 2400 50  0000 L CNN
 F 1 "74LS04" H 10300 2800 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 10450 2600 50  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls04" H 10450 2600 50  0001 C CNN
-F 4 "digikey" H 10450 2600 50  0001 C CNN "Vendor"
-F 5 "296-1629-5-ND" H 10450 2600 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS04N" H 10450 2600 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10450 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810292010_Texas-Instruments-SN74LS04DR_C6796.pdf" H 10450 2600 50  0001 C CNN
+F 4 "JLCPCB" H 10450 2600 50  0001 C CNN "Vendor"
+F 5 "C6796" H 10450 2600 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS04DR" H 10450 2600 50  0001 C CNN "Manufacturer part#"
 	3    10450 2600
 	-1   0    0    1   
 $EndComp
@@ -1110,11 +1110,11 @@ AR Path="/611A2569" Ref="IC?"  Part="7"
 AR Path="/61257512/611A2569" Ref="IC15"  Part="4" 
 F 0 "IC15" H 11150 2750 50  0000 L CNN
 F 1 "74LS04" H 11150 3150 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 11300 2950 50  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls04" H 11300 2950 50  0001 C CNN
-F 4 "digikey" H 11300 2950 50  0001 C CNN "Vendor"
-F 5 "296-1629-5-ND" H 11300 2950 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS04N" H 11300 2950 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11300 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810292010_Texas-Instruments-SN74LS04DR_C6796.pdf" H 11300 2950 50  0001 C CNN
+F 4 "JLCPCB" H 11300 2950 50  0001 C CNN "Vendor"
+F 5 "C6796" H 11300 2950 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS04DR" H 11300 2950 50  0001 C CNN "Manufacturer part#"
 	4    11300 2950
 	-1   0    0    1   
 $EndComp
@@ -1136,11 +1136,11 @@ AR Path="/60273794/611F8431" Ref="R?"  Part="1"
 AR Path="/61257512/611F8431" Ref="R8"  Part="1" 
 F 0 "R8" V 9900 3800 50  0000 L CNN
 F 1 "4.7K" V 9900 3550 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9800 3700 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 9800 3700 50  0001 C CNN
-F 4 "digikey" H 9800 3700 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70CT-ND  " H 9800 3700 50  0001 C CNN "Vendor part#"
-F 6 "Stackpole Electronics Inc" H 9800 3700 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 9800 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301414_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf" H 9800 3700 50  0001 C CNN
+F 4 "JLCPCB" H 9800 3700 50  0001 C CNN "Vendor"
+F 5 "C17936" H 9800 3700 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F4701T5E" H 9800 3700 50  0001 C CNN "Manufacturer part#"
 	1    9800 3700
 	0    -1   -1   0   
 $EndComp
@@ -1226,11 +1226,11 @@ AR Path="/60273794/612663A3" Ref="R?"  Part="1"
 AR Path="/61257512/612663A3" Ref="R11"  Part="1" 
 F 0 "R11" V 10850 4450 50  0000 L CNN
 F 1 "4.7K" V 10850 4200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 10750 4350 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 10750 4350 50  0001 C CNN
-F 4 "digikey" H 10750 4350 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70CT-ND  " H 10750 4350 50  0001 C CNN "Vendor part#"
-F 6 "Stackpole Electronics Inc" H 10750 4350 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 10750 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301414_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf" H 10750 4350 50  0001 C CNN
+F 4 "JLCPCB" H 10750 4350 50  0001 C CNN "Vendor"
+F 5 "C17936" H 10750 4350 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F4701T5E" H 10750 4350 50  0001 C CNN "Manufacturer part#"
 	1    10750 4350
 	0    1    -1   0   
 $EndComp
@@ -1272,11 +1272,11 @@ AR Path="/603CF7B8/612AED61" Ref="C?"  Part="1"
 AR Path="/61257512/612AED61" Ref="C12"  Part="1" 
 F 0 "C12" V 12150 3400 50  0000 C CNN
 F 1 ".1uF" V 11900 3400 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 12000 3400 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 12000 3400 50  0001 C CNN
-F 4 "digikey" V 12000 3400 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 12000 3400 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 12000 3400 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 12000 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 12000 3400 50  0001 C CNN
+F 4 "JLCPCB" V 12000 3400 50  0001 C CNN "Vendor"
+F 5 "C15850" V 12000 3400 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 12000 3400 50  0001 C CNN "Manufacturer part#"
 	1    12000 3400
 	0    1    -1   0   
 $EndComp
@@ -1403,11 +1403,11 @@ AR Path="/603CF7B8/613927FD" Ref="C?"  Part="1"
 AR Path="/61257512/613927FD" Ref="C8"  Part="1" 
 F 0 "C8" V 12850 6000 50  0000 C CNN
 F 1 ".1uF" V 12600 6000 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 12700 6000 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 12700 6000 50  0001 C CNN
-F 4 "digikey" V 12700 6000 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 12700 6000 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 12700 6000 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 12700 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 12700 6000 50  0001 C CNN
+F 4 "JLCPCB" V 12700 6000 50  0001 C CNN "Vendor"
+F 5 "C15850" V 12700 6000 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 12700 6000 50  0001 C CNN "Manufacturer part#"
 	1    12700 6000
 	0    1    -1   0   
 $EndComp
@@ -1432,11 +1432,11 @@ AR Path="/60273794/613B7F1E" Ref="C?"  Part="1"
 AR Path="/61257512/613B7F1E" Ref="C9"  Part="1" 
 F 0 "C9" V 12850 6300 50  0000 L CNN
 F 1 "100uF 16V" V 12550 6400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12700 6350 50  0001 C CNN
-F 3 " http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_zlh.pdf" H 12700 6350 50  0001 C CNN
-F 4 "digikey" H 12700 6350 50  0001 C CNN "Vendor"
-F 5 "1189-1148-ND" H 12700 6350 50  0001 C CNN "Vendor part#"
-F 6 "16ZLH100MEFC5X11" H 12700 6350 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 12700 6350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811051603_Lelon-VEJ101M1CTR-0605_C164064.pdf" H 12700 6350 50  0001 C CNN
+F 4 "JLCPCB" H 12700 6350 50  0001 C CNN "Vendor"
+F 5 "C164064" H 12700 6350 50  0001 C CNN "Vendor part#"
+F 6 "VEJ101M1CTR-0605" H 12700 6350 50  0001 C CNN "Manufacturer part#"
 	1    12700 6350
 	0    -1   -1   0   
 $EndComp
@@ -1450,11 +1450,11 @@ AR Path="/603CF7B8/613E00DC" Ref="C?"  Part="1"
 AR Path="/61257512/613E00DC" Ref="C10"  Part="1" 
 F 0 "C10" H 10200 5200 50  0000 C CNN
 F 1 "39pF" H 10250 5400 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10100 5300 50  0001 C CNN
-F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 10100 5300 50  0001 C CNN
-F 4 "digikey" V 10100 5300 50  0001 C CNN "Vendor"
-F 5 "BC1008CT-ND" V 10100 5300 50  0001 C CNN "Vendor part#"
-F 6 "K390J15C0GF5TL2" V 10100 5300 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10100 5300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191333_Walsin-Tech-Corp-0805N390J500CT_C296098.pdf" H 10100 5300 50  0001 C CNN
+F 4 "JLCPCB" V 10100 5300 50  0001 C CNN "Vendor"
+F 5 "C296098" V 10100 5300 50  0001 C CNN "Vendor part#"
+F 6 "0805N390J500CT" V 10100 5300 50  0001 C CNN "Manufacturer part#"
 	1    10100 5300
 	1    0    0    1   
 $EndComp
@@ -1468,11 +1468,11 @@ AR Path="/603CF7B8/613E36E5" Ref="C?"  Part="1"
 AR Path="/61257512/613E36E5" Ref="C11"  Part="1" 
 F 0 "C11" H 10650 5200 50  0000 C CNN
 F 1 "39pF" H 10700 5400 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10550 5300 50  0001 C CNN
-F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 10550 5300 50  0001 C CNN
-F 4 "digikey" V 10550 5300 50  0001 C CNN "Vendor"
-F 5 "BC1008CT-ND" V 10550 5300 50  0001 C CNN "Vendor part#"
-F 6 "K390J15C0GF5TL2" V 10550 5300 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10550 5300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191333_Walsin-Tech-Corp-0805N390J500CT_C296098.pdf" H 10550 5300 50  0001 C CNN
+F 4 "JLCPCB" V 10550 5300 50  0001 C CNN "Vendor"
+F 5 "C296098" V 10550 5300 50  0001 C CNN "Vendor part#"
+F 6 "0805N390J500CT" V 10550 5300 50  0001 C CNN "Manufacturer part#"
 	1    10550 5300
 	1    0    0    1   
 $EndComp
@@ -1571,11 +1571,11 @@ AR Path="/6146A314" Ref="IC?"  Part="7"
 AR Path="/61257512/6146A314" Ref="IC15"  Part="6" 
 F 0 "IC15" H 9950 6500 50  0000 L CNN
 F 1 "74LS04" H 10200 6350 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 10100 6200 50  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls04" H 10100 6200 50  0001 C CNN
-F 4 "digikey" H 10100 6200 50  0001 C CNN "Vendor"
-F 5 "296-1629-5-ND" H 10100 6200 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS04N" H 10100 6200 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10100 6200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810292010_Texas-Instruments-SN74LS04DR_C6796.pdf" H 10100 6200 50  0001 C CNN
+F 4 "JLCPCB" H 10100 6200 50  0001 C CNN "Vendor"
+F 5 "C6796" H 10100 6200 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS04DR" H 10100 6200 50  0001 C CNN "Manufacturer part#"
 	6    10100 6200
 	1    0    0    -1  
 $EndComp
@@ -1587,11 +1587,11 @@ AR Path="/6146E595" Ref="IC?"  Part="7"
 AR Path="/61257512/6146E595" Ref="IC15"  Part="5" 
 F 0 "IC15" H 10350 6700 50  0000 L CNN
 F 1 "74LS04" H 10600 6650 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 10450 6500 50  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls04" H 10450 6500 50  0001 C CNN
-F 4 "digikey" H 10450 6500 50  0001 C CNN "Vendor"
-F 5 "296-1629-5-ND" H 10450 6500 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS04N" H 10450 6500 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10450 6500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810292010_Texas-Instruments-SN74LS04DR_C6796.pdf" H 10450 6500 50  0001 C CNN
+F 4 "JLCPCB" H 10450 6500 50  0001 C CNN "Vendor"
+F 5 "C6796" H 10450 6500 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS04DR" H 10450 6500 50  0001 C CNN "Manufacturer part#"
 	5    10450 6500
 	1    0    0    -1  
 $EndComp
@@ -1725,11 +1725,11 @@ AR Path="/603CF7B8/61008FED" Ref="C?"  Part="1"
 AR Path="/61257512/61008FED" Ref="C64"  Part="1" 
 F 0 "C64" H 8250 6800 50  0000 C CNN
 F 1 "150pF" H 8300 7050 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8150 6950 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fa_en.pdf?ref_disty=digikey" H 8150 6950 50  0001 C CNN
-F 4 "digikey" V 8150 6950 50  0001 C CNN "Vendor"
-F 5 "445-180756-1-ND" V 8150 6950 50  0001 C CNN "Vendor part#"
-F 6 "FA28C0G2E151JNU06" V 8150 6950 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8150 6950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811061722_FH-Guangdong-Fenghua-Advanced-Tech-0805B151K500NT_C1716.pdf" H 8150 6950 50  0001 C CNN
+F 4 "JLCPCB" V 8150 6950 50  0001 C CNN "Vendor"
+F 5 "C1716" V 8150 6950 50  0001 C CNN "Vendor part#"
+F 6 "0805B151K500NT" V 8150 6950 50  0001 C CNN "Manufacturer part#"
 	1    8150 6950
 	1    0    0    1   
 $EndComp
@@ -1743,11 +1743,11 @@ AR Path="/603CF7B8/61009AD8" Ref="C?"  Part="1"
 AR Path="/61257512/61009AD8" Ref="C60"  Part="1" 
 F 0 "C60" H 7750 6800 50  0000 C CNN
 F 1 "33pF" H 7700 6950 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7900 6950 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fa150_en.pdf?ref_disty=digikey" H 7900 6950 50  0001 C CNN
-F 4 "digikey" V 7900 6950 50  0001 C CNN "Vendor"
-F 5 "445-180775-1-ND" V 7900 6950 50  0001 C CNN "Vendor part#"
-F 6 "FA28NP01H330JNU06" V 7900 6950 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7900 6950 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21C330JBANNNC_C1814.pdf" H 7900 6950 50  0001 C CNN
+F 4 "JLCPCB" V 7900 6950 50  0001 C CNN "Vendor"
+F 5 " C1814" V 7900 6950 50  0001 C CNN "Vendor part#"
+F 6 "CL21C330JBANNNC" V 7900 6950 50  0001 C CNN "Manufacturer part#"
 	1    7900 6950
 	1    0    0    1   
 $EndComp
@@ -1792,11 +1792,11 @@ AR Path="/610B8599" Ref="IC?"  Part="7"
 AR Path="/61257512/610B8599" Ref="IC15"  Part="7" 
 F 0 "IC15" H 12850 2050 50  0000 L CNN
 F 1 "74LS04" H 12950 1650 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 1650 50  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls04" H 12700 1650 50  0001 C CNN
-F 4 "digikey" H 12700 1650 50  0001 C CNN "Vendor"
-F 5 "296-1629-5-ND" H 12700 1650 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS04N" H 12700 1650 50  0001 C CNN "Manufacturer part#"
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 12700 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810292010_Texas-Instruments-SN74LS04DR_C6796.pdf" H 12700 1650 50  0001 C CNN
+F 4 "JLCPCB" H 12700 1650 50  0001 C CNN "Vendor"
+F 5 "C6796" H 12700 1650 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS04DR" H 12700 1650 50  0001 C CNN "Manufacturer part#"
 	7    12700 1650
 	1    0    0    -1  
 $EndComp
@@ -2011,11 +2011,11 @@ AR Path="/612A4892/612F6A83" Ref="R?"  Part="1"
 AR Path="/61257512/612F6A83" Ref="R22"  Part="1" 
 F 0 "R22" H 5650 5700 50  0000 L CNN
 F 1 " 120" H 5650 5800 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5850 5750 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5850 5750 50  0001 C CNN
-F 4 "digikey" H 5850 5750 50  0001 C CNN "Vendor"
-F 5 "CF14JT120RCT-ND" H 5850 5750 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT120R" H 5850 5750 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 5850 5750 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809140216_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf" H 5850 5750 50  0001 C CNN
+F 4 "JLCPCB" H 5850 5750 50  0001 C CNN "Vendor"
+F 5 "C17909" H 5850 5750 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1200T5E" H 5850 5750 50  0001 C CNN "Manufacturer part#"
 	1    5850 5750
 	1    0    0    1   
 $EndComp

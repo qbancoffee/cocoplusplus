@@ -68,11 +68,11 @@ U 1 1 6029905D
 P 5850 2800
 F 0 "C35" H 5600 2800 50  0000 L CNN
 F 1 ".022uF" H 5550 2650 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 5850 2800 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 5850 2800 50  0001 C CNN
-F 4 "digikey" H 5850 2800 50  0001 C CNN "Vendor"
-F 5 "399-14073-1-ND" H 5850 2800 50  0001 C CNN "Vendor part#"
-F 6 "C317C223M5U5TA7301" H 5850 2800 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5850 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 5850 2800 50  0001 C CNN
+F 4 "JLCPCB" H 5850 2800 50  0001 C CNN "Vendor"
+F 5 "C1729" H 5850 2800 50  0001 C CNN "Vendor part#"
+F 6 "CL21B223KBANNNC" H 5850 2800 50  0001 C CNN "Manufacturer part#"
 	1    5850 2800
 	1    0    0    -1  
 $EndComp
@@ -82,11 +82,11 @@ U 1 1 6029A195
 P 3650 2750
 F 0 "C36" V 3421 2750 50  0000 C CNN
 F 1 ".022uF" V 3512 2750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 3650 2750 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 3650 2750 50  0001 C CNN
-F 4 "digikey" H 3650 2750 50  0001 C CNN "Vendor"
-F 5 "399-14073-1-ND" H 3650 2750 50  0001 C CNN "Vendor part#"
-F 6 "C317C223M5U5TA7301" H 3650 2750 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3650 2750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 3650 2750 50  0001 C CNN
+F 4 "JLCPCB" H 3650 2750 50  0001 C CNN "Vendor"
+F 5 "C1729" H 3650 2750 50  0001 C CNN "Vendor part#"
+F 6 "CL21B223KBANNNC" H 3650 2750 50  0001 C CNN "Manufacturer part#"
 	1    3650 2750
 	0    1    1    0   
 $EndComp
@@ -96,11 +96,11 @@ U 1 1 6029A833
 P 3850 4150
 F 0 "C33" V 3621 4150 50  0000 C CNN
 F 1 ".022uF" V 3712 4150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 3850 4150 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 3850 4150 50  0001 C CNN
-F 4 "digikey" H 3850 4150 50  0001 C CNN "Vendor"
-F 5 "399-14073-1-ND" H 3850 4150 50  0001 C CNN "Vendor part#"
-F 6 "C317C223M5U5TA7301" H 3850 4150 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3850 4150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 3850 4150 50  0001 C CNN
+F 4 "JLCPCB" H 3850 4150 50  0001 C CNN "Vendor"
+F 5 "C1729" H 3850 4150 50  0001 C CNN "Vendor part#"
+F 6 "CL21B223KBANNNC" H 3850 4150 50  0001 C CNN "Manufacturer part#"
 	1    3850 4150
 	0    1    1    0   
 $EndComp
@@ -110,11 +110,11 @@ U 1 1 6029B20F
 P 6250 4250
 F 0 "C32" H 6342 4296 50  0000 L CNN
 F 1 ".022uF" H 6342 4205 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 6250 4250 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 6250 4250 50  0001 C CNN
-F 4 "digikey" H 6250 4250 50  0001 C CNN "Vendor"
-F 5 "399-14073-1-ND" H 6250 4250 50  0001 C CNN "Vendor part#"
-F 6 "C317C223M5U5TA7301" H 6250 4250 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6250 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 6250 4250 50  0001 C CNN
+F 4 "JLCPCB" H 6250 4250 50  0001 C CNN "Vendor"
+F 5 "C1729" H 6250 4250 50  0001 C CNN "Vendor part#"
+F 6 "CL21B223KBANNNC" H 6250 4250 50  0001 C CNN "Manufacturer part#"
 	1    6250 4250
 	1    0    0    -1  
 $EndComp
@@ -126,11 +126,11 @@ AR Path="/60273794/602A2FAF" Ref="C?"  Part="1"
 AR Path="/602A51A8/602A2FAF" Ref="C30"  Part="1" 
 F 0 "C30" H 4800 3450 50  0000 C CNN
 F 1 ".1uF" H 4800 3300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5000 3400 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 5000 3400 50  0001 C CNN
-F 4 "digikey" V 5000 3400 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 5000 3400 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 5000 3400 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5000 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 5000 3400 50  0001 C CNN
+F 4 "JLCPCB" V 5000 3400 50  0001 C CNN "Vendor"
+F 5 "C15850" V 5000 3400 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 5000 3400 50  0001 C CNN "Manufacturer part#"
 	1    5000 3400
 	1    0    0    -1  
 $EndComp
@@ -253,11 +253,11 @@ AR Path="/60273794/602D08FF" Ref="C?"  Part="1"
 AR Path="/602A51A8/602D08FF" Ref="C28"  Part="1" 
 F 0 "C28" H 7450 3950 50  0000 C CNN
 F 1 ".1uF" H 7450 3800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7650 3900 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 7650 3900 50  0001 C CNN
-F 4 "digikey" V 7650 3900 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 7650 3900 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 7650 3900 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7650 3900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 7650 3900 50  0001 C CNN
+F 4 "JLCPCB" V 7650 3900 50  0001 C CNN "Vendor"
+F 5 "C15850" V 7650 3900 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 7650 3900 50  0001 C CNN "Manufacturer part#"
 	1    7650 3900
 	1    0    0    -1  
 $EndComp
@@ -339,12 +339,12 @@ L Device:CP_Small C31
 U 1 1 603267D7
 P 3300 4150
 F 0 "C31" V 3525 4150 50  0000 C CNN
-F 1 "220uF  16V" V 3150 4200 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3300 4150 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-urs.pdf" H 3300 4150 50  0001 C CNN
-F 4 "digikey" H 3300 4150 50  0001 C CNN "Vendor"
-F 5 "493-15896-1-ND" H 3300 4150 50  0001 C CNN "Vendor part#"
-F 6 "URS1C221MPD1TA" H 3300 4150 50  0001 C CNN "Manufacturer part#"
+F 1 "220uF  25V" V 3150 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 3300 4150 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809291333_Lelon-VEJ221M1ETR-0810_C134765.pdf" H 3300 4150 50  0001 C CNN
+F 4 "JLCPCB" H 3300 4150 50  0001 C CNN "Vendor"
+F 5 "C134765" H 3300 4150 50  0001 C CNN "Vendor part#"
+F 6 "VEJ221M1ETR-0810" H 3300 4150 50  0001 C CNN "Manufacturer part#"
 	1    3300 4150
 	0    1    1    0   
 $EndComp
@@ -434,12 +434,12 @@ P 7900 3900
 AR Path="/602A51A8/60F7D30F" Ref="C29"  Part="1" 
 AR Path="/603CF7B8/60F7D30F" Ref="C?"  Part="1" 
 F 0 "C29" H 7988 3946 50  0000 L CNN
-F 1 "4700uF 16V" H 7988 3855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 7900 3900 50  0001 C CNN
-F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_pk.pdf" H 7900 3900 50  0001 C CNN
-F 4 "digikey" H 7900 3900 50  0001 C CNN "Vendor"
-F 5 "1189-1123-ND" H 7900 3900 50  0001 C CNN "Vendor part#"
-F 6 "16PK4700MEFC12.5X25" H 7900 3900 50  0001 C CNN "Manufacturer part#"
+F 1 "4700uF 25V" H 7988 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 7900 3900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811051717_Lelon-VEJ472M1ETR-1821_C249676.pdf" H 7900 3900 50  0001 C CNN
+F 4 "JLCPCB" H 7900 3900 50  0001 C CNN "Vendor"
+F 5 "C249676" H 7900 3900 50  0001 C CNN "Vendor part#"
+F 6 "VEJ472M1ETR-1821" H 7900 3900 50  0001 C CNN "Manufacturer part#"
 	1    7900 3900
 	1    0    0    -1  
 $EndComp

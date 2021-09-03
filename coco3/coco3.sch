@@ -312,11 +312,11 @@ AR Path="/60273794/6093C001" Ref="C?"  Part="1"
 AR Path="/6093C001" Ref="C26"  Part="1" 
 F 0 "C26" H 1850 3700 50  0000 C CNN
 F 1 ".1uF" H 1900 3900 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2000 3800 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 2000 3800 50  0001 C CNN
-F 4 "digikey" V 2000 3800 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 2000 3800 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 2000 3800 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2000 3800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 2000 3800 50  0001 C CNN
+F 4 "JLCPCB" V 2000 3800 50  0001 C CNN "Vendor"
+F 5 "C15850" V 2000 3800 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 2000 3800 50  0001 C CNN "Manufacturer part#"
 	1    2000 3800
 	-1   0    0    1   
 $EndComp
@@ -645,11 +645,11 @@ AR Path="/603CF7B8/613747DC" Ref="C?"  Part="1"
 AR Path="/613747DC" Ref="C27"  Part="1" 
 F 0 "C27" H 1500 3650 50  0000 L CNN
 F 1 "100uF 16v" H 1800 3600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1700 3800 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 1700 3800 50  0001 C CNN
-F 4 "digikey" H 1700 3800 50  0001 C CNN "Vendor"
-F 5 "493-17434-1-ND" H 1700 3800 50  0001 C CNN "Vendor part#"
-F 6 "UST1C101MDD1TA" H 1700 3800 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 1700 3800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811051603_Lelon-VEJ101M1CTR-0605_C164064.pdf" H 1700 3800 50  0001 C CNN
+F 4 "JLCPCB" H 1700 3800 50  0001 C CNN "Vendor"
+F 5 "C164064" H 1700 3800 50  0001 C CNN "Vendor part#"
+F 6 "VEJ101M1CTR-0605" H 1700 3800 50  0001 C CNN "Manufacturer part#"
 	1    1700 3800
 	-1   0    0    1   
 $EndComp
@@ -678,11 +678,11 @@ AR Path="/61257512/613A25D3" Ref="C?"  Part="1"
 AR Path="/613A25D3" Ref="C61"  Part="1" 
 F 0 "C61" H 3850 5200 50  0000 C CNN
 F 1 "39pF" H 3900 5400 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3750 5300 50  0001 C CNN
-F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 3750 5300 50  0001 C CNN
-F 4 "digikey" V 3750 5300 50  0001 C CNN "Vendor"
-F 5 "BC1008CT-ND" V 3750 5300 50  0001 C CNN "Vendor part#"
-F 6 "K390J15C0GF5TL2" V 3750 5300 50  0001 C CNN "Manufacturer part#"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3750 5300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191333_Walsin-Tech-Corp-0805N390J500CT_C296098.pdf" H 3750 5300 50  0001 C CNN
+F 4 "JLCPCB" V 3750 5300 50  0001 C CNN "Vendor"
+F 5 "C296098" V 3750 5300 50  0001 C CNN "Vendor part#"
+F 6 "0805N390J500CT" V 3750 5300 50  0001 C CNN "Manufacturer part#"
 	1    3750 5300
 	1    0    0    1   
 $EndComp
