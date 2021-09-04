@@ -427,11 +427,11 @@ AR Path="/602A51A8/60FE4CCB" Ref="CR?"  Part="1"
 AR Path="/60273794/60FE4CCB" Ref="D12"  Part="1" 
 F 0 "D12" V 1950 3950 50  0000 L CNN
 F 1 "1N4148" V 2100 3900 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2050 4075 50  0001 C CNN
-F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 2050 4250 50  0001 C CNN
-F 4 "digikey" V 2050 4250 50  0001 C CNN "Vendor"
-F 5 "1N4148FS-ND" V 2050 4250 50  0001 C CNN "Vendor part#"
-F 6 "1N4148" V 2050 4250 50  0001 C CNN "Manufacturer part#"
+F 2 "Diode_SMD:D_SOD-323F" H 2050 4075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf" H 2050 4250 50  0001 C CNN
+F 4 "JLCPCB" V 2050 4250 50  0001 C CNN "Vendor"
+F 5 "C2128" V 2050 4250 50  0001 C CNN "Vendor part#"
+F 6 "1N4148WS" V 2050 4250 50  0001 C CNN "Manufacturer part#"
 	1    2050 4250
 	0    -1   1    0   
 $EndComp
@@ -456,11 +456,11 @@ AR Path="/602A51A8/60FE4CC1" Ref="R?"  Part="1"
 AR Path="/60273794/60FE4CC1" Ref="R1"  Part="1" 
 F 0 "R1" H 1718 4346 50  0000 L CNN
 F 1 "100K" H 1718 4255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1650 4300 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1650 4300 50  0001 C CNN
-F 4 "digikey" H 1650 4300 50  0001 C CNN "Vendor"
-F 5 "100KXBK-ND" H 1650 4300 50  0001 C CNN "Vendor part#"
-F 6 "MFR-25FBF52-100K" H 1650 4300 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1650 4300 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf" H 1650 4300 50  0001 C CNN
+F 4 "JLCPCB" H 1650 4300 50  0001 C CNN "Vendor"
+F 5 "C17900" H 1650 4300 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1003T5E" H 1650 4300 50  0001 C CNN "Manufacturer part#"
 	1    1650 4300
 	-1   0    0    -1  
 $EndComp

@@ -14,198 +14,6 @@ Comment3 ""
 Comment4 "Kicad schematic capture by Rocky Hill"
 $EndDescr
 $Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 60A8718E
-P 9700 1850
-AR Path="/602A51A8/60A8718E" Ref="Q?"  Part="1" 
-AR Path="/603CF7B8/60A8718E" Ref="Q1"  Part="1" 
-F 0 "Q1" H 9890 1896 50  0000 L CNN
-F 1 "2N6123" H 9890 1805 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 9900 1775 50  0001 L CIN
-F 3 "https://my.centralsemi.com/datasheets/2N6121-6126.PDF" H 9900 2000 50  0001 L CNN
-F 4 "digikey" H 9700 1850 50  0001 C CNN "Vendor"
-F 5 "1514-2N6123PBFREE-ND" H 9700 1850 50  0001 C CNN "Vendor part#"
-F 6 "2N6123 PBFREE" H 9700 1850 50  0001 C CNN "Manufacturer part#"
-F 7 "Heatsink" H 9700 1850 50  0001 C CNN "Description 2nd part"
-F 8 " " H 9700 1850 50  0001 C CNN "Vendor 2nd part#"
-F 9 " " H 9700 1850 50  0001 C CNN "Manufacturer 2nd part#"
-	1    9700 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 1850 9500 1850
-$Comp
-L coco2:SC77527P U?
-U 1 1 60A87196
-P 8600 1700
-AR Path="/602A51A8/60A87196" Ref="U?"  Part="1" 
-AR Path="/603CF7B8/60A87196" Ref="IC8"  Part="1" 
-F 0 "IC8" H 9325 1965 50  0000 C CNN
-F 1 "SC77527P" H 9325 1874 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 9250 1850 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 9250 1850 50  0001 C CNN
-F 4 "digikey" H 8600 1700 50  0001 C CNN "Vendor"
-F 5 "A120349-ND" H 8600 1700 50  0001 C CNN "Vendor part#"
-F 6 "1-2199298-4" H 8600 1700 50  0001 C CNN "Manufacturer part#"
-	1    8600 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60A871C1
-P 9650 2550
-AR Path="/60273794/60A871C1" Ref="C?"  Part="1" 
-AR Path="/602A51A8/60A871C1" Ref="C?"  Part="1" 
-AR Path="/603CF7B8/60A871C1" Ref="C14"  Part="1" 
-F 0 "C14" H 9650 2400 50  0000 C CNN
-F 1 ".1uF" H 9800 2550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9650 2550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 9650 2550 50  0001 C CNN
-F 4 "JLCPCB" V 9650 2550 50  0001 C CNN "Vendor"
-F 5 "C15850" V 9650 2550 50  0001 C CNN "Vendor part#"
-F 6 "CL21A106KAYNNNE" V 9650 2550 50  0001 C CNN "Manufacturer part#"
-	1    9650 2550
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GNDS #PWR?
-U 1 1 60A871C7
-P 9250 4250
-AR Path="/602A51A8/60A871C7" Ref="#PWR?"  Part="1" 
-AR Path="/603CF7B8/60A871C7" Ref="#PWR01047"  Part="1" 
-F 0 "#PWR01047" H 9250 4000 50  0001 C CNN
-F 1 "GNDS" H 9250 4100 50  0000 C CNN
-F 2 "" H 9250 4250 50  0001 C CNN
-F 3 "" H 9250 4250 50  0001 C CNN
-	1    9250 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 3950 9250 3950
-$Comp
-L power:GNDS #PWR?
-U 1 1 60A871CF
-P 9800 2800
-AR Path="/602A51A8/60A871CF" Ref="#PWR?"  Part="1" 
-AR Path="/603CF7B8/60A871CF" Ref="#PWR01043"  Part="1" 
-F 0 "#PWR01043" H 9800 2550 50  0001 C CNN
-F 1 "GNDS" H 9805 2627 50  0000 C CNN
-F 2 "" H 9800 2800 50  0001 C CNN
-F 3 "" H 9800 2800 50  0001 C CNN
-	1    9800 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9800 2650 9650 2650
-$Comp
-L Device:R_Small_US R?
-U 1 1 60A871D9
-P 9250 2150
-AR Path="/602A51A8/60A871D9" Ref="R?"  Part="1" 
-AR Path="/603CF7B8/60A871D9" Ref="R20"  Part="1" 
-F 0 "R20" V 9045 2150 50  0000 C CNN
-F 1 "51" V 9136 2150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9250 2150 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/CF.pdf" H 9250 2150 50  0001 C CNN
-F 4 "digikey" V 9250 2150 50  0001 C CNN "Vendor"
-F 5 "2019-CF1/4CT52R510JCT-ND" V 9250 2150 50  0001 C CNN "Vendor part#"
-F 6 "CF1/4CT52R510J" V 9250 2150 50  0001 C CNN "Manufacturer part#"
-	1    9250 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60A871E2
-P 9800 2250
-AR Path="/602A51A8/60A871E2" Ref="R?"  Part="1" 
-AR Path="/603CF7B8/60A871E2" Ref="R19"  Part="1" 
-F 0 "R19" H 9732 2204 50  0000 R CNN
-F 1 ".1 ohms 1/2W" H 9732 2295 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 9800 2250 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 9800 2250 50  0001 C CNN
-F 4 "digikey" H 9800 2250 50  0001 C CNN "Vendor"
-F 5 "A105964CT-ND" H 9800 2250 50  0001 C CNN "Vendor part#"
-F 6 "LR1LJR10" H 9800 2250 50  0001 C CNN "Manufacturer part#"
-	1    9800 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9000 2150 9150 2150
-Wire Wire Line
-	9800 2150 9800 2050
-Wire Wire Line
-	9800 2350 9800 2450
-Connection ~ 9800 2450
-Wire Wire Line
-	9800 2650 9800 2800
-Connection ~ 9800 2650
-Wire Wire Line
-	9650 2450 9800 2450
-Wire Wire Line
-	9000 2450 9650 2450
-Connection ~ 9650 2450
-$Comp
-L Device:CP_Small C?
-U 1 1 60A871F7
-P 10150 2550
-AR Path="/602A51A8/60A871F7" Ref="C?"  Part="1" 
-AR Path="/603CF7B8/60A871F7" Ref="C15"  Part="1" 
-F 0 "C15" H 10238 2596 50  0000 L CNN
-F 1 "100uF 16v" H 10238 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 10150 2550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811051603_Lelon-VEJ101M1CTR-0605_C164064.pdf" H 10150 2550 50  0001 C CNN
-F 4 "JLCPCB" H 10150 2550 50  0001 C CNN "Vendor"
-F 5 "C164064" H 10150 2550 50  0001 C CNN "Vendor part#"
-F 6 "VEJ101M1CTR-0605" H 10150 2550 50  0001 C CNN "Manufacturer part#"
-	1    10150 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9800 2450 10150 2450
-Wire Wire Line
-	9800 2650 10150 2650
-$Comp
-L power:+5V #PWR?
-U 1 1 60A871FF
-P 10800 2400
-AR Path="/60273794/60A871FF" Ref="#PWR?"  Part="1" 
-AR Path="/602A51A8/60A871FF" Ref="#PWR?"  Part="1" 
-AR Path="/603CF7B8/60A871FF" Ref="#PWR01042"  Part="1" 
-F 0 "#PWR01042" H 10800 2250 50  0001 C CNN
-F 1 "+5V" H 10815 2573 50  0000 C CNN
-F 2 "" H 10800 2400 50  0001 C CNN
-F 3 "" H 10800 2400 50  0001 C CNN
-	1    10800 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10800 2400 10800 2450
-Wire Wire Line
-	10800 2450 10700 2450
-Connection ~ 10150 2450
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 60A87208
-P 10650 2100
-AR Path="/602A51A8/60A87208" Ref="#FLG?"  Part="1" 
-AR Path="/603CF7B8/60A87208" Ref="#FLG01003"  Part="1" 
-F 0 "#FLG01003" H 10650 2175 50  0001 C CNN
-F 1 "PWR_FLAG" H 10650 2273 50  0000 C CNN
-F 2 "" H 10650 2100 50  0001 C CNN
-F 3 "~" H 10650 2100 50  0001 C CNN
-	1    10650 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 2100 10650 2450
-Connection ~ 10650 2450
-Wire Wire Line
-	10650 2450 10150 2450
-Text HLabel 6650 1850 0    50   Input ~ 0
-+SALT_VIN
-Text HLabel 6650 2150 0    50   Input ~ 0
--SALT_VIN
-$Comp
 L custom_dac:SC77526 IC7
 U 1 1 60B3CF52
 P 6000 5500
@@ -219,8 +27,6 @@ F 6 "243-20-1-03" H 6000 5500 50  0001 C CNN "Manufacturer part#"
 	1    6000 5500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 2150 6650 2150
 Text Label 1600 2300 2    50   ~ 0
 D0
 Text Label 1600 2400 2    50   ~ 0
@@ -525,28 +331,12 @@ AR Path="/602A51A8/6112C04B" Ref="CR?"  Part="1"
 AR Path="/603CF7B8/6112C04B" Ref="D5"  Part="1" 
 F 0 "D5" V 9850 5150 50  0000 L CNN
 F 1 "1N4148" H 9750 5250 50  0001 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9850 5175 50  0001 C CNN
-F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 9850 5350 50  0001 C CNN
-F 4 "digikey" H 9850 5350 50  0001 C CNN "Vendor"
-F 5 "1N4148FS-ND" H 9850 5350 50  0001 C CNN "Vendor part#"
-F 6 "1N4148" H 9850 5350 50  0001 C CNN "Manufacturer part#"
+F 2 "Diode_SMD:D_SOD-323F" H 9850 5175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf" H 9850 5350 50  0001 C CNN
+F 4 "JLCPCB" H 9850 5350 50  0001 C CNN "Vendor"
+F 5 "C2128" H 9850 5350 50  0001 C CNN "Vendor part#"
+F 6 "1N4148WS" H 9850 5350 50  0001 C CNN "Manufacturer part#"
 	1    9850 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148 CR?
-U 1 1 611356F7
-P 13250 5850
-AR Path="/602A51A8/611356F7" Ref="CR?"  Part="1" 
-AR Path="/603CF7B8/611356F7" Ref="D6"  Part="1" 
-F 0 "D6" V 13300 5950 50  0000 L CNN
-F 1 "1N5228B-TAP" H 13100 5950 50  0001 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13250 5675 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85588/1n5221.pdf" H 13250 5850 50  0001 C CNN
-F 4 "digikey" H 13250 5850 50  0001 C CNN "Vendor"
-F 5 "1N5228B-TAPGICT-ND" H 13250 5850 50  0001 C CNN "Vendor part#"
-F 6 "1N5228B-TAP" H 13250 5850 50  0001 C CNN "Manufacturer part#"
-	1    13250 5850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -623,9 +413,6 @@ F 3 "" H 8400 6600 50  0001 C CNN
 	1    8400 6600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9350 2150 9800 2150
-Connection ~ 9800 2150
 $Comp
 L Device:R_Small_US R?
 U 1 1 61377A21
@@ -633,12 +420,12 @@ P 13300 1800
 AR Path="/602A51A8/61377A21" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61377A21" Ref="R13"  Part="1" 
 F 0 "R13" H 13250 1800 50  0000 R CNN
-F 1 "100 1/2W" V 13400 2000 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 13300 1800 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 13300 1800 50  0001 C CNN
-F 4 "digikey" H 13300 1800 50  0001 C CNN "Vendor"
-F 5 "CF12JT100RCT-ND" H 13300 1800 50  0001 C CNN "Vendor part#"
-F 6 "CF12JT100R" H 13300 1800 50  0001 C CNN "Manufacturer part#"
+F 1 "100 1W" V 13400 2000 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" H 13300 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301126_UNI-ROYAL-Uniroyal-Elec-25121WF1000T4E_C35218.pdf" H 13300 1800 50  0001 C CNN
+F 4 "JLCPCB" H 13300 1800 50  0001 C CNN "Vendor"
+F 5 "C35218" H 13300 1800 50  0001 C CNN "Vendor part#"
+F 6 "25121WF1000T4E" H 13300 1800 50  0001 C CNN "Manufacturer part#"
 	1    13300 1800
 	1    0    0    -1  
 $EndComp
@@ -681,33 +468,11 @@ Text Label 11650 2250 2    50   ~ 0
 JOY0
 Text Label 11650 1450 2    50   ~ 0
 JOY1
-Text Label 5900 2750 2    50   ~ 0
+Text Label 12650 5600 0    50   ~ 0
 CD_IN_RS232
-Text Label 13050 5300 2    50   ~ 0
-CD_IN_RS232
-Text Label 6000 2450 1    50   ~ 0
+Text Label 12500 6100 0    50   ~ 0
 SERIAL_DATA_IN_RS232
-Text Label 12600 6250 0    50   ~ 0
-SERIAL_DATA_IN_RS232
-$Comp
-L Device:R_Small_US R?
-U 1 1 61810AA1
-P 11350 5200
-AR Path="/60273794/61810AA1" Ref="R?"  Part="1" 
-AR Path="/603CF7B8/61810AA1" Ref="R15"  Part="1" 
-F 0 "R15" H 11400 5100 50  0000 L CNN
-F 1 "270 1/2W" H 11400 5200 50  0000 L CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" H 11350 5200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810191231_UNI-ROYAL-Uniroyal-Elec-2010W2J0271T4S_C20393.pdf" H 11350 5200 50  0001 C CNN
-F 4 "JLCPCB" H 11350 5200 50  0001 C CNN "Vendor"
-F 5 "C20393" H 11350 5200 50  0001 C CNN "Vendor part#"
-F 6 "2010W2J0271T4S" H 11350 5200 50  0001 C CNN "Manufacturer part#"
-	1    11350 5200
-	-1   0    0    1   
-$EndComp
-Text Label 5900 3050 2    50   ~ 0
-SERIAL_OUT_RS232
-Text Label 11250 4900 2    50   ~ 0
+Text Label 11750 5600 2    50   ~ 0
 SERIAL_OUT_RS232
 $Comp
 L Device:R_Small_US R?
@@ -716,12 +481,12 @@ P 5700 6650
 AR Path="/602A51A8/607226B1" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/607226B1" Ref="R14"  Part="1" 
 F 0 "R14" V 5550 6700 50  0000 R CNN
-F 1 "220 1/2W" V 5800 6800 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 5700 6650 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5700 6650 50  0001 C CNN
-F 4 "digikey" H 5700 6650 50  0001 C CNN "Vendor"
-F 5 "CF12JT220RCT-ND" H 5700 6650 50  0001 C CNN "Vendor part#"
-F 6 "CF12JT220R" H 5700 6650 50  0001 C CNN "Manufacturer part#"
+F 1 "220 1W" V 5800 6800 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" H 5700 6650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301127_UNI-ROYAL-Uniroyal-Elec-25121WJ0221T4E_C38808.pdf" H 5700 6650 50  0001 C CNN
+F 4 "JLCPCB" H 5700 6650 50  0001 C CNN "Vendor"
+F 5 "C38808" H 5700 6650 50  0001 C CNN "Vendor part#"
+F 6 "25121WJ0221T4E" H 5700 6650 50  0001 C CNN "Manufacturer part#"
 	1    5700 6650
 	0    1    1    0   
 $EndComp
@@ -738,30 +503,8 @@ Wire Wire Line
 Connection ~ 6000 6650
 Wire Wire Line
 	6000 6650 6000 6900
-$Comp
-L Device:R_Small_US R?
-U 1 1 60807E87
-P 6300 3350
-AR Path="/60273794/60807E87" Ref="R?"  Part="1" 
-AR Path="/603D345E/60807E87" Ref="R?"  Part="1" 
-AR Path="/603D560B/60807E87" Ref="R?"  Part="1" 
-AR Path="/603CF7B8/60807E87" Ref="R18"  Part="1" 
-F 0 "R18" V 6400 3300 50  0000 L CNN
-F 1 "510" V 6200 3300 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6300 3350 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 6300 3350 50  0001 C CNN
-F 4 "digikey" H 6300 3350 50  0001 C CNN "Vendor"
-F 5 "CF14JT510RCT-ND" H 6300 3350 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT510R" H 6300 3350 50  0001 C CNN "Manufacturer part#"
-	1    6300 3350
-	0    -1   -1   0   
-$EndComp
-Text Label 5950 3350 2    50   ~ 0
+Text Label 5600 1450 2    50   ~ 0
 CASS_DATA_IN
-Wire Wire Line
-	6750 3350 6400 3350
-Wire Wire Line
-	6200 3350 5950 3350
 Text Label 5350 6950 0    50   ~ 0
 CASS_DATA_IN
 Text Label 8850 6000 0    50   ~ 0
@@ -776,16 +519,12 @@ Text Label 2350 1450 1    50   ~ 0
 SELA
 Wire Wire Line
 	2350 1650 2350 1450
-Text Label 9000 3650 0    50   ~ 0
+Text Label 7600 1550 0    50   ~ 0
 CASS_DATA_IN_TTL
 Text Label 3100 4350 0    50   ~ 0
 CASS_DATA_IN_TTL
-Text Label 9000 3350 0    50   ~ 0
-SER_OUT_TTL
 Text Label 3100 4500 0    50   ~ 0
 SER_OUT_TTL
-Text Label 9050 2750 0    50   ~ 0
-SERIAL_IN_TTL
 Text Label 3850 5600 0    50   ~ 0
 SERIAL_IN_TTL
 $Comp
@@ -798,11 +537,11 @@ AR Path="/603D560B/60B75D10" Ref="R?"  Part="1"
 AR Path="/603CF7B8/60B75D10" Ref="R12"  Part="1" 
 F 0 "R12" V 3500 5750 50  0000 L CNN
 F 1 "10k" V 3600 5750 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3550 5700 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3550 5700 50  0001 C CNN
-F 4 "digikey" H 3550 5700 50  0001 C CNN "Vendor"
-F 5 "CF14JT10K0CT-ND" H 3550 5700 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT10K0" H 3550 5700 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3550 5700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301434_UNI-ROYAL-Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 3550 5700 50  0001 C CNN
+F 4 "JLCPCB" H 3550 5700 50  0001 C CNN "Vendor"
+F 5 "C17902" H 3550 5700 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1002T5E" H 3550 5700 50  0001 C CNN "Manufacturer part#"
 	1    3550 5700
 	0    1    1    0   
 $EndComp
@@ -833,20 +572,14 @@ Text Label 2450 7150 0    50   ~ 0
 HI
 Text HLabel 2050 6700 3    50   Input ~ 0
 ECLK
-Text Label 5900 3650 2    50   ~ 0
+Text Label 10650 1150 0    50   ~ 0
 CASS_M_ON_TTL
-Wire Wire Line
-	6750 3650 5900 3650
 Text Label 2350 4700 1    50   ~ 0
 CASS_M_ON_TTL
-Text Label 9000 3050 0    50   ~ 0
-CD_IN_TTL
 Text Label 2450 4700 1    50   ~ 0
 CD_IN_TTL
-Text Label 5800 3950 2    50   ~ 0
+Text Label 10100 750  0    50   ~ 0
 CASS_MTR_OUT
-Wire Wire Line
-	6750 3950 5800 3950
 $Comp
 L power:+5V #PWR?
 U 1 1 608F8DDD
@@ -917,40 +650,6 @@ F 6 "UVP1E100MDD1TD" V 5100 6650 50  0001 C CNN "Manufacturer part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
-U 1 1 6069711E
-P 12900 5600
-AR Path="/60273794/6069711E" Ref="R?"  Part="1" 
-AR Path="/603D560B/6069711E" Ref="R?"  Part="1" 
-AR Path="/603CF7B8/6069711E" Ref="R17"  Part="1" 
-F 0 "R17" V 12800 5550 50  0000 L CNN
-F 1 "1K" V 13000 5550 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 12900 5600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810242121_UNI-ROYAL-Uniroyal-Elec-1206W4F1001T5_C4410.pdf" H 12900 5600 50  0001 C CNN
-F 4 "JLCPCB" H 12900 5600 50  0001 C CNN "Vendor"
-F 5 "C4410" H 12900 5600 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F1001T5" H 12900 5600 50  0001 C CNN "Manufacturer part#"
-	1    12900 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 606B36E8
-P 12300 6150
-AR Path="/60273794/606B36E8" Ref="R?"  Part="1" 
-AR Path="/603D560B/606B36E8" Ref="R?"  Part="1" 
-AR Path="/603CF7B8/606B36E8" Ref="R16"  Part="1" 
-F 0 "R16" H 12350 6250 50  0000 L CNN
-F 1 "1K" H 12350 6100 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 12300 6150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810242121_UNI-ROYAL-Uniroyal-Elec-1206W4F1001T5_C4410.pdf" H 12300 6150 50  0001 C CNN
-F 4 "JLCPCB" H 12300 6150 50  0001 C CNN "Vendor"
-F 5 "C4410" H 12300 6150 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F1001T5" H 12300 6150 50  0001 C CNN "Manufacturer part#"
-	1    12300 6150
-	1    0    0    -1  
-$EndComp
-$Comp
 L coco2:J0971CS5VDC.45 RY1
 U 1 1 60B0419C
 P 9250 5350
@@ -1000,28 +699,6 @@ Wire Notes Line
 	9550 6450 9550 6050
 Wire Notes Line
 	9550 6050 10750 6050
-Text HLabel 9150 2900 2    50   Output ~ 0
-SERINT
-Wire Wire Line
-	9050 2750 9000 2750
-Wire Wire Line
-	9050 2900 9050 2750
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 611ED7B5
-P 11600 5600
-AR Path="/602A51A8/611ED7B5" Ref="FB?"  Part="1" 
-AR Path="/603CF7B8/611ED7B5" Ref="FB7"  Part="1" 
-F 0 "FB7" V 11750 5550 50  0000 L CNN
-F 1 " " H 11700 5555 50  0001 L CNN
-F 2 "coco2:FB_28L0138-10R-10" V 11530 5600 50  0001 C CNN
-F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 11600 5600 50  0001 C CNN
-F 4 "digikey" H 11600 5600 50  0001 C CNN "Vendor"
-F 5 "240-2438-1-ND" H 11600 5600 50  0001 C CNN "Vendor part#"
-F 6 "28L0138-10R-10" H 11600 5600 50  0001 C CNN "Manufacturer part#"
-	1    11600 5600
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61285B98
@@ -1038,57 +715,6 @@ F 6 "28L0138-10R-10" H 12100 6150 50  0001 C CNN "Manufacturer part#"
 	1    12100 6150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N4148 CR?
-U 1 1 612FD531
-P 12850 6450
-AR Path="/602A51A8/612FD531" Ref="CR?"  Part="1" 
-AR Path="/603CF7B8/612FD531" Ref="D7"  Part="1" 
-F 0 "D7" H 12800 6550 50  0000 L CNN
-F 1 "1N5228B-TAP" H 12700 6550 50  0001 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12850 6275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85588/1n5221.pdf" H 12850 6450 50  0001 C CNN
-F 4 "digikey" H 12850 6450 50  0001 C CNN "Vendor"
-F 5 "1N5228B-TAPGICT-ND" H 12850 6450 50  0001 C CNN "Vendor part#"
-F 6 "1N5228B-TAP" H 12850 6450 50  0001 C CNN "Manufacturer part#"
-	1    12850 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 61355C80
-P 5750 2200
-AR Path="/60273794/61355C80" Ref="R?"  Part="1" 
-AR Path="/603D560B/61355C80" Ref="R?"  Part="1" 
-AR Path="/603CF7B8/61355C80" Ref="R66"  Part="1" 
-F 0 "R66" H 5600 2250 50  0000 L CNN
-F 1 "7.5K" H 5850 2200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5750 2200 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rnf_rnmf.pdf" H 5750 2200 50  0001 C CNN
-F 4 "digikey" H 5750 2200 50  0001 C CNN "Vendor"
-F 5 "RNF14FTD7K50CT-ND" H 5750 2200 50  0001 C CNN "Vendor part#"
-F 6 "RNF14FTD7K50" H 5750 2200 50  0001 C CNN "Manufacturer part#"
-	1    5750 2200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5750 2300 5750 2450
-$Comp
-L power:+5V #PWR?
-U 1 1 61396900
-P 5750 1950
-AR Path="/60273794/61396900" Ref="#PWR?"  Part="1" 
-AR Path="/602A51A8/61396900" Ref="#PWR?"  Part="1" 
-AR Path="/603CF7B8/61396900" Ref="#PWR01041"  Part="1" 
-F 0 "#PWR01041" H 5750 1800 50  0001 C CNN
-F 1 "+5V" H 5765 2123 50  0000 C CNN
-F 2 "" H 5750 1950 50  0001 C CNN
-F 3 "" H 5750 1950 50  0001 C CNN
-	1    5750 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 1950 5750 2100
 Text Label 7050 5050 0    50   ~ 0
 SELB
 Wire Wire Line
@@ -1294,19 +920,17 @@ Connection ~ 6950 7650
 $Comp
 L power:+5V #PWR?
 U 1 1 61130598
-P 7000 1150
+P 4900 4250
 AR Path="/60273794/61130598" Ref="#PWR?"  Part="1" 
 AR Path="/602A51A8/61130598" Ref="#PWR?"  Part="1" 
 AR Path="/603CF7B8/61130598" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 7000 1000 50  0001 C CNN
-F 1 "+5V" H 7015 1323 50  0000 C CNN
-F 2 "" H 7000 1150 50  0001 C CNN
-F 3 "" H 7000 1150 50  0001 C CNN
-	1    7000 1150
+F 0 "#PWR03" H 4900 4100 50  0001 C CNN
+F 1 "+5V" H 4915 4423 50  0000 C CNN
+F 2 "" H 4900 4250 50  0001 C CNN
+F 3 "" H 4900 4250 50  0001 C CNN
+	1    4900 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 1450 7000 1150
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 6167C1CB
@@ -1386,10 +1010,6 @@ F 6 "SDS-40J" H 12200 5600 50  0001 C CNN "Manufacturer part#"
 	1    12200 5600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5900 2750 6750 2750
-Wire Wire Line
-	5750 2450 6750 2450
 $Comp
 L Device:C_Small C?
 U 1 1 611D2710
@@ -1718,50 +1338,40 @@ JOY3
 Wire Wire Line
 	6500 5850 6650 5850
 Wire Wire Line
-	6650 1850 6750 1850
-Text HLabel 9600 1450 0    50   Input ~ 0
-+SALT_VIN
-Wire Wire Line
-	9600 1450 9800 1450
-Wire Wire Line
-	9800 1450 9800 1650
-Wire Wire Line
-	6500 600  6100 600 
-Wire Wire Line
-	6500 850  6500 600 
-Text HLabel 6100 600  0    50   Output ~ 0
+	5100 3800 5350 3800
+Text HLabel 5350 3800 2    50   Output ~ 0
 IL1
 Wire Wire Line
-	6800 1450 7000 1450
-Text Label 6300 1450 3    50   ~ 0
+	4500 4100 4500 4300
+Text Label 4500 3600 2    50   ~ 0
 PA6
-Text Label 6400 1450 3    50   ~ 0
+Text Label 4500 3700 2    50   ~ 0
 PA5
-Text Label 6200 1450 3    50   ~ 0
+Text Label 4500 3500 2    50   ~ 0
 PA4
-Text Label 6500 1450 3    50   ~ 0
+Text Label 4500 3800 2    50   ~ 0
 PA3
-Text Label 6100 1450 3    50   ~ 0
+Text Label 4500 3400 2    50   ~ 0
 PA2
-Text Label 6700 1450 3    50   ~ 0
+Text Label 4500 4000 2    50   ~ 0
 PA1
-Text Label 6600 1450 3    50   ~ 0
+Text Label 4500 3900 2    50   ~ 0
 PA0
 $Comp
 L 74xx:74LS30 IC?
 U 1 1 6109D441
-P 6500 1150
+P 4800 3800
 AR Path="/61257512/6109D441" Ref="IC?"  Part="2" 
 AR Path="/603CF7B8/6109D441" Ref="IC14"  Part="1" 
-F 0 "IC14" H 6500 569 50  0000 C CNN
-F 1 "74LS30" H 6500 660 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6500 1150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1809051422_Texas-Instruments-SN74LS30DR_C7759.pdf" H 6500 1150 50  0001 C CNN
-F 4 "JLCPCB" H 6500 1150 50  0001 C CNN "Vendor"
-F 5 "C7759" H 6500 1150 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS30DR" H 6500 1150 50  0001 C CNN "Manufacturer part#"
-	1    6500 1150
-	0    1    -1   0   
+F 0 "IC14" H 4800 3219 50  0000 C CNN
+F 1 "74LS30" H 4800 3310 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4800 3800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809051422_Texas-Instruments-SN74LS30DR_C7759.pdf" H 4800 3800 50  0001 C CNN
+F 4 "JLCPCB" H 4800 3800 50  0001 C CNN "Vendor"
+F 5 "C7759" H 4800 3800 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS30DR" H 4800 3800 50  0001 C CNN "Manufacturer part#"
+	1    4800 3800
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	12700 950  12700 1150
@@ -1837,8 +1447,6 @@ Wire Wire Line
 Connection ~ 13300 2000
 Wire Wire Line
 	13300 4050 13300 4200
-Wire Wire Line
-	9250 3950 9250 4250
 Connection ~ 13300 4050
 $Comp
 L power:GNDS #PWR?
@@ -1855,52 +1463,6 @@ F 3 "" H 13300 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13300 4400 13300 4600
-Wire Wire Line
-	9050 2900 9150 2900
-Wire Wire Line
-	12500 5600 12800 5600
-Wire Wire Line
-	13000 5600 13250 5600
-Wire Wire Line
-	13250 5600 13250 5700
-$Comp
-L power:GNDS #PWR?
-U 1 1 629A087C
-P 13250 6550
-AR Path="/602A51A8/629A087C" Ref="#PWR?"  Part="1" 
-AR Path="/603CF7B8/629A087C" Ref="#PWR01082"  Part="1" 
-F 0 "#PWR01082" H 13250 6300 50  0001 C CNN
-F 1 "GNDS" H 13255 6377 50  0000 C CNN
-F 2 "" H 13250 6550 50  0001 C CNN
-F 3 "" H 13250 6550 50  0001 C CNN
-	1    13250 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13050 5300 13250 5300
-Wire Wire Line
-	13250 5300 13250 5600
-Connection ~ 13250 5600
-Wire Wire Line
-	13250 6000 13250 6450
-Wire Wire Line
-	12300 5900 12300 6050
-Wire Wire Line
-	12300 6250 12300 6450
-Wire Wire Line
-	12300 6450 12500 6450
-Wire Wire Line
-	13000 6450 13250 6450
-Connection ~ 13250 6450
-Wire Wire Line
-	13250 6450 13250 6550
-Wire Wire Line
-	12600 6250 12500 6250
-Wire Wire Line
-	12500 6250 12500 6450
-Connection ~ 12500 6450
-Wire Wire Line
-	12500 6450 12700 6450
 $Comp
 L power:GNDS #PWR?
 U 1 1 62C27BD6
@@ -1918,18 +1480,6 @@ Wire Wire Line
 	12100 6250 12100 6550
 Wire Wire Line
 	12100 5900 12100 6050
-Wire Wire Line
-	5900 3050 6750 3050
-Wire Wire Line
-	11900 5600 11700 5600
-Wire Wire Line
-	11500 5600 11350 5600
-Wire Wire Line
-	11350 5600 11350 5300
-Wire Wire Line
-	11250 4900 11350 4900
-Wire Wire Line
-	11350 4900 11350 5100
 Wire Wire Line
 	8850 5350 7700 5350
 Wire Wire Line
@@ -2039,26 +1589,6 @@ F 6 "6-520415-6" H 5000 1850 50  0001 C CNN "Manufacturer part#"
 	1    5000 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61407312
-P 10850 2700
-AR Path="/612A4892/61407312" Ref="TP?"  Part="1" 
-AR Path="/603CF7B8/61407312" Ref="TP1"  Part="1" 
-F 0 "TP1" V 10750 2700 50  0000 L CNN
-F 1 "5V" V 10950 2750 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 11050 2700 50  0001 C CNN
-F 3 "~" H 11050 2700 50  0001 C CNN
-	1    10850 2700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10700 2700 10700 2450
-Wire Wire Line
-	10700 2700 10850 2700
-Connection ~ 10700 2450
-Wire Wire Line
-	10700 2450 10650 2450
 $Comp
 L Device:R_Small_US R?
 U 1 1 612EDD6D
@@ -2495,6 +2025,620 @@ Wire Wire Line
 	3850 6100 4050 6100
 Wire Wire Line
 	3400 5900 3850 5900
+NoConn ~ 6450 1800
+$Comp
+L Device:Q_NPN_BEC Q1001
+U 1 1 617D57A0
+P 10200 1150
+F 0 "Q1001" H 10391 1196 50  0000 L CNN
+F 1 "MMBT9014C" H 10391 1105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10400 1250 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 10200 1150 50  0001 C CNN
+F 4 "LCSC" H 10200 1150 50  0001 C CNN "LCSC"
+F 5 "C90157" H 10200 1150 50  0001 C CNN "C90157"
+F 6 "MMBT9014C" H 10200 1150 50  0001 C CNN "MMBT9014C"
+	1    10200 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61821D5D
+P 10550 1450
+AR Path="/60273794/61821D5D" Ref="R?"  Part="1" 
+AR Path="/603D345E/61821D5D" Ref="R?"  Part="1" 
+AR Path="/603D560B/61821D5D" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61821D5D" Ref="R1001"  Part="1" 
+F 0 "R1001" H 10250 1400 50  0000 L CNN
+F 1 "10k" H 10350 1500 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 10550 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301434_UNI-ROYAL-Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 10550 1450 50  0001 C CNN
+F 4 "JLCPCB" H 10550 1450 50  0001 C CNN "Vendor"
+F 5 "C17902" H 10550 1450 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1002T5E" H 10550 1450 50  0001 C CNN "Manufacturer part#"
+	1    10550 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 61844317
+P 10300 1600
+AR Path="/602A51A8/61844317" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/61844317" Ref="#PWR01007"  Part="1" 
+F 0 "#PWR01007" H 10300 1350 50  0001 C CNN
+F 1 "GNDS" H 10305 1427 50  0000 C CNN
+F 2 "" H 10300 1600 50  0001 C CNN
+F 3 "" H 10300 1600 50  0001 C CNN
+	1    10300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1350 10100 1600
+Wire Wire Line
+	10100 1600 10300 1600
+Wire Wire Line
+	10550 1550 10550 1600
+Wire Wire Line
+	10550 1600 10300 1600
+Connection ~ 10300 1600
+Wire Wire Line
+	10400 1150 10550 1150
+Wire Wire Line
+	10550 1150 10550 1350
+Wire Wire Line
+	10100 750  10100 950 
+Wire Wire Line
+	10650 1150 10550 1150
+Connection ~ 10550 1150
+$Comp
+L Comparator:LM393 U1003
+U 1 1 61E6B13B
+P 7100 1550
+F 0 "U1003" H 7100 1917 50  0000 C CNN
+F 1 "LM393" H 7100 1826 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7100 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 7100 1550 50  0001 C CNN
+F 4 "LCSC" H 7100 1550 50  0001 C CNN "Vendor"
+F 5 "C160466" H 7100 1550 50  0001 C CNN "Vendor part#"
+F 6 "LM393PT" H 7100 1550 50  0001 C CNN "Manufacturer part#"
+	1    7100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM393 U1003
+U 2 1 61E7013F
+P 5400 7650
+F 0 "U1003" H 5400 8017 50  0000 C CNN
+F 1 "LM393" H 5400 7926 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 5400 7650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 5400 7650 50  0001 C CNN
+F 4 "LCSC" H 5400 7650 50  0001 C CNN "Vendor"
+F 5 "C160466" H 5400 7650 50  0001 C CNN "Vendor part#"
+F 6 "LM393PT" H 5400 7650 50  0001 C CNN "Manufacturer part#"
+	2    5400 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM393 U1003
+U 3 1 61E706EC
+P 8900 7300
+F 0 "U1003" H 8858 7346 50  0000 L CNN
+F 1 "LM393" H 8858 7255 50  0000 L CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8900 7300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 8900 7300 50  0001 C CNN
+F 4 "LCSC" H 8900 7300 50  0001 C CNN "Vendor"
+F 5 "C160466" H 8900 7300 50  0001 C CNN "Vendor part#"
+F 6 "LM393PT" H 8900 7300 50  0001 C CNN "Manufacturer part#"
+	3    8900 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61E9C273
+P 8800 7000
+AR Path="/60273794/61E9C273" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/61E9C273" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/61E9C273" Ref="#PWR01014"  Part="1" 
+F 0 "#PWR01014" H 8800 6850 50  0001 C CNN
+F 1 "+5V" H 8815 7173 50  0000 C CNN
+F 2 "" H 8800 7000 50  0001 C CNN
+F 3 "" H 8800 7000 50  0001 C CNN
+	1    8800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 61EA17D4
+P 8800 7600
+AR Path="/602A51A8/61EA17D4" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/61EA17D4" Ref="#PWR01015"  Part="1" 
+F 0 "#PWR01015" H 8800 7350 50  0001 C CNN
+F 1 "GNDS" H 8805 7427 50  0000 C CNN
+F 2 "" H 8800 7600 50  0001 C CNN
+F 3 "" H 8800 7600 50  0001 C CNN
+	1    8800 7600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5100 7550
+NoConn ~ 5100 7750
+NoConn ~ 5700 7650
+$Comp
+L Device:R_Small_US R?
+U 1 1 61F281BB
+P 6650 2050
+AR Path="/60273794/61F281BB" Ref="R?"  Part="1" 
+AR Path="/603D345E/61F281BB" Ref="R?"  Part="1" 
+AR Path="/603D560B/61F281BB" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61F281BB" Ref="R1008"  Part="1" 
+F 0 "R1008" H 6750 2100 50  0000 L CNN
+F 1 "10k" H 6750 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6650 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301434_UNI-ROYAL-Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 6650 2050 50  0001 C CNN
+F 4 "JLCPCB" H 6650 2050 50  0001 C CNN "Vendor"
+F 5 "C17902" H 6650 2050 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1002T5E" H 6650 2050 50  0001 C CNN "Manufacturer part#"
+	1    6650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61F4F958
+P 6650 1050
+AR Path="/602A51A8/61F4F958" Ref="R?"  Part="1" 
+AR Path="/60273794/61F4F958" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61F4F958" Ref="R1003"  Part="1" 
+F 0 "R1003" H 6350 1100 50  0000 L CNN
+F 1 "100K" H 6400 1000 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6650 1050 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf" H 6650 1050 50  0001 C CNN
+F 4 "JLCPCB" H 6650 1050 50  0001 C CNN "Vendor"
+F 5 "C17900" H 6650 1050 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1003T5E" H 6650 1050 50  0001 C CNN "Manufacturer part#"
+	1    6650 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61F736F9
+P 6450 1050
+AR Path="/602A51A8/61F736F9" Ref="R?"  Part="1" 
+AR Path="/60273794/61F736F9" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61F736F9" Ref="R1002"  Part="1" 
+F 0 "R1002" H 6518 1096 50  0000 L CNN
+F 1 "100K" H 6518 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6450 1050 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf" H 6450 1050 50  0001 C CNN
+F 4 "JLCPCB" H 6450 1050 50  0001 C CNN "Vendor"
+F 5 "C17900" H 6450 1050 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1003T5E" H 6450 1050 50  0001 C CNN "Manufacturer part#"
+	1    6450 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61F7B132
+P 6350 1450
+AR Path="/60273794/61F7B132" Ref="R?"  Part="1" 
+AR Path="/603D560B/61F7B132" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61F7B132" Ref="R1006"  Part="1" 
+F 0 "R1006" V 6250 1400 50  0000 L CNN
+F 1 "5.1K" V 6450 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6350 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811060210_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.pdf" H 6350 1450 50  0001 C CNN
+F 4 "JLCPCB" H 6350 1450 50  0001 C CNN "Vendor"
+F 5 "C26033" H 6350 1450 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F5101T5E" H 6350 1450 50  0001 C CNN "Manufacturer part#"
+	1    6350 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61F80A52
+P 5900 1450
+AR Path="/60273794/61F80A52" Ref="R?"  Part="1" 
+AR Path="/603D560B/61F80A52" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61F80A52" Ref="R1005"  Part="1" 
+F 0 "R1005" V 5800 1400 50  0000 L CNN
+F 1 "5.1K" V 6000 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 5900 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811060210_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.pdf" H 5900 1450 50  0001 C CNN
+F 4 "JLCPCB" H 5900 1450 50  0001 C CNN "Vendor"
+F 5 "C26033" H 5900 1450 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F5101T5E" H 5900 1450 50  0001 C CNN "Manufacturer part#"
+	1    5900 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61F80D6B
+P 7450 1050
+AR Path="/60273794/61F80D6B" Ref="R?"  Part="1" 
+AR Path="/603D560B/61F80D6B" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61F80D6B" Ref="R1004"  Part="1" 
+F 0 "R1004" H 7150 1000 50  0000 L CNN
+F 1 "5.1K" H 7200 1100 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 7450 1050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811060210_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.pdf" H 7450 1050 50  0001 C CNN
+F 4 "JLCPCB" H 7450 1050 50  0001 C CNN "Vendor"
+F 5 "C26033" H 7450 1050 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F5101T5E" H 7450 1050 50  0001 C CNN "Manufacturer part#"
+	1    7450 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 61F847DB
+P 6150 2050
+AR Path="/602A51A8/61F847DB" Ref="D?"  Part="1" 
+AR Path="/60273794/61F847DB" Ref="D?"  Part="1" 
+AR Path="/603CF7B8/61F847DB" Ref="D1002"  Part="1" 
+F 0 "D1002" V 6150 2350 50  0000 L CNN
+F 1 "1N4148" V 6300 2250 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323F" H 6150 1875 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf" H 6150 2050 50  0001 C CNN
+F 4 "JLCPCB" V 6150 2050 50  0001 C CNN "Vendor"
+F 5 "C2128" V 6150 2050 50  0001 C CNN "Vendor part#"
+F 6 "1N4148WS" V 6150 2050 50  0001 C CNN "Manufacturer part#"
+	1    6150 2050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61FA94D6
+P 7250 1900
+AR Path="/60273794/61FA94D6" Ref="R?"  Part="1" 
+AR Path="/603D560B/61FA94D6" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61FA94D6" Ref="R1007"  Part="1" 
+F 0 "R1007" V 7150 1850 50  0000 L CNN
+F 1 "20M" V 7350 1850 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 7250 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301437_UNI-ROYAL-Uniroyal-Elec-1206W4J0206T5E_C26125.pdf" H 7250 1900 50  0001 C CNN
+F 4 "JLCPCB" H 7250 1900 50  0001 C CNN "Vendor"
+F 5 "C26125" H 7250 1900 50  0001 C CNN "Vendor part#"
+F 6 "1206W4J0206T5E" H 7250 1900 50  0001 C CNN "Manufacturer part#"
+	1    7250 1900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7400 1550 7450 1550
+Wire Wire Line
+	6450 1150 6450 1450
+Connection ~ 6450 1450
+Wire Wire Line
+	6450 1450 6800 1450
+Wire Wire Line
+	6800 1650 6650 1650
+Wire Wire Line
+	6650 1650 6650 1150
+Connection ~ 6650 1650
+$Comp
+L power:GNDS #PWR?
+U 1 1 6214B017
+P 6450 2500
+AR Path="/602A51A8/6214B017" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/6214B017" Ref="#PWR01013"  Part="1" 
+F 0 "#PWR01013" H 6450 2250 50  0001 C CNN
+F 1 "GNDS" H 6455 2327 50  0000 C CNN
+F 2 "" H 6450 2500 50  0001 C CNN
+F 3 "" H 6450 2500 50  0001 C CNN
+	1    6450 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2500 6450 2500
+Wire Wire Line
+	6650 2150 6650 2500
+Wire Wire Line
+	6650 2500 6450 2500
+Connection ~ 6450 2500
+Wire Wire Line
+	7450 1150 7450 1550
+Wire Wire Line
+	7450 1550 7450 1900
+Wire Wire Line
+	7450 1900 7350 1900
+Connection ~ 7450 1550
+Wire Wire Line
+	7450 950  7450 850 
+Wire Wire Line
+	7450 850  7000 850 
+Wire Wire Line
+	6450 850  6450 950 
+Wire Wire Line
+	6650 950  6650 850 
+Connection ~ 6650 850 
+Wire Wire Line
+	6650 850  6450 850 
+$Comp
+L power:+5V #PWR?
+U 1 1 62261E1D
+P 7000 750
+AR Path="/60273794/62261E1D" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/62261E1D" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/62261E1D" Ref="#PWR01012"  Part="1" 
+F 0 "#PWR01012" H 7000 600 50  0001 C CNN
+F 1 "+5V" H 7015 923 50  0000 C CNN
+F 2 "" H 7000 750 50  0001 C CNN
+F 3 "" H 7000 750 50  0001 C CNN
+	1    7000 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 750  7000 850 
+Connection ~ 7000 850 
+Wire Wire Line
+	7000 850  6650 850 
+Wire Wire Line
+	7450 1550 7600 1550
+Wire Wire Line
+	5600 1450 5800 1450
+Wire Wire Line
+	6650 1650 6650 1900
+Wire Wire Line
+	7150 1900 6650 1900
+Connection ~ 6650 1900
+Wire Wire Line
+	6650 1900 6650 1950
+Wire Wire Line
+	6000 1450 6150 1450
+Wire Wire Line
+	6150 1900 6150 1450
+Connection ~ 6150 1450
+Wire Wire Line
+	6150 1450 6250 1450
+Wire Wire Line
+	6150 2200 6150 2500
+Wire Wire Line
+	4900 4300 4900 4250
+Wire Wire Line
+	4500 4300 4900 4300
+Wire Wire Line
+	8900 4100 8900 4350
+$Comp
+L power:GNDS #PWR?
+U 1 1 61DD98A5
+P 8900 4350
+AR Path="/602A51A8/61DD98A5" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/61DD98A5" Ref="#PWR01011"  Part="1" 
+F 0 "#PWR01011" H 8900 4100 50  0001 C CNN
+F 1 "GNDS" H 8905 4177 50  0000 C CNN
+F 2 "" H 8900 4350 50  0001 C CNN
+F 3 "" H 8900 4350 50  0001 C CNN
+	1    8900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1400 8900 1700
+$Comp
+L power:+5V #PWR?
+U 1 1 61DB3B83
+P 8900 1400
+AR Path="/60273794/61DB3B83" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/61DB3B83" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/61DB3B83" Ref="#PWR01008"  Part="1" 
+F 0 "#PWR01008" H 8900 1250 50  0001 C CNN
+F 1 "+5V" H 8915 1573 50  0000 C CNN
+F 2 "" H 8900 1400 50  0001 C CNN
+F 3 "" H 8900 1400 50  0001 C CNN
+	1    8900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2800 9700 2800
+Wire Wire Line
+	10600 2800 10400 2800
+Wire Wire Line
+	10600 2850 10600 2800
+Wire Wire Line
+	10600 2500 10600 2400
+Wire Wire Line
+	10250 2500 10600 2500
+Wire Wire Line
+	9700 2500 10050 2500
+$Comp
+L power:GNDS #PWR?
+U 1 1 61D1EDF8
+P 10600 2850
+AR Path="/602A51A8/61D1EDF8" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/61D1EDF8" Ref="#PWR01010"  Part="1" 
+F 0 "#PWR01010" H 10600 2600 50  0001 C CNN
+F 1 "GNDS" H 10605 2677 50  0000 C CNN
+F 2 "" H 10600 2850 50  0001 C CNN
+F 3 "" H 10600 2850 50  0001 C CNN
+	1    10600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61D17646
+P 10600 2400
+AR Path="/60273794/61D17646" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/61D17646" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/61D17646" Ref="#PWR01009"  Part="1" 
+F 0 "#PWR01009" H 10600 2250 50  0001 C CNN
+F 1 "+5V" H 10615 2573 50  0000 C CNN
+F 2 "" H 10600 2400 50  0001 C CNN
+F 3 "" H 10600 2400 50  0001 C CNN
+	1    10600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61D13E54
+P 10300 2800
+AR Path="/60273794/61D13E54" Ref="C?"  Part="1" 
+AR Path="/602A51A8/61D13E54" Ref="C?"  Part="1" 
+AR Path="/603CF7B8/61D13E54" Ref="C1004"  Part="1" 
+F 0 "C1004" V 10200 2800 50  0000 C CNN
+F 1 ".47uF" V 10400 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10300 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810251812_Samsung-Electro-Mechanics-CL21B474KBFNNNE_C13967.pdf" H 10300 2800 50  0001 C CNN
+F 4 "JLCPCB" V 10300 2800 50  0001 C CNN "Vendor"
+F 5 "C13967" V 10300 2800 50  0001 C CNN "Vendor part#"
+F 6 "CL21B474KBFNNNE" V 10300 2800 50  0001 C CNN "Manufacturer part#"
+	1    10300 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61D131D2
+P 10150 2500
+AR Path="/60273794/61D131D2" Ref="C?"  Part="1" 
+AR Path="/602A51A8/61D131D2" Ref="C?"  Part="1" 
+AR Path="/603CF7B8/61D131D2" Ref="C1003"  Part="1" 
+F 0 "C1003" V 10050 2500 50  0000 C CNN
+F 1 ".47uF" V 10250 2500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10150 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810251812_Samsung-Electro-Mechanics-CL21B474KBFNNNE_C13967.pdf" H 10150 2500 50  0001 C CNN
+F 4 "JLCPCB" V 10150 2500 50  0001 C CNN "Vendor"
+F 5 "C13967" V 10150 2500 50  0001 C CNN "Vendor part#"
+F 6 "CL21B474KBFNNNE" V 10150 2500 50  0001 C CNN "Manufacturer part#"
+	1    10150 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 2300 9700 2300
+Wire Wire Line
+	9850 2250 9850 2300
+Wire Wire Line
+	9850 2000 9850 2050
+Wire Wire Line
+	9700 2000 9850 2000
+$Comp
+L Device:C_Small C?
+U 1 1 61CC9BB7
+P 9850 2150
+AR Path="/60273794/61CC9BB7" Ref="C?"  Part="1" 
+AR Path="/602A51A8/61CC9BB7" Ref="C?"  Part="1" 
+AR Path="/603CF7B8/61CC9BB7" Ref="C1002"  Part="1" 
+F 0 "C1002" H 9700 2100 50  0000 C CNN
+F 1 ".47uF" H 9700 2200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9850 2150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810251812_Samsung-Electro-Mechanics-CL21B474KBFNNNE_C13967.pdf" H 9850 2150 50  0001 C CNN
+F 4 "JLCPCB" V 9850 2150 50  0001 C CNN "Vendor"
+F 5 "C13967" V 9850 2150 50  0001 C CNN "Vendor part#"
+F 6 "CL21B474KBFNNNE" V 9850 2150 50  0001 C CNN "Manufacturer part#"
+	1    9850 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 2000 8100 2000
+Wire Wire Line
+	7850 2300 8100 2300
+Wire Wire Line
+	7850 2250 7850 2300
+Wire Wire Line
+	7850 2000 7850 2050
+$Comp
+L Device:C_Small C?
+U 1 1 61C5AEA4
+P 7850 2150
+AR Path="/60273794/61C5AEA4" Ref="C?"  Part="1" 
+AR Path="/602A51A8/61C5AEA4" Ref="C?"  Part="1" 
+AR Path="/603CF7B8/61C5AEA4" Ref="C1001"  Part="1" 
+F 0 "C1001" H 8000 2150 50  0000 C CNN
+F 1 ".1uF" H 8000 2250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7850 2150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 7850 2150 50  0001 C CNN
+F 4 "JLCPCB" V 7850 2150 50  0001 C CNN "Vendor"
+F 5 "C15850" V 7850 2150 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 7850 2150 50  0001 C CNN "Manufacturer part#"
+	1    7850 2150
+	-1   0    0    1   
+$EndComp
+NoConn ~ 8100 3000
+NoConn ~ 9700 3000
+Wire Wire Line
+	8100 3400 8000 3400
+Wire Wire Line
+	8100 3200 8000 3200
+Wire Wire Line
+	9850 3200 9700 3200
+Wire Wire Line
+	10050 4150 10350 4150
+Wire Wire Line
+	10350 4150 10350 4000
+Connection ~ 9700 3600
+Wire Wire Line
+	9700 3600 9700 4150
+Wire Wire Line
+	9850 3600 9700 3600
+Wire Wire Line
+	9850 3400 9700 3400
+$Comp
+L Interface_UART:MAX3232 U1002
+U 1 1 619868F3
+P 8900 2900
+F 0 "U1002" H 9250 4000 50  0000 C CNN
+F 1 "MAX3232" H 8900 3450 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8950 1850 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809081207_Maxim-Integrated-MAX3232ESE+T_C15846.pdf" H 8900 3000 50  0001 C CNN
+F 4 " LCSC" H 8900 2900 50  0001 C CNN "Vendor"
+F 5 "C15846" H 8900 2900 50  0001 C CNN "Vendor part#"
+F 6 "MAX3232ESE+T" H 8900 2900 50  0001 C CNN "Manufacturer part#"
+	1    8900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3750 7950 3750
+$Comp
+L power:+5V #PWR?
+U 1 1 61396900
+P 10350 4000
+AR Path="/60273794/61396900" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/61396900" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/61396900" Ref="#PWR01041"  Part="1" 
+F 0 "#PWR01041" H 10350 3850 50  0001 C CNN
+F 1 "+5V" H 10365 4173 50  0000 C CNN
+F 2 "" H 10350 4000 50  0001 C CNN
+F 3 "" H 10350 4000 50  0001 C CNN
+	1    10350 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4150 9700 4150
+$Comp
+L Device:R_Small_US R?
+U 1 1 61355C80
+P 9950 4150
+AR Path="/60273794/61355C80" Ref="R?"  Part="1" 
+AR Path="/603D560B/61355C80" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61355C80" Ref="R66"  Part="1" 
+F 0 "R66" H 9800 4200 50  0000 L CNN
+F 1 "7.5K" H 10050 4150 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 9950 4150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810171732_UNI-ROYAL-Uniroyal-Elec-1206W4F7501T5E_C17978.pdf" H 9950 4150 50  0001 C CNN
+F 4 "JLCPCB" H 9950 4150 50  0001 C CNN "Vendor"
+F 5 "C17978" H 9950 4150 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F7501T5E" H 9950 4150 50  0001 C CNN "Manufacturer part#"
+	1    9950 4150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8050 3750 8050 3600
+Wire Wire Line
+	8050 3600 8100 3600
+Text HLabel 7950 3750 0    50   Output ~ 0
+SERINT
+Text Label 8000 3400 2    50   ~ 0
+CD_IN_TTL
+Text Label 8050 3600 2    50   ~ 0
+SERIAL_IN_TTL
+Text Label 8000 3200 2    50   ~ 0
+SER_OUT_TTL
+Text Label 9850 3200 0    50   ~ 0
+SERIAL_OUT_RS232
+Text Label 9850 3600 0    50   ~ 0
+SERIAL_DATA_IN_RS232
+Text Label 9850 3400 0    50   ~ 0
+CD_IN_RS232
+Wire Wire Line
+	11750 5600 11900 5600
+Wire Wire Line
+	12500 5600 12650 5600
+Wire Wire Line
+	12300 5900 12300 6100
+Wire Wire Line
+	12300 6100 12500 6100
 Wire Bus Line
 	1450 5000 1450 5200
 Wire Bus Line

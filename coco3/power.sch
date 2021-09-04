@@ -16,485 +16,380 @@ $EndDescr
 $Comp
 L Switch:SW_DPDT_x2 SW1
 U 1 1 602BC867
-P 4050 2400
-F 0 "SW1" V 4300 2750 50  0000 R CNN
-F 1 "SW_DPDT_x2" V 4050 3000 50  0000 R CNN
-F 2 "coco2:F2UEE" H 4050 2400 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1402/fpush.pdf" H 4050 2400 50  0001 C CNN
-F 4 "digikey" H 4050 2400 50  0001 C CNN "Vendor"
-F 5 "401-1223-ND" H 4050 2400 50  0001 C CNN "Vendor part#"
-F 6 "F2UEE" H 4050 2400 50  0001 C CNN "Manufacturer part#"
-	1    4050 2400
-	0    -1   -1   0   
+P 2250 2950
+F 0 "SW1" V 2500 3300 50  0000 R CNN
+F 1 "SW_DPDT_x2" V 2250 3550 50  0000 R CNN
+F 2 "coco2:F2UEE" H 2250 2950 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1402/fpush.pdf" H 2250 2950 50  0001 C CNN
+F 4 "digikey" H 2250 2950 50  0001 C CNN "Vendor"
+F 5 "401-1223-ND" H 2250 2950 50  0001 C CNN "Vendor part#"
+F 6 "F2UEE" H 2250 2950 50  0001 C CNN "Manufacturer part#"
+	1    2250 2950
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW1
 U 2 1 602BD00E
-P 5850 2400
-F 0 "SW1" V 6100 2600 50  0000 L CNN
-F 1 "SW_DPDT_x2" V 5805 2548 50  0000 L CNN
-F 2 "coco2:F2UEE" H 5850 2400 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1402/fpush.pdf" H 5850 2400 50  0001 C CNN
-F 4 "digikey" V 5850 2400 50  0001 C CNN "Vendor"
-F 5 "401-1223-ND" V 5850 2400 50  0001 C CNN "Vendor part#"
-F 6 "F2UEE" V 5850 2400 50  0001 C CNN "Manufacturer part#"
-	2    5850 2400
-	0    1    -1   0   
+P 3850 2950
+F 0 "SW1" V 4100 3150 50  0000 L CNN
+F 1 "SW_DPDT_x2" V 3805 3098 50  0000 L CNN
+F 2 "coco2:F2UEE" H 3850 2950 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1402/fpush.pdf" H 3850 2950 50  0001 C CNN
+F 4 "digikey" V 3850 2950 50  0001 C CNN "Vendor"
+F 5 "401-1223-ND" V 3850 2950 50  0001 C CNN "Vendor part#"
+F 6 "F2UEE" V 3850 2950 50  0001 C CNN "Manufacturer part#"
+	2    3850 2950
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5000 3050 5850 3050
-Wire Wire Line
-	5850 3050 5850 3250
-$Comp
-L power:GNDS #PWR01034
-U 1 1 602C274B
-P 5850 3250
-F 0 "#PWR01034" H 5850 3000 50  0001 C CNN
-F 1 "GNDS" H 5855 3077 50  0000 C CNN
-F 2 "" H 5850 3250 50  0001 C CNN
-F 3 "" H 5850 3250 50  0001 C CNN
-	1    5850 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 1900 4800 2200
-Wire Wire Line
-	5200 1900 5200 2200
-NoConn ~ 3950 2200
-NoConn ~ 5950 2200
-$Comp
-L Device:C_Small C35
-U 1 1 6029905D
-P 5850 2800
-F 0 "C35" H 5600 2800 50  0000 L CNN
-F 1 ".022uF" H 5550 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5850 2800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 5850 2800 50  0001 C CNN
-F 4 "JLCPCB" H 5850 2800 50  0001 C CNN "Vendor"
-F 5 "C1729" H 5850 2800 50  0001 C CNN "Vendor part#"
-F 6 "CL21B223KBANNNC" H 5850 2800 50  0001 C CNN "Manufacturer part#"
-	1    5850 2800
-	1    0    0    -1  
-$EndComp
+NoConn ~ 2350 3150
+NoConn ~ 3750 3150
 $Comp
 L Device:C_Small C36
 U 1 1 6029A195
-P 3650 2750
-F 0 "C36" V 3421 2750 50  0000 C CNN
-F 1 ".022uF" V 3512 2750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3650 2750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 3650 2750 50  0001 C CNN
-F 4 "JLCPCB" H 3650 2750 50  0001 C CNN "Vendor"
-F 5 "C1729" H 3650 2750 50  0001 C CNN "Vendor part#"
-F 6 "CL21B223KBANNNC" H 3650 2750 50  0001 C CNN "Manufacturer part#"
-	1    3650 2750
+P 1750 3300
+F 0 "C36" V 1521 3300 50  0000 C CNN
+F 1 ".022uF" V 1612 3300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1750 3300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 1750 3300 50  0001 C CNN
+F 4 "JLCPCB" H 1750 3300 50  0001 C CNN "Vendor"
+F 5 "C1729" H 1750 3300 50  0001 C CNN "Vendor part#"
+F 6 "CL21B223KBANNNC" H 1750 3300 50  0001 C CNN "Manufacturer part#"
+	1    1750 3300
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C33
-U 1 1 6029A833
-P 3850 4150
-F 0 "C33" V 3621 4150 50  0000 C CNN
-F 1 ".022uF" V 3712 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3850 4150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 3850 4150 50  0001 C CNN
-F 4 "JLCPCB" H 3850 4150 50  0001 C CNN "Vendor"
-F 5 "C1729" H 3850 4150 50  0001 C CNN "Vendor part#"
-F 6 "CL21B223KBANNNC" H 3850 4150 50  0001 C CNN "Manufacturer part#"
-	1    3850 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C32
-U 1 1 6029B20F
-P 6250 4250
-F 0 "C32" H 6342 4296 50  0000 L CNN
-F 1 ".022uF" H 6342 4205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6250 4250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf" H 6250 4250 50  0001 C CNN
-F 4 "JLCPCB" H 6250 4250 50  0001 C CNN "Vendor"
-F 5 "C1729" H 6250 4250 50  0001 C CNN "Vendor part#"
-F 6 "CL21B223KBANNNC" H 6250 4250 50  0001 C CNN "Manufacturer part#"
-	1    6250 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 602A2FAF
-P 5000 3400
-AR Path="/60273794/602A2FAF" Ref="C?"  Part="1" 
-AR Path="/602A51A8/602A2FAF" Ref="C30"  Part="1" 
-F 0 "C30" H 4800 3450 50  0000 C CNN
-F 1 ".1uF" H 4800 3300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5000 3400 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 5000 3400 50  0001 C CNN
-F 4 "JLCPCB" V 5000 3400 50  0001 C CNN "Vendor"
-F 5 "C15850" V 5000 3400 50  0001 C CNN "Vendor part#"
-F 6 "CL21A106KAYNNNE" V 5000 3400 50  0001 C CNN "Manufacturer part#"
-	1    5000 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 3050 5000 3300
-Connection ~ 5000 3050
-$Comp
-L Diode:1N4002 D3
-U 1 1 602A863E
-P 4650 3850
-F 0 "D3" H 4650 3950 50  0000 C CNN
-F 1 "UF1002-T" H 4650 3750 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4650 3675 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/UF1001-UF1007.pdf" H 4650 3850 50  0001 C CNN
-F 4 "digikey" H 4650 3850 50  0001 C CNN "Vendor"
-F 5 "UF1002DICT-ND" H 4650 3850 50  0001 C CNN "Vendor part#"
-F 6 "UF1002-T" H 4650 3850 50  0001 C CNN "Manufacturer part#"
-	1    4650 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4002 D4
-U 1 1 602AC243
-P 5350 3850
-F 0 "D4" H 5350 3750 50  0000 C CNN
-F 1 "UF1002-T" H 5350 3950 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5350 3675 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/UF1001-UF1007.pdf" H 5350 3850 50  0001 C CNN
-F 4 "digikey" H 5350 3850 50  0001 C CNN "Vendor"
-F 5 "UF1002DICT-ND" H 5350 3850 50  0001 C CNN "Vendor part#"
-F 6 "UF1002-T" H 5350 3850 50  0001 C CNN "Manufacturer part#"
-	1    5350 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N5401 D2
-U 1 1 602ACDC6
-P 4650 4400
-F 0 "D2" H 4650 4183 50  0000 C CNN
-F 1 "1N5401-G" H 4650 4274 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4650 4225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 4650 4400 50  0001 C CNN
-F 4 "digikey" H 4650 4400 50  0001 C CNN "Vendor"
-F 5 "641-1314-1-ND" H 4650 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 4650 4400 50  0001 C CNN "Manufacturer part#"
-	1    4650 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N5401 D1
-U 1 1 602AE323
-P 5350 4400
-F 0 "D1" H 5350 4617 50  0000 C CNN
-F 1 "1N5401-G" H 5350 4526 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5350 4225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5350 4400 50  0001 C CNN
-F 4 "digikey" H 5350 4400 50  0001 C CNN "Vendor"
-F 5 "641-1314-1-ND" H 5350 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 5350 4400 50  0001 C CNN "Manufacturer part#"
-	1    5350 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 3850 5000 3850
-Wire Wire Line
-	5000 3500 5000 3650
-Connection ~ 5000 3850
-Wire Wire Line
-	5000 3850 5200 3850
-Wire Wire Line
-	4500 3850 4350 3850
-Wire Wire Line
-	4350 3850 4350 4150
-Wire Wire Line
-	4350 4400 4500 4400
-Wire Wire Line
-	5500 3850 5700 3850
-Wire Wire Line
-	5700 3850 5700 4100
-Wire Wire Line
-	5700 4400 5500 4400
-Wire Wire Line
-	4800 4400 5000 4400
-$Comp
-L Device:Ferrite_Bead_Small FB1
-U 1 1 602CCBDB
-P 6250 2850
-F 0 "FB1" H 6350 2896 50  0000 L CNN
-F 1 " " H 6350 2805 50  0000 L CNN
-F 2 "coco2:FB_28L0138-10R-10" V 6180 2850 50  0001 C CNN
-F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 6250 2850 50  0001 C CNN
-F 4 "digikey" H 6250 2850 50  0001 C CNN "Vendor"
-F 5 "240-2438-1-ND" H 6250 2850 50  0001 C CNN "Vendor part#"
-F 6 "28L0138-10R-10" H 6250 2850 50  0001 C CNN "Manufacturer part#"
-	1    6250 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB2
-U 1 1 602CE834
-P 4050 2900
-F 0 "FB2" H 4150 2946 50  0000 L CNN
-F 1 " " H 4150 2855 50  0000 L CNN
-F 2 "coco2:FB_28L0138-10R-10" V 3980 2900 50  0001 C CNN
-F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 4050 2900 50  0001 C CNN
-F 4 "digikey" H 4050 2900 50  0001 C CNN "Vendor"
-F 5 "240-2438-1-ND" H 4050 2900 50  0001 C CNN "Vendor part#"
-F 6 "28L0138-10R-10" H 4050 2900 50  0001 C CNN "Manufacturer part#"
-	1    4050 2900
-	1    0    0    -1  
-$EndComp
-Connection ~ 5000 4400
-Wire Wire Line
-	5000 4400 5200 4400
 $Comp
 L Device:C_Small C?
 U 1 1 602D08FF
-P 7650 3900
+P 5500 4650
 AR Path="/60273794/602D08FF" Ref="C?"  Part="1" 
 AR Path="/602A51A8/602D08FF" Ref="C28"  Part="1" 
-F 0 "C28" H 7450 3950 50  0000 C CNN
-F 1 ".1uF" H 7450 3800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7650 3900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 7650 3900 50  0001 C CNN
-F 4 "JLCPCB" V 7650 3900 50  0001 C CNN "Vendor"
-F 5 "C15850" V 7650 3900 50  0001 C CNN "Vendor part#"
-F 6 "CL21A106KAYNNNE" V 7650 3900 50  0001 C CNN "Manufacturer part#"
-	1    7650 3900
+F 0 "C28" H 5300 4700 50  0000 C CNN
+F 1 ".1uF" H 5300 4550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5500 4650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 5500 4650 50  0001 C CNN
+F 4 "JLCPCB" V 5500 4650 50  0001 C CNN "Vendor"
+F 5 "C15850" V 5500 4650 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 5500 4650 50  0001 C CNN "Manufacturer part#"
+	1    5500 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 2700 5850 2650
+	2150 3150 2150 3300
 Wire Wire Line
-	5850 2900 5850 3050
-Connection ~ 5850 3050
-Wire Wire Line
-	5200 2200 5750 2200
-$Comp
-L power:GNDS #PWR01036
-U 1 1 602F0879
-P 3500 4250
-F 0 "#PWR01036" H 3500 4000 50  0001 C CNN
-F 1 "GNDS" H 3505 4077 50  0000 C CNN
-F 2 "" H 3500 4250 50  0001 C CNN
-F 3 "" H 3500 4250 50  0001 C CNN
-	1    3500 4250
-	1    0    0    -1  
-$EndComp
-Connection ~ 4350 4150
-Wire Wire Line
-	4350 4150 4350 4400
-Wire Wire Line
-	3500 4150 3500 4250
-Wire Wire Line
-	3500 4150 3750 4150
-Wire Wire Line
-	4800 2200 4150 2200
-Wire Wire Line
-	4050 2600 4050 2750
-Wire Wire Line
-	3750 2750 4050 2750
-Connection ~ 4050 2750
-Wire Wire Line
-	4050 2750 4050 2800
+	1850 3300 2150 3300
+Connection ~ 2150 3300
 $Comp
 L power:GNDS #PWR01033
 U 1 1 6030ECB4
-P 3400 2900
-F 0 "#PWR01033" H 3400 2650 50  0001 C CNN
-F 1 "GNDS" H 3405 2727 50  0000 C CNN
-F 2 "" H 3400 2900 50  0001 C CNN
-F 3 "" H 3400 2900 50  0001 C CNN
-	1    3400 2900
+P 1500 3450
+F 0 "#PWR01033" H 1500 3200 50  0001 C CNN
+F 1 "GNDS" H 1505 3277 50  0000 C CNN
+F 2 "" H 1500 3450 50  0001 C CNN
+F 3 "" H 1500 3450 50  0001 C CNN
+	1    1500 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 2750 3400 2750
+	1650 3300 1500 3300
 Wire Wire Line
-	3400 2750 3400 2900
+	1500 3300 1500 3450
 Wire Wire Line
-	3950 4150 4050 4150
+	4350 3200 3950 3200
 Wire Wire Line
-	4050 3000 4050 4150
-Connection ~ 4050 4150
-Wire Wire Line
-	4050 4150 4350 4150
-Wire Wire Line
-	6250 4150 6250 4100
-Wire Wire Line
-	6250 4100 5700 4100
-Connection ~ 5700 4100
-Wire Wire Line
-	5700 4100 5700 4400
-Wire Wire Line
-	6250 2950 6250 3100
-Connection ~ 6250 4100
-Wire Wire Line
-	6250 2750 6250 2650
-Wire Wire Line
-	6250 2650 5850 2650
-Connection ~ 5850 2650
-Wire Wire Line
-	5850 2650 5850 2600
-$Comp
-L Device:CP_Small C31
-U 1 1 603267D7
-P 3300 4150
-F 0 "C31" V 3525 4150 50  0000 C CNN
-F 1 "220uF  25V" V 3150 4200 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10" H 3300 4150 50  0001 C CNN
-F 3 " https://datasheet.lcsc.com/lcsc/1809291333_Lelon-VEJ221M1ETR-0810_C134765.pdf" H 3300 4150 50  0001 C CNN
-F 4 "JLCPCB" H 3300 4150 50  0001 C CNN "Vendor"
-F 5 "C134765" H 3300 4150 50  0001 C CNN "Vendor part#"
-F 6 "VEJ221M1ETR-0810" H 3300 4150 50  0001 C CNN "Manufacturer part#"
-	1    3300 4150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 3650 3050 3650
-Wire Wire Line
-	3050 3650 3050 4150
-Connection ~ 5000 3650
-Wire Wire Line
-	5000 3650 5000 3850
-Wire Wire Line
-	3050 4150 3200 4150
-Wire Wire Line
-	3500 4150 3400 4150
-Connection ~ 3500 4150
-Connection ~ 3050 4150
-Wire Wire Line
-	3050 4150 3050 5300
-Wire Wire Line
-	7050 5150 5000 5150
-Wire Wire Line
-	7050 5150 7050 3550
-Wire Wire Line
-	7250 5300 3050 5300
+	3950 3200 3950 3150
 $Comp
 L power:PWR_FLAG #FLG01001
 U 1 1 603AF7ED
-P 7050 3550
-F 0 "#FLG01001" H 7050 3625 50  0001 C CNN
-F 1 "PWR_FLAG" H 7050 3723 50  0000 C CNN
-F 2 "" H 7050 3550 50  0001 C CNN
-F 3 "~" H 7050 3550 50  0001 C CNN
-	1    7050 3550
+P 4550 4000
+F 0 "#FLG01001" H 4550 4075 50  0001 C CNN
+F 1 "PWR_FLAG" H 4550 4173 50  0000 C CNN
+F 2 "" H 4550 4000 50  0001 C CNN
+F 3 "~" H 4550 4000 50  0001 C CNN
+	1    4550 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG01002
-U 1 1 603B147E
-P 7250 4450
-F 0 "#FLG01002" H 7250 4525 50  0001 C CNN
-F 1 "PWR_FLAG" H 7250 4623 50  0000 C CNN
-F 2 "" H 7250 4450 50  0001 C CNN
-F 3 "~" H 7250 4450 50  0001 C CNN
-	1    7250 4450
-	1    0    0    -1  
-$EndComp
-Text HLabel 8250 3550 2    50   Output ~ 0
-+SALT_VIN
-Text HLabel 8250 4550 2    50   Output ~ 0
--SALT_VIN
-Wire Wire Line
-	8250 3550 7900 3550
-Connection ~ 7050 3550
-Wire Wire Line
-	8250 4550 7250 4550
-Connection ~ 7250 4550
-Wire Wire Line
-	7250 4550 7250 4450
-$Comp
-L Connector:Conn_01x03_Male CN7
-U 1 1 60EB8F15
-P 5000 1450
-F 0 "CN7" V 4650 1400 50  0000 L CNN
-F 1 "Conn_01x03_Male" V 4850 1250 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-396_A-41791-0003_1x03_P3.96mm_Vertical" H 5000 1450 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/009652038_sd.pdf" H 5000 1450 50  0001 C CNN
-F 4 "digikey" V 5000 1450 50  0001 C CNN "Vendor"
-F 5 "WM18824-ND" V 5000 1450 50  0001 C CNN "Vendor part#"
-F 6 "0009652038" V 5000 1450 50  0001 C CNN "Manufacturer part#"
-	1    5000 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 1650 5000 3050
-Wire Wire Line
-	5100 1650 5100 1900
-Wire Wire Line
-	5100 1900 5200 1900
-Wire Wire Line
-	4900 1650 4900 1900
-Wire Wire Line
-	4900 1900 4800 1900
 $Comp
 L Device:CP_Small C29
 U 1 1 60F7D30F
-P 7900 3900
+P 6200 4650
 AR Path="/602A51A8/60F7D30F" Ref="C29"  Part="1" 
 AR Path="/603CF7B8/60F7D30F" Ref="C?"  Part="1" 
-F 0 "C29" H 7988 3946 50  0000 L CNN
-F 1 "4700uF 25V" H 7988 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 7900 3900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811051717_Lelon-VEJ472M1ETR-1821_C249676.pdf" H 7900 3900 50  0001 C CNN
-F 4 "JLCPCB" H 7900 3900 50  0001 C CNN "Vendor"
-F 5 "C249676" H 7900 3900 50  0001 C CNN "Vendor part#"
-F 6 "VEJ472M1ETR-1821" H 7900 3900 50  0001 C CNN "Manufacturer part#"
-	1    7900 3900
+F 0 "C29" H 6000 4800 50  0000 L CNN
+F 1 "4700uF 25V" H 5700 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_18x22" H 6200 4650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811051717_Lelon-VEJ472M1ETR-1821_C249676.pdf" H 6200 4650 50  0001 C CNN
+F 4 "JLCPCB" H 6200 4650 50  0001 C CNN "Vendor"
+F 5 "C249676" H 6200 4650 50  0001 C CNN "Vendor part#"
+F 6 "VEJ472M1ETR-1821" H 6200 4650 50  0001 C CNN "Manufacturer part#"
+	1    6200 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 4000 7900 4100
-Connection ~ 7900 3550
-Wire Wire Line
-	7900 3550 7650 3550
-Wire Wire Line
-	7250 5300 7250 4550
+Text HLabel 4550 3700 2    50   Output ~ 0
+12VDC
 $Comp
-L power:GNDS #PWR01035
-U 1 1 60FAE005
-P 7900 4200
-F 0 "#PWR01035" H 7900 3950 50  0001 C CNN
-F 1 "GNDS" H 7905 4027 50  0000 C CNN
-F 2 "" H 7900 4200 50  0001 C CNN
-F 3 "" H 7900 4200 50  0001 C CNN
-	1    7900 4200
+L Connector:Jack-DC CN7
+U 1 1 6132173D
+P 2600 2000
+F 0 "CN7" V 2611 2188 50  0000 L CNN
+F 1 "Jack-DC" V 2702 2188 50  0000 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 2650 1960 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/pj-063ah.pdf" H 2650 1960 50  0001 C CNN
+F 4 "digikey" H 2600 2000 50  0001 C CNN "Vendor"
+F 5 "CP-063AH-ND" H 2600 2000 50  0001 C CNN "Vendor part#"
+F 6 "PJ-063AH" H 2600 2000 50  0001 C CNN "Manufacturer part#"
+	1    2600 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 3550 7900 3800
-Wire Wire Line
-	7650 3800 7650 3550
-Connection ~ 7650 3550
-Wire Wire Line
-	7650 3550 7050 3550
-Wire Wire Line
-	7650 4000 7650 4100
-Wire Wire Line
-	7650 4100 7900 4100
-Connection ~ 7900 4100
-Wire Wire Line
-	7900 4100 7900 4200
-Wire Wire Line
-	5000 4400 5000 5150
+	4550 3700 4350 3700
 $Comp
-L power:GNDS #PWR01037
-U 1 1 602D146F
-P 6250 4800
-F 0 "#PWR01037" H 6250 4550 50  0001 C CNN
-F 1 "GNDS" H 6255 4627 50  0000 C CNN
-F 2 "" H 6250 4800 50  0001 C CNN
-F 3 "" H 6250 4800 50  0001 C CNN
-	1    6250 4800
+L power:GNDS #PWR0103
+U 1 1 6139AA86
+P 2150 3600
+F 0 "#PWR0103" H 2150 3350 50  0001 C CNN
+F 1 "GNDS" H 2155 3427 50  0000 C CNN
+F 2 "" H 2150 3600 50  0001 C CNN
+F 3 "" H 2150 3600 50  0001 C CNN
+	1    2150 3600
+	1    0    0    -1  
+$EndComp
+Text Notes 2300 2050 2    50   ~ 0
++12V DC
+$Comp
+L Regulator_Switching:LM2596S-5 U1001
+U 1 1 615BC5E3
+P 7550 4200
+F 0 "U1001" H 7550 4567 50  0000 C CNN
+F 1 "LM2596S-5" H 7550 4476 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 7600 3950 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 7550 4200 50  0001 C CNN
+F 4 "LCSC" H 7550 4200 50  0001 C CNN "Vendor"
+F 5 "C10002" H 7550 4200 50  0001 C CNN "Vendor part#"
+F 6 "LM2596SX-5.0/NOPB" H 7550 4200 50  0001 C CNN "Manufacturer part#"
+	1    7550 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 4350 6250 4800
-Text HLabel 8250 3100 2    50   Output ~ 0
-P1
-Connection ~ 6250 3100
+	4350 4100 4550 4100
+$Comp
+L power:GNDS #PWR01006
+U 1 1 615C033E
+P 7550 5050
+F 0 "#PWR01006" H 7550 4800 50  0001 C CNN
+F 1 "GNDS" H 7555 4877 50  0000 C CNN
+F 2 "" H 7550 5050 50  0001 C CNN
+F 3 "" H 7550 5050 50  0001 C CNN
+	1    7550 5050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6250 3100 6250 4100
+	7550 4500 7550 5000
 Wire Wire Line
-	6250 3100 8250 3100
+	7050 4300 6550 4300
+Wire Wire Line
+	6550 4300 6550 5000
+Wire Wire Line
+	6550 5000 7550 5000
+Connection ~ 7550 5000
+Wire Wire Line
+	7550 5000 7550 5050
+$Comp
+L Device:D_Zener D1001
+U 1 1 615C3B2A
+P 8300 4650
+F 0 "D1001" V 8150 4450 50  0000 L CNN
+F 1 "5A 40V" V 8450 4350 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 8300 4650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2011241905_MDD-Microdiode-Electronics-SS54B_C32513.pdf" H 8300 4650 50  0001 C CNN
+F 4 "LCSC" V 8300 4650 50  0001 C CNN "Vendor"
+F 5 "C32513" V 8300 4650 50  0001 C CNN "Vendor part#"
+F 6 "SS54B" V 8300 4650 50  0001 C CNN "Manufacturer part#"
+	1    8300 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 4800 8300 5000
+Wire Wire Line
+	8300 5000 7550 5000
+Wire Wire Line
+	8050 4300 8300 4300
+Wire Wire Line
+	8300 4300 8300 4500
+$Comp
+L Device:CP_Small C15
+U 1 1 615F8001
+P 8850 4650
+AR Path="/602A51A8/615F8001" Ref="C15"  Part="1" 
+AR Path="/603CF7B8/615F8001" Ref="C?"  Part="1" 
+F 0 "C15" H 8700 4800 50  0000 L CNN
+F 1 "220uF 25V" H 8450 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 8850 4650 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809291333_Lelon-VEJ221M1ETR-0810_C134765.pdf" H 8850 4650 50  0001 C CNN
+F 4 "JLCPCB" H 8850 4650 50  0001 C CNN "Vendor"
+F 5 "C134765" H 8850 4650 50  0001 C CNN "Vendor part#"
+F 6 "VEJ221M1ETR-0810" H 8850 4650 50  0001 C CNN "Manufacturer part#"
+	1    8850 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4550 8850 4300
+Wire Wire Line
+	8850 4750 8850 5000
+$Comp
+L Connector:TestPoint TP?
+U 1 1 616267E9
+P 8400 3850
+AR Path="/612A4892/616267E9" Ref="TP?"  Part="1" 
+AR Path="/603CF7B8/616267E9" Ref="TP?"  Part="1" 
+AR Path="/602A51A8/616267E9" Ref="TP1001"  Part="1" 
+F 0 "TP1001" H 8450 4100 50  0000 L CNN
+F 1 "5V" H 8450 4000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 8600 3850 50  0001 C CNN
+F 3 "~" H 8600 3850 50  0001 C CNN
+	1    8400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61653CA0
+P 9100 4650
+AR Path="/60273794/61653CA0" Ref="C?"  Part="1" 
+AR Path="/602A51A8/61653CA0" Ref="C14"  Part="1" 
+AR Path="/603CF7B8/61653CA0" Ref="C?"  Part="1" 
+F 0 "C14" H 9200 4500 50  0000 C CNN
+F 1 ".1uF" H 8950 4750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9100 4650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 9100 4650 50  0001 C CNN
+F 4 "JLCPCB" V 9100 4650 50  0001 C CNN "Vendor"
+F 5 "C15850" V 9100 4650 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 9100 4650 50  0001 C CNN "Manufacturer part#"
+	1    9100 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 4300 9100 4550
+Wire Wire Line
+	9100 4750 9100 5000
+$Comp
+L Device:L_Small L1001
+U 1 1 6165B115
+P 8650 4300
+F 0 "L1001" V 8550 4300 50  0000 C CNN
+F 1 "33uH" V 8744 4300 50  0000 C CNN
+F 2 "Inductor_SMD:L_Sumida_CDMC6D28_7.25x6.5mm" H 8650 4300 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1912111437_Sunlord-MWSA0605S-330MT_C408470.pdf" H 8650 4300 50  0001 C CNN
+F 4 "LSCSC" V 8650 4300 50  0001 C CNN "Vendor"
+F 5 "C408470" V 8650 4300 50  0001 C CNN "Vendor part#"
+F 6 "MWSA0605S-330MT" V 8650 4300 50  0001 C CNN "Manufacturer part#"
+	1    8650 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01002
+U 1 1 616A90AA
+P 9550 4050
+AR Path="/602A51A8/616A90AA" Ref="#FLG01002"  Part="1" 
+AR Path="/603CF7B8/616A90AA" Ref="#FLG?"  Part="1" 
+F 0 "#FLG01002" H 9550 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 9550 4223 50  0000 C CNN
+F 2 "" H 9550 4050 50  0001 C CNN
+F 3 "~" H 9550 4050 50  0001 C CNN
+	1    9550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 616DBF1F
+P 9850 4050
+AR Path="/60273794/616DBF1F" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/616DBF1F" Ref="#PWR01002"  Part="1" 
+AR Path="/603CF7B8/616DBF1F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR01002" H 9850 3900 50  0001 C CNN
+F 1 "+5V" H 9865 4223 50  0000 C CNN
+F 2 "" H 9850 4050 50  0001 C CNN
+F 3 "" H 9850 4050 50  0001 C CNN
+	1    9850 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4750 6200 5000
+Connection ~ 6550 5000
+Wire Wire Line
+	6200 4550 6200 4100
+Connection ~ 6200 4100
+Wire Wire Line
+	6200 4100 7050 4100
+Wire Wire Line
+	5500 4550 5500 4100
+Connection ~ 5500 4100
+Wire Wire Line
+	5500 4100 6200 4100
+Wire Wire Line
+	5500 4750 5500 5000
+Wire Wire Line
+	5500 5000 6200 5000
+Connection ~ 6200 5000
+Wire Wire Line
+	6200 5000 6550 5000
+Connection ~ 4350 3700
+Wire Wire Line
+	4350 3700 4350 4100
+Wire Wire Line
+	4550 4000 4550 4100
+Connection ~ 4550 4100
+Wire Wire Line
+	8550 4300 8300 4300
+Connection ~ 8300 4300
+Wire Wire Line
+	9100 4100 9100 4300
+Wire Wire Line
+	9100 4300 8850 4300
+Wire Wire Line
+	9100 4100 8400 4100
+Connection ~ 8850 4300
+Wire Wire Line
+	8850 4300 8750 4300
+Wire Wire Line
+	8850 5000 8300 5000
+Connection ~ 8300 5000
+Connection ~ 9100 4300
+Wire Wire Line
+	8850 5000 9100 5000
+Connection ~ 8850 5000
+Wire Wire Line
+	9100 4300 9550 4300
+Wire Wire Line
+	9850 4300 9850 4050
+Wire Wire Line
+	9550 4050 9550 4300
+Connection ~ 9550 4300
+Wire Wire Line
+	9550 4300 9850 4300
+Wire Wire Line
+	8400 3850 8400 4100
+Connection ~ 8400 4100
+Wire Wire Line
+	8400 4100 8050 4100
+Wire Wire Line
+	5500 4100 4550 4100
+Wire Wire Line
+	2900 2100 2950 2100
+Wire Wire Line
+	2950 2100 2950 2750
+Wire Wire Line
+	2250 2750 2950 2750
+Wire Wire Line
+	2900 1900 3150 1900
+Wire Wire Line
+	3150 1900 3150 2750
+Wire Wire Line
+	3150 2750 3850 2750
+Text Label 3150 2500 0    50   ~ 0
+12VDC_PS
+Text Label 2950 2500 2    50   ~ 0
+GND_PS
+Wire Wire Line
+	2150 3300 2150 3600
+Wire Wire Line
+	4350 3200 4350 3700
 $EndSCHEMATC

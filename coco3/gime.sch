@@ -1484,11 +1484,11 @@ AR Path="/60273794/613E4481" Ref="R?"  Part="1"
 AR Path="/61257512/613E4481" Ref="R9"  Part="1" 
 F 0 "R9" V 9950 4700 50  0000 L CNN
 F 1 "47" V 9850 4850 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 9900 4800 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 9900 4800 50  0001 C CNN
-F 4 "digikey" H 9900 4800 50  0001 C CNN "Vendor"
-F 5 "CF12JT47R0CT-ND" H 9900 4800 50  0001 C CNN "Vendor part#"
-F 6 "CF12JT47R0" H 9900 4800 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 9900 4800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811101020_UNI-ROYAL-Uniroyal-Elec-1206W4J0470T5E_C25384.pdf" H 9900 4800 50  0001 C CNN
+F 4 "JLCPCB" H 9900 4800 50  0001 C CNN "Vendor"
+F 5 "C25384" H 9900 4800 50  0001 C CNN "Vendor part#"
+F 6 "1206W4J0470T5E" H 9900 4800 50  0001 C CNN "Manufacturer part#"
 	1    9900 4800
 	0    1    -1   0   
 $EndComp
@@ -1500,11 +1500,11 @@ AR Path="/60273794/613F1AF9" Ref="R?"  Part="1"
 AR Path="/61257512/613F1AF9" Ref="R10"  Part="1" 
 F 0 "R10" V 9950 4850 50  0000 L CNN
 F 1 "47" V 9850 5000 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 9900 4950 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 9900 4950 50  0001 C CNN
-F 4 "digikey" H 9900 4950 50  0001 C CNN "Vendor"
-F 5 "CF12JT47R0CT-ND" H 9900 4950 50  0001 C CNN "Vendor part#"
-F 6 "CF12JT47R0" H 9900 4950 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 9900 4950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811101020_UNI-ROYAL-Uniroyal-Elec-1206W4J0470T5E_C25384.pdf" H 9900 4950 50  0001 C CNN
+F 4 "JLCPCB" H 9900 4950 50  0001 C CNN "Vendor"
+F 5 "C25384" H 9900 4950 50  0001 C CNN "Vendor part#"
+F 6 "1206W4J0470T5E" H 9900 4950 50  0001 C CNN "Manufacturer part#"
 	1    9900 4950
 	0    1    -1   0   
 $EndComp
@@ -1633,11 +1633,11 @@ AR Path="/60273794/60F7EBB6" Ref="R?"  Part="1"
 AR Path="/61257512/60F7EBB6" Ref="R63"  Part="1" 
 F 0 "R63" H 7750 5800 50  0000 L CNN
 F 1 "150" H 7700 5700 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 7900 5700 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 7900 5700 50  0001 C CNN
-F 4 "digikey" H 7900 5700 50  0001 C CNN "Vendor"
-F 5 "CF12JT150RCT-ND" H 7900 5700 50  0001 C CNN "Vendor part#"
-F 6 "CF12JT150R" H 7900 5700 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 7900 5700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809140241_UNI-ROYAL-Uniroyal-Elec-1206W4F1500T5E_C17917.pdf" H 7900 5700 50  0001 C CNN
+F 4 "JLCPCB" H 7900 5700 50  0001 C CNN "Vendor"
+F 5 "C17917" H 7900 5700 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1500T5E" H 7900 5700 50  0001 C CNN "Manufacturer part#"
 	1    7900 5700
 	-1   0    0    -1  
 $EndComp
@@ -1649,11 +1649,11 @@ AR Path="/60273794/60F843CC" Ref="R?"  Part="1"
 AR Path="/61257512/60F843CC" Ref="R65"  Part="1" 
 F 0 "R65" V 8550 5750 50  0000 L CNN
 F 1 "1M" V 8300 5700 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8400 5900 50  0001 C CNN
-F 3 "  https://www.seielect.com/catalog/sei-rnf_rnmf.pdf" H 8400 5900 50  0001 C CNN
-F 4 "digikey" H 8400 5900 50  0001 C CNN "Vendor"
-F 5 "RNF14FTD1M00CT-ND" H 8400 5900 50  0001 C CNN "Vendor part#"
-F 6 "RNF14FTD1M00" H 8400 5900 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 8400 5900 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1811050105_UNI-ROYAL-Uniroyal-Elec-1206W4F1004T5E_C17927.pdf" H 8400 5900 50  0001 C CNN
+F 4 "JLCPCB" H 8400 5900 50  0001 C CNN "Vendor"
+F 5 "C17927" H 8400 5900 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1004T5E" H 8400 5900 50  0001 C CNN "Manufacturer part#"
 	1    8400 5900
 	0    1    -1   0   
 $EndComp
@@ -2036,11 +2036,11 @@ AR Path="/612A4892/61342388" Ref="R?"  Part="1"
 AR Path="/61257512/61342388" Ref="R23"  Part="1" 
 F 0 "R23" H 5800 5700 50  0000 L CNN
 F 1 "82" H 5800 5800 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6000 5750 50  0001 C CNN
-F 3 "https://www.koaspeer.com/pdfs/CF.pdf" H 6000 5750 50  0001 C CNN
-F 4 "digikey" H 6000 5750 50  0001 C CNN "Vendor"
-F 5 "2019-CF1/4CT52R820JCT-ND" H 6000 5750 50  0001 C CNN "Vendor part#"
-F 6 "CF1/4CT52R820J" H 6000 5750 50  0001 C CNN "Manufacturer part#"
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6000 5750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301412_UNI-ROYAL-Uniroyal-Elec-1206W4F820JT5E_C17980.pdf" H 6000 5750 50  0001 C CNN
+F 4 "JLCPCB" H 6000 5750 50  0001 C CNN "Vendor"
+F 5 "C17980" H 6000 5750 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F820JT5E" H 6000 5750 50  0001 C CNN "Manufacturer part#"
 	1    6000 5750
 	-1   0    0    1   
 $EndComp
