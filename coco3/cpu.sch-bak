@@ -28,7 +28,6 @@ F 6 "Z-ICS0S40P-W000" H 5300 5550 50  0001 C CNN "Manufacturer part#"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5800 6550
-NoConn ~ 5800 6450
 NoConn ~ 5800 6150
 NoConn ~ 5800 6050
 NoConn ~ 5800 6650
@@ -43,8 +42,6 @@ F 3 "" H 5300 7550 50  0001 C CNN
 	1    5300 7550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 6950 5300 7100
 $Comp
 L power:+5V #PWR01027
 U 1 1 60279D73
@@ -192,13 +189,6 @@ Wire Wire Line
 	2450 2250 2700 2250
 Wire Wire Line
 	2700 2350 2450 2350
-Wire Wire Line
-	5800 6350 6100 6350
-Wire Wire Line
-	6100 6350 6100 7100
-Wire Wire Line
-	6100 7100 5300 7100
-Connection ~ 5300 7100
 Wire Wire Line
 	4800 5250 4300 5250
 Wire Wire Line
@@ -355,12 +345,12 @@ P 1650 4700
 AR Path="/602A51A8/60456BFE" Ref="C?"  Part="1" 
 AR Path="/60273794/60456BFE" Ref="C3"  Part="1" 
 F 0 "C3" H 1738 4746 50  0000 L CNN
-F 1 "1uF 50V" H 1738 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 1650 4700 50  0001 C CNN
-F 3 " https://datasheet.lcsc.com/lcsc/2105211834_Honor-Elec-RVT1H1R0M0405_C3348.pdf" H 1650 4700 50  0001 C CNN
+F 1 "10uF 16v" H 1738 4655 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 1650 4700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811071223_AVX-TAJA106K016RNJ_C7171.pdf" H 1650 4700 50  0001 C CNN
 F 4 "JLCPCB" H 1650 4700 50  0001 C CNN "Vendor"
-F 5 "C3348" H 1650 4700 50  0001 C CNN "Vendor part#"
-F 6 "RVT1H1R0M0405" H 1650 4700 50  0001 C CNN "Manufacturer part#"
+F 5 "C7171" H 1650 4700 50  0001 C CNN "Vendor part#"
+F 6 "TAJA106K016RNJ" H 1650 4700 50  0001 C CNN "Manufacturer part#"
 	1    1650 4700
 	1    0    0    -1  
 $EndComp
@@ -558,12 +548,12 @@ L Device:CP_Small C2
 U 1 1 613786CB
 P 5900 3600
 F 0 "C2" V 6125 3600 50  0000 C CNN
-F 1 "10uF 25v" V 6034 3600 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 5900 3600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1809291326_Lelon-VE-100M1ETR-0405_C134721.pdf" H 5900 3600 50  0001 C CNN
+F 1 "10uF 16v" V 6034 3600 50  0000 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 5900 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811071223_AVX-TAJA106K016RNJ_C7171.pdf" H 5900 3600 50  0001 C CNN
 F 4 "JLCPCB" V 5900 3600 50  0001 C CNN "Vendor"
-F 5 "C134721" V 5900 3600 50  0001 C CNN "Vendor part#"
-F 6 "VE-100M1ETR-0405" V 5900 3600 50  0001 C CNN "Manufacturer part#"
+F 5 "C7171" V 5900 3600 50  0001 C CNN "Vendor part#"
+F 6 "TAJA106K016RNJ" V 5900 3600 50  0001 C CNN "Manufacturer part#"
 	1    5900 3600
 	0    -1   -1   0   
 $EndComp
@@ -730,8 +720,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 6550 4800 6550
 Wire Wire Line
-	5300 7100 5300 7550
-Wire Wire Line
 	2950 6650 4800 6650
 $Comp
 L power:GNDS #PWR01026
@@ -768,16 +756,14 @@ Wire Wire Line
 $Comp
 L power:GNDS #PWR01024
 U 1 1 61507CAC
-P 1950 1500
-F 0 "#PWR01024" H 1950 1250 50  0001 C CNN
-F 1 "GNDS" H 1955 1327 50  0000 C CNN
-F 2 "" H 1950 1500 50  0001 C CNN
-F 3 "" H 1950 1500 50  0001 C CNN
-	1    1950 1500
+P 1550 1500
+F 0 "#PWR01024" H 1550 1250 50  0001 C CNN
+F 1 "GNDS" H 1555 1327 50  0000 C CNN
+F 2 "" H 1550 1500 50  0001 C CNN
+F 3 "" H 1550 1500 50  0001 C CNN
+	1    1550 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 1350 1950 1350
 $Comp
 L Device:C_Small C?
 U 1 1 61526683
@@ -795,13 +781,6 @@ F 6 "0805B333K500NT" H 2300 1000 50  0001 C CNN "Manufacturer part#"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2200 1000 1950 1000
-Wire Wire Line
-	1950 1000 1950 1350
-Connection ~ 1950 1350
-Wire Wire Line
-	1950 1350 1950 1500
-Wire Wire Line
 	2400 1000 2550 1000
 Connection ~ 2550 1000
 Wire Wire Line
@@ -815,6 +794,35 @@ Wire Wire Line
 	1650 4900 1650 5000
 Wire Wire Line
 	1150 4500 1650 4500
+Wire Wire Line
+	1550 1000 1550 1500
+Text Label 5950 6450 0    50   ~ 0
+BUS_TXRX_ENABLE
+Wire Wire Line
+	5950 6450 5800 6450
+Wire Wire Line
+	5300 6950 5300 7550
+$Comp
+L power:GNDS #PWR0106
+U 1 1 6199B2E5
+P 7150 6500
+F 0 "#PWR0106" H 7150 6250 50  0001 C CNN
+F 1 "GNDS" H 7155 6327 50  0000 C CNN
+F 2 "" H 7150 6500 50  0001 C CNN
+F 3 "" H 7150 6500 50  0001 C CNN
+	1    7150 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6350 7150 6500
+Wire Wire Line
+	5800 6350 7150 6350
+Text Label 2600 1350 2    50   ~ 0
+BUS_TXRX_ENABLE
+Wire Wire Line
+	1550 1000 2200 1000
+Wire Wire Line
+	2700 1350 2600 1350
 Wire Bus Line
 	2350 1750 2350 2450
 Wire Bus Line

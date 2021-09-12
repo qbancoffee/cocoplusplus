@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.5+dfsg1-2build2"
     },
-    "CreationDate":  "2021-08-30T08:57:17-04:00"
+    "CreationDate":  "2021-09-08T17:23:41-04:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "coco3",
       "GUID": "636f636f-332e-46b6-9963-61645f706362",
-      "Revision": "1.1.0"
+      "Revision": "1.0.0"
     },
     "Size":
     {

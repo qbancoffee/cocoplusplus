@@ -240,7 +240,7 @@ Wire Wire Line
 	3750 7650 3750 7700
 Wire Wire Line
 	3750 7650 3350 7650
-Text HLabel 3800 6850 2    50   Input ~ 0
+Text HLabel 4450 7000 2    50   Input ~ 0
 ~CART
 $Comp
 L power:GNDS #PWR?
@@ -258,15 +258,15 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 60EDF4D8
-P 3650 6350
+P 4300 6500
 AR Path="/60273794/60EDF4D8" Ref="#PWR?"  Part="1" 
 AR Path="/602A51A8/60EDF4D8" Ref="#PWR?"  Part="1" 
 AR Path="/603CF7B8/60EDF4D8" Ref="#PWR01056"  Part="1" 
-F 0 "#PWR01056" H 3650 6200 50  0001 C CNN
-F 1 "+5V" H 3665 6523 50  0000 C CNN
-F 2 "" H 3650 6350 50  0001 C CNN
-F 3 "" H 3650 6350 50  0001 C CNN
-	1    3650 6350
+F 0 "#PWR01056" H 4300 6350 50  0001 C CNN
+F 1 "+5V" H 4315 6673 50  0000 C CNN
+F 2 "" H 4300 6500 50  0001 C CNN
+F 3 "" H 4300 6500 50  0001 C CNN
+	1    4300 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -503,7 +503,7 @@ Wire Wire Line
 Connection ~ 6000 6650
 Wire Wire Line
 	6000 6650 6000 6900
-Text Label 5600 1450 2    50   ~ 0
+Text Label 5900 1500 2    50   ~ 0
 CASS_DATA_IN
 Text Label 5350 6950 0    50   ~ 0
 CASS_DATA_IN
@@ -519,7 +519,7 @@ Text Label 2350 1450 1    50   ~ 0
 SELA
 Wire Wire Line
 	2350 1650 2350 1450
-Text Label 7600 1550 0    50   ~ 0
+Text Label 7900 1600 0    50   ~ 0
 CASS_DATA_IN_TTL
 Text Label 3100 4350 0    50   ~ 0
 CASS_DATA_IN_TTL
@@ -757,17 +757,17 @@ $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 6104A0FD
-P 3650 6550
+P 4300 6700
 AR Path="/60273794/6104A0FD" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/6104A0FD" Ref="R7"  Part="1" 
-F 0 "R7" H 3718 6596 50  0000 L CNN
-F 1 "4.7K" H 3718 6505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3650 6550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810301414_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf" H 3650 6550 50  0001 C CNN
-F 4 "JLCPCB" H 3650 6550 50  0001 C CNN "Vendor"
-F 5 "C17936" H 3650 6550 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F4701T5E" H 3650 6550 50  0001 C CNN "Manufacturer part#"
-	1    3650 6550
+F 0 "R7" H 4368 6746 50  0000 L CNN
+F 1 "4.7K" H 4368 6655 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 4300 6700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301414_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf" H 4300 6700 50  0001 C CNN
+F 4 "JLCPCB" H 4300 6700 50  0001 C CNN "Vendor"
+F 5 "C17936" H 4300 6700 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F4701T5E" H 4300 6700 50  0001 C CNN "Manufacturer part#"
+	1    4300 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1579,7 +1579,7 @@ $Comp
 L Connector:Conn_01x16_Female CN2
 U 1 1 60B58FEF
 P 5000 1850
-F 0 "CN2" H 5028 1826 50  0000 L CNN
+F 0 "CN2" H 4700 2800 50  0000 L CNN
 F 1 "Conn_01x16_Female" H 5028 1735 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 5000 1850 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=520415&DocType=Customer+Drawing&DocLang=English" H 5000 1850 50  0001 C CNN
@@ -1996,21 +1996,13 @@ Wire Wire Line
 	2750 6550 2750 7650
 Wire Wire Line
 	2750 7650 2900 7650
-NoConn ~ 3400 6000
-NoConn ~ 3400 6100
-NoConn ~ 3400 6200
-NoConn ~ 3050 6550
 Wire Wire Line
-	2950 6550 2950 6850
+	4300 6500 4300 6600
 Wire Wire Line
-	2950 6850 3650 6850
+	4300 6800 4300 7000
+Connection ~ 4300 7000
 Wire Wire Line
-	3650 6350 3650 6450
-Wire Wire Line
-	3650 6650 3650 6850
-Connection ~ 3650 6850
-Wire Wire Line
-	3650 6850 3800 6850
+	4300 7000 4450 7000
 Wire Wire Line
 	2850 6550 2850 7100
 Wire Wire Line
@@ -2025,7 +2017,7 @@ Wire Wire Line
 	3850 6100 4050 6100
 Wire Wire Line
 	3400 5900 3850 5900
-NoConn ~ 6450 1800
+NoConn ~ 6750 1850
 $Comp
 L Device:Q_NPN_BEC Q1001
 U 1 1 617D57A0
@@ -2092,15 +2084,15 @@ Connection ~ 10550 1150
 $Comp
 L Comparator:LM393 U1003
 U 1 1 61E6B13B
-P 7100 1550
-F 0 "U1003" H 7100 1917 50  0000 C CNN
-F 1 "LM393" H 7100 1826 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7100 1550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 7100 1550 50  0001 C CNN
-F 4 "LCSC" H 7100 1550 50  0001 C CNN "Vendor"
-F 5 "C160466" H 7100 1550 50  0001 C CNN "Vendor part#"
-F 6 "LM393PT" H 7100 1550 50  0001 C CNN "Manufacturer part#"
-	1    7100 1550
+P 7400 1600
+F 0 "U1003" H 7400 1967 50  0000 C CNN
+F 1 "LM393" H 7400 1876 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7400 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 7400 1600 50  0001 C CNN
+F 4 "LCSC" H 7400 1600 50  0001 C CNN "Vendor"
+F 5 "C160466" H 7400 1600 50  0001 C CNN "Vendor part#"
+F 6 "LM393PT" H 7400 1600 50  0001 C CNN "Manufacturer part#"
+	1    7400 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2164,229 +2156,229 @@ NoConn ~ 5700 7650
 $Comp
 L Device:R_Small_US R?
 U 1 1 61F281BB
-P 6650 2050
+P 6950 2100
 AR Path="/60273794/61F281BB" Ref="R?"  Part="1" 
 AR Path="/603D345E/61F281BB" Ref="R?"  Part="1" 
 AR Path="/603D560B/61F281BB" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61F281BB" Ref="R1008"  Part="1" 
-F 0 "R1008" H 6750 2100 50  0000 L CNN
-F 1 "10k" H 6750 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6650 2050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810301434_UNI-ROYAL-Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 6650 2050 50  0001 C CNN
-F 4 "JLCPCB" H 6650 2050 50  0001 C CNN "Vendor"
-F 5 "C17902" H 6650 2050 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F1002T5E" H 6650 2050 50  0001 C CNN "Manufacturer part#"
-	1    6650 2050
+F 0 "R1008" H 7050 2150 50  0000 L CNN
+F 1 "10k" H 7050 2050 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6950 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301434_UNI-ROYAL-Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 6950 2100 50  0001 C CNN
+F 4 "JLCPCB" H 6950 2100 50  0001 C CNN "Vendor"
+F 5 "C17902" H 6950 2100 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1002T5E" H 6950 2100 50  0001 C CNN "Manufacturer part#"
+	1    6950 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 61F4F958
-P 6650 1050
+P 6950 1100
 AR Path="/602A51A8/61F4F958" Ref="R?"  Part="1" 
 AR Path="/60273794/61F4F958" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61F4F958" Ref="R1003"  Part="1" 
-F 0 "R1003" H 6350 1100 50  0000 L CNN
-F 1 "100K" H 6400 1000 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6650 1050 50  0001 C CNN
-F 3 " https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf" H 6650 1050 50  0001 C CNN
-F 4 "JLCPCB" H 6650 1050 50  0001 C CNN "Vendor"
-F 5 "C17900" H 6650 1050 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F1003T5E" H 6650 1050 50  0001 C CNN "Manufacturer part#"
-	1    6650 1050
+F 0 "R1003" H 6650 1150 50  0000 L CNN
+F 1 "100K" H 6700 1050 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6950 1100 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf" H 6950 1100 50  0001 C CNN
+F 4 "JLCPCB" H 6950 1100 50  0001 C CNN "Vendor"
+F 5 "C17900" H 6950 1100 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1003T5E" H 6950 1100 50  0001 C CNN "Manufacturer part#"
+	1    6950 1100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 61F736F9
-P 6450 1050
+P 6750 1100
 AR Path="/602A51A8/61F736F9" Ref="R?"  Part="1" 
 AR Path="/60273794/61F736F9" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61F736F9" Ref="R1002"  Part="1" 
-F 0 "R1002" H 6518 1096 50  0000 L CNN
-F 1 "100K" H 6518 1005 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6450 1050 50  0001 C CNN
-F 3 " https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf" H 6450 1050 50  0001 C CNN
-F 4 "JLCPCB" H 6450 1050 50  0001 C CNN "Vendor"
-F 5 "C17900" H 6450 1050 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F1003T5E" H 6450 1050 50  0001 C CNN "Manufacturer part#"
-	1    6450 1050
+F 0 "R1002" H 6818 1146 50  0000 L CNN
+F 1 "100K" H 6818 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6750 1100 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1810301421_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf" H 6750 1100 50  0001 C CNN
+F 4 "JLCPCB" H 6750 1100 50  0001 C CNN "Vendor"
+F 5 "C17900" H 6750 1100 50  0001 C CNN "Vendor part#"
+F 6 "1206W4F1003T5E" H 6750 1100 50  0001 C CNN "Manufacturer part#"
+	1    6750 1100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 61F7B132
-P 6350 1450
+P 6650 1500
 AR Path="/60273794/61F7B132" Ref="R?"  Part="1" 
 AR Path="/603D560B/61F7B132" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61F7B132" Ref="R1006"  Part="1" 
-F 0 "R1006" V 6250 1400 50  0000 L CNN
-F 1 "5.1K" V 6450 1400 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6350 1450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811060210_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.pdf" H 6350 1450 50  0001 C CNN
-F 4 "JLCPCB" H 6350 1450 50  0001 C CNN "Vendor"
-F 5 "C26033" H 6350 1450 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F5101T5E" H 6350 1450 50  0001 C CNN "Manufacturer part#"
-	1    6350 1450
+F 0 "R1006" V 6550 1450 50  0000 L CNN
+F 1 "5.1K" V 6750 1450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6650 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809062031_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 6650 1500 50  0001 C CNN
+F 4 "JLCPCB" H 6650 1500 50  0001 C CNN "Vendor"
+F 5 "C27834" H 6650 1500 50  0001 C CNN "Vendor part#"
+F 6 "0805W8F5101T5E" H 6650 1500 50  0001 C CNN "Manufacturer part#"
+	1    6650 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 61F80A52
-P 5900 1450
+P 6200 1500
 AR Path="/60273794/61F80A52" Ref="R?"  Part="1" 
 AR Path="/603D560B/61F80A52" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61F80A52" Ref="R1005"  Part="1" 
-F 0 "R1005" V 5800 1400 50  0000 L CNN
-F 1 "5.1K" V 6000 1400 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 5900 1450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811060210_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.pdf" H 5900 1450 50  0001 C CNN
-F 4 "JLCPCB" H 5900 1450 50  0001 C CNN "Vendor"
-F 5 "C26033" H 5900 1450 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F5101T5E" H 5900 1450 50  0001 C CNN "Manufacturer part#"
-	1    5900 1450
+F 0 "R1005" V 6100 1450 50  0000 L CNN
+F 1 "5.1K" V 6300 1450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6200 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809062031_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 6200 1500 50  0001 C CNN
+F 4 "JLCPCB" H 6200 1500 50  0001 C CNN "Vendor"
+F 5 "C27834" H 6200 1500 50  0001 C CNN "Vendor part#"
+F 6 "0805W8F5101T5E" H 6200 1500 50  0001 C CNN "Manufacturer part#"
+	1    6200 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 61F80D6B
-P 7450 1050
+P 7750 1100
 AR Path="/60273794/61F80D6B" Ref="R?"  Part="1" 
 AR Path="/603D560B/61F80D6B" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61F80D6B" Ref="R1004"  Part="1" 
-F 0 "R1004" H 7150 1000 50  0000 L CNN
-F 1 "5.1K" H 7200 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 7450 1050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811060210_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.pdf" H 7450 1050 50  0001 C CNN
-F 4 "JLCPCB" H 7450 1050 50  0001 C CNN "Vendor"
-F 5 "C26033" H 7450 1050 50  0001 C CNN "Vendor part#"
-F 6 "1206W4F5101T5E" H 7450 1050 50  0001 C CNN "Manufacturer part#"
-	1    7450 1050
+F 0 "R1004" H 7450 1050 50  0000 L CNN
+F 1 "5.1K" H 7500 1150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7750 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809062031_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 7750 1100 50  0001 C CNN
+F 4 "JLCPCB" H 7750 1100 50  0001 C CNN "Vendor"
+F 5 "C27834" H 7750 1100 50  0001 C CNN "Vendor part#"
+F 6 "0805W8F5101T5E" H 7750 1100 50  0001 C CNN "Manufacturer part#"
+	1    7750 1100
 	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D?
 U 1 1 61F847DB
-P 6150 2050
+P 6450 2100
 AR Path="/602A51A8/61F847DB" Ref="D?"  Part="1" 
 AR Path="/60273794/61F847DB" Ref="D?"  Part="1" 
 AR Path="/603CF7B8/61F847DB" Ref="D1002"  Part="1" 
-F 0 "D1002" V 6150 2350 50  0000 L CNN
-F 1 "1N4148" V 6300 2250 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323F" H 6150 1875 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf" H 6150 2050 50  0001 C CNN
-F 4 "JLCPCB" V 6150 2050 50  0001 C CNN "Vendor"
-F 5 "C2128" V 6150 2050 50  0001 C CNN "Vendor part#"
-F 6 "1N4148WS" V 6150 2050 50  0001 C CNN "Manufacturer part#"
-	1    6150 2050
+F 0 "D1002" V 6450 2400 50  0000 L CNN
+F 1 "1N4148" V 6600 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323F" H 6450 1925 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf" H 6450 2100 50  0001 C CNN
+F 4 "JLCPCB" V 6450 2100 50  0001 C CNN "Vendor"
+F 5 "C2128" V 6450 2100 50  0001 C CNN "Vendor part#"
+F 6 "1N4148WS" V 6450 2100 50  0001 C CNN "Manufacturer part#"
+	1    6450 2100
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 61FA94D6
-P 7250 1900
+P 7550 1950
 AR Path="/60273794/61FA94D6" Ref="R?"  Part="1" 
 AR Path="/603D560B/61FA94D6" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61FA94D6" Ref="R1007"  Part="1" 
-F 0 "R1007" V 7150 1850 50  0000 L CNN
-F 1 "20M" V 7350 1850 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 7250 1900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810301437_UNI-ROYAL-Uniroyal-Elec-1206W4J0206T5E_C26125.pdf" H 7250 1900 50  0001 C CNN
-F 4 "JLCPCB" H 7250 1900 50  0001 C CNN "Vendor"
-F 5 "C26125" H 7250 1900 50  0001 C CNN "Vendor part#"
-F 6 "1206W4J0206T5E" H 7250 1900 50  0001 C CNN "Manufacturer part#"
-	1    7250 1900
+F 0 "R1007" V 7450 1900 50  0000 L CNN
+F 1 "20M" V 7650 1900 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 7550 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810301437_UNI-ROYAL-Uniroyal-Elec-1206W4J0206T5E_C26125.pdf" H 7550 1950 50  0001 C CNN
+F 4 "JLCPCB" H 7550 1950 50  0001 C CNN "Vendor"
+F 5 "C26125" H 7550 1950 50  0001 C CNN "Vendor part#"
+F 6 "1206W4J0206T5E" H 7550 1950 50  0001 C CNN "Manufacturer part#"
+	1    7550 1950
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7400 1550 7450 1550
+	7700 1600 7750 1600
 Wire Wire Line
-	6450 1150 6450 1450
-Connection ~ 6450 1450
+	6750 1200 6750 1500
+Connection ~ 6750 1500
 Wire Wire Line
-	6450 1450 6800 1450
+	6750 1500 7100 1500
 Wire Wire Line
-	6800 1650 6650 1650
+	7100 1700 6950 1700
 Wire Wire Line
-	6650 1650 6650 1150
-Connection ~ 6650 1650
+	6950 1700 6950 1200
+Connection ~ 6950 1700
 $Comp
 L power:GNDS #PWR?
 U 1 1 6214B017
-P 6450 2500
+P 6750 2550
 AR Path="/602A51A8/6214B017" Ref="#PWR?"  Part="1" 
 AR Path="/603CF7B8/6214B017" Ref="#PWR01013"  Part="1" 
-F 0 "#PWR01013" H 6450 2250 50  0001 C CNN
-F 1 "GNDS" H 6455 2327 50  0000 C CNN
-F 2 "" H 6450 2500 50  0001 C CNN
-F 3 "" H 6450 2500 50  0001 C CNN
-	1    6450 2500
+F 0 "#PWR01013" H 6750 2300 50  0001 C CNN
+F 1 "GNDS" H 6755 2377 50  0000 C CNN
+F 2 "" H 6750 2550 50  0001 C CNN
+F 3 "" H 6750 2550 50  0001 C CNN
+	1    6750 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 2500 6450 2500
+	6450 2550 6750 2550
 Wire Wire Line
-	6650 2150 6650 2500
+	6950 2200 6950 2550
 Wire Wire Line
-	6650 2500 6450 2500
-Connection ~ 6450 2500
+	6950 2550 6750 2550
+Connection ~ 6750 2550
 Wire Wire Line
-	7450 1150 7450 1550
+	7750 1200 7750 1600
 Wire Wire Line
-	7450 1550 7450 1900
+	7750 1600 7750 1950
 Wire Wire Line
-	7450 1900 7350 1900
-Connection ~ 7450 1550
+	7750 1950 7650 1950
+Connection ~ 7750 1600
 Wire Wire Line
-	7450 950  7450 850 
+	7750 1000 7750 900 
 Wire Wire Line
-	7450 850  7000 850 
+	7750 900  7300 900 
 Wire Wire Line
-	6450 850  6450 950 
+	6750 900  6750 1000
 Wire Wire Line
-	6650 950  6650 850 
-Connection ~ 6650 850 
+	6950 1000 6950 900 
+Connection ~ 6950 900 
 Wire Wire Line
-	6650 850  6450 850 
+	6950 900  6750 900 
 $Comp
 L power:+5V #PWR?
 U 1 1 62261E1D
-P 7000 750
+P 7300 800
 AR Path="/60273794/62261E1D" Ref="#PWR?"  Part="1" 
 AR Path="/602A51A8/62261E1D" Ref="#PWR?"  Part="1" 
 AR Path="/603CF7B8/62261E1D" Ref="#PWR01012"  Part="1" 
-F 0 "#PWR01012" H 7000 600 50  0001 C CNN
-F 1 "+5V" H 7015 923 50  0000 C CNN
-F 2 "" H 7000 750 50  0001 C CNN
-F 3 "" H 7000 750 50  0001 C CNN
-	1    7000 750 
+F 0 "#PWR01012" H 7300 650 50  0001 C CNN
+F 1 "+5V" H 7315 973 50  0000 C CNN
+F 2 "" H 7300 800 50  0001 C CNN
+F 3 "" H 7300 800 50  0001 C CNN
+	1    7300 800 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 750  7000 850 
-Connection ~ 7000 850 
+	7300 800  7300 900 
+Connection ~ 7300 900 
 Wire Wire Line
-	7000 850  6650 850 
+	7300 900  6950 900 
 Wire Wire Line
-	7450 1550 7600 1550
+	7750 1600 7900 1600
 Wire Wire Line
-	5600 1450 5800 1450
+	5900 1500 6100 1500
 Wire Wire Line
-	6650 1650 6650 1900
+	6950 1700 6950 1950
 Wire Wire Line
-	7150 1900 6650 1900
-Connection ~ 6650 1900
+	7450 1950 6950 1950
+Connection ~ 6950 1950
 Wire Wire Line
-	6650 1900 6650 1950
+	6950 1950 6950 2000
 Wire Wire Line
-	6000 1450 6150 1450
+	6300 1500 6450 1500
 Wire Wire Line
-	6150 1900 6150 1450
-Connection ~ 6150 1450
+	6450 1950 6450 1500
+Connection ~ 6450 1500
 Wire Wire Line
-	6150 1450 6250 1450
+	6450 1500 6550 1500
 Wire Wire Line
-	6150 2200 6150 2500
+	6450 2250 6450 2550
 Wire Wire Line
 	4900 4300 4900 4250
 Wire Wire Line
@@ -2639,6 +2631,135 @@ Wire Wire Line
 	12300 5900 12300 6100
 Wire Wire Line
 	12300 6100 12500 6100
+$Comp
+L Connector:Conn_01x18_Male BREAKOUT0
+U 1 1 613F1704
+P 5200 1950
+F 0 "BREAKOUT0" H 5172 1924 50  0000 R CNN
+F 1 "Conn_01x18_Male" H 5250 2900 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 5200 1950 50  0001 C CNN
+F 3 "~" H 5200 1950 50  0001 C CNN
+	1    5200 1950
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4800 1150
+Wire Wire Line
+	5000 1150 4800 1150
+Wire Wire Line
+	5000 1250 4800 1250
+Connection ~ 4800 1250
+Wire Wire Line
+	5000 1350 4800 1350
+Connection ~ 4800 1350
+Wire Wire Line
+	4800 1450 5000 1450
+Connection ~ 4800 1450
+Wire Wire Line
+	5000 1550 4800 1550
+Connection ~ 4800 1550
+Wire Wire Line
+	5000 1650 4800 1650
+Connection ~ 4800 1650
+Wire Wire Line
+	4800 1750 5000 1750
+Connection ~ 4800 1750
+Wire Wire Line
+	5000 1850 4800 1850
+Connection ~ 4800 1850
+Wire Wire Line
+	5000 1950 4800 1950
+Connection ~ 4800 1950
+Connection ~ 4800 2050
+Wire Wire Line
+	5000 2150 4800 2150
+Connection ~ 4800 2150
+Wire Wire Line
+	5000 2250 4800 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	5000 2350 4800 2350
+Connection ~ 4800 2350
+Wire Wire Line
+	5000 2450 4800 2450
+Connection ~ 4800 2450
+Wire Wire Line
+	5000 2550 4800 2550
+Connection ~ 4800 2550
+Wire Wire Line
+	5000 2650 4800 2650
+Connection ~ 4800 2650
+Wire Wire Line
+	4800 2050 5000 2050
+$Comp
+L power:+5V #PWR?
+U 1 1 6176B609
+P 5500 2950
+AR Path="/60273794/6176B609" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/6176B609" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/6176B609" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 5500 2800 50  0001 C CNN
+F 1 "+5V" H 5515 3123 50  0000 C CNN
+F 2 "" H 5500 2950 50  0001 C CNN
+F 3 "" H 5500 2950 50  0001 C CNN
+	1    5500 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2850 5000 3100
+Wire Wire Line
+	5000 3100 5500 3100
+Wire Wire Line
+	5500 3100 5500 2950
+$Comp
+L power:GNDS #PWR?
+U 1 1 6179967C
+P 4750 2850
+AR Path="/602A51A8/6179967C" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/6179967C" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 4750 2600 50  0001 C CNN
+F 1 "GNDS" H 4755 2677 50  0000 C CNN
+F 2 "" H 4750 2850 50  0001 C CNN
+F 3 "" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2750 4750 2750
+Wire Wire Line
+	4750 2750 4750 2850
+Text Notes 4100 850  0    50   ~ 0
+There are two connectors here.\nThe keyboard connector and a \nbreakout header.
+Text Label 3400 6000 0    50   ~ 0
+IC4_PB4
+Text Label 3400 6100 0    50   ~ 0
+IC4_PB5
+Text Label 3400 6200 0    50   ~ 0
+IC4_PB6
+Wire Wire Line
+	2950 6550 2950 7000
+Text Label 3050 6550 3    50   ~ 0
+IC4_PB7
+$Comp
+L Connector:Conn_01x04_Male J1002
+U 1 1 618D5DFB
+P 4050 6750
+F 0 "J1002" H 4300 6400 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 4022 6723 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4050 6750 50  0001 C CNN
+F 3 "~" H 4050 6750 50  0001 C CNN
+	1    4050 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2950 7000 4300 7000
+Text Label 3850 6850 2    50   ~ 0
+IC4_PB4
+Text Label 3850 6750 2    50   ~ 0
+IC4_PB5
+Text Label 3850 6650 2    50   ~ 0
+IC4_PB6
+Text Label 3850 6550 2    50   ~ 0
+IC4_PB7
 Wire Bus Line
 	1450 5000 1450 5200
 Wire Bus Line

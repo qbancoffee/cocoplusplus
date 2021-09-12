@@ -32,98 +32,98 @@ F 6 "CL21B102KBCNNNC" V 7000 2700 50  0001 C CNN "Manufacturer part#"
 	1    7000 2700
 	0    -1   -1   0   
 $EndComp
-Connection ~ 4550 4950
+Connection ~ 3600 5000
 Wire Wire Line
-	4950 4950 4550 4950
+	4000 5000 3600 5000
 Wire Wire Line
-	4950 4800 4950 4950
+	4000 4850 4000 5000
 Wire Wire Line
-	4950 4450 4950 4600
+	4000 4500 4000 4650
 $Comp
 L Device:C_Small C?
 U 1 1 6111712D
-P 4950 4700
+P 4000 4750
 AR Path="/60273794/6111712D" Ref="C?"  Part="1" 
 AR Path="/6111712D" Ref="C?"  Part="1" 
 AR Path="/612A4892/6111712D" Ref="C51"  Part="1" 
-F 0 "C51" H 4800 4600 50  0000 C CNN
-F 1 ".1uF" H 4850 4800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4950 4700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4950 4700 50  0001 C CNN
-F 4 "JLCPCB" V 4950 4700 50  0001 C CNN "Vendor"
-F 5 "C15850" V 4950 4700 50  0001 C CNN "Vendor part#"
-F 6 "CL21A106KAYNNNE" V 4950 4700 50  0001 C CNN "Manufacturer part#"
-	1    4950 4700
+F 0 "C51" H 3850 4650 50  0000 C CNN
+F 1 ".1uF" H 3900 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4000 4750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4000 4750 50  0001 C CNN
+F 4 "JLCPCB" V 4000 4750 50  0001 C CNN "Vendor"
+F 5 "C15850" V 4000 4750 50  0001 C CNN "Vendor part#"
+F 6 "CL21A106KAYNNNE" V 4000 4750 50  0001 C CNN "Manufacturer part#"
+	1    4000 4750
 	-1   0    0    1   
 $EndComp
-Connection ~ 4950 4450
+Connection ~ 4000 4500
 Wire Wire Line
-	4950 4450 4850 4450
+	4000 4500 3900 4500
 Wire Wire Line
-	4950 4250 4950 4450
+	4000 4300 4000 4500
 Wire Wire Line
-	5050 4250 4950 4250
-Text GLabel 5050 4250 2    50   Output ~ 0
+	4100 4300 4000 4300
+Text GLabel 4100 4300 2    50   Output ~ 0
 8V
-Text HLabel 3800 4450 0    50   Input ~ 0
+Text HLabel 2850 4500 0    50   Input ~ 0
 12VDC
-Connection ~ 4000 4950
+Connection ~ 3050 5000
 Wire Wire Line
-	4000 4950 4550 4950
+	3050 5000 3600 5000
 Wire Wire Line
-	4000 4800 4000 4950
+	3050 4850 3050 5000
 Wire Wire Line
-	4000 4450 4250 4450
-Connection ~ 4000 4450
+	3050 4500 3300 4500
+Connection ~ 3050 4500
 Wire Wire Line
-	4000 4600 4000 4450
+	3050 4650 3050 4500
 Wire Wire Line
-	3800 4450 4000 4450
+	2850 4500 3050 4500
 $Comp
 L Device:CP_Small C63
 U 1 1 60F71E97
-P 4000 4700
-F 0 "C63" H 3800 4750 50  0000 L CNN
-F 1 "220uF 25V" H 3550 4600 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10" H 4000 4700 50  0001 C CNN
-F 3 " https://datasheet.lcsc.com/lcsc/1809291333_Lelon-VEJ221M1ETR-0810_C134765.pdf" H 4000 4700 50  0001 C CNN
-F 4 "JLCPCB" H 4000 4700 50  0001 C CNN "Vendor"
-F 5 "C134765" H 4000 4700 50  0001 C CNN "Vendor part#"
-F 6 "VEJ221M1ETR-0810" H 4000 4700 50  0001 C CNN "Manufacturer part#"
-	1    4000 4700
+P 3050 4750
+F 0 "C63" H 2850 4800 50  0000 L CNN
+F 1 "220uF 25V" H 2600 4650 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 3050 4750 50  0001 C CNN
+F 3 " https://datasheet.lcsc.com/lcsc/1809291333_Lelon-VEJ221M1ETR-0810_C134765.pdf" H 3050 4750 50  0001 C CNN
+F 4 "JLCPCB" H 3050 4750 50  0001 C CNN "Vendor"
+F 5 "C134765" H 3050 4750 50  0001 C CNN "Vendor part#"
+F 6 "VEJ221M1ETR-0810" H 3050 4750 50  0001 C CNN "Manufacturer part#"
+	1    3050 4750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 4750 4550 4950
+	3600 4800 3600 5000
 $Comp
 L power:GNDS #PWR?
 U 1 1 60F5A149
-P 4000 4950
+P 3050 5000
 AR Path="/602A51A8/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/612A4892/60F5A149" Ref="#PWR01105"  Part="1" 
-F 0 "#PWR01105" H 4000 4700 50  0001 C CNN
-F 1 "GNDS" H 4000 4800 50  0000 C CNN
-F 2 "" H 4000 4950 50  0001 C CNN
-F 3 "" H 4000 4950 50  0001 C CNN
-	1    4000 4950
+F 0 "#PWR01105" H 3050 4750 50  0001 C CNN
+F 1 "GNDS" H 3050 4850 50  0000 C CNN
+F 2 "" H 3050 5000 50  0001 C CNN
+F 3 "" H 3050 5000 50  0001 C CNN
+	1    3050 5000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Regulator_Linear:MC78L08_TO92 IC36
 U 1 1 60F3601D
-P 4550 4450
-F 0 "IC36" H 4550 4692 50  0000 C CNN
-F 1 "MC78L08_TO92" H 4550 4601 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4550 4675 50  0001 C CIN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fua78l" H 4550 4400 50  0001 C CNN
-F 4 "digikey" H 4550 4450 50  0001 C CNN "Vendor"
-F 5 "296-UA78L08ACLPRE3CT-ND" H 4550 4450 50  0001 C CNN "Vendor part#"
-F 6 "UA78L08ACLPRE3" H 4550 4450 50  0001 C CNN "Manufacturer part#"
-	1    4550 4450
+P 3600 4500
+F 0 "IC36" H 3600 4742 50  0000 C CNN
+F 1 "MC78L08_TO92" H 3600 4651 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3600 4725 50  0001 C CIN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fua78l" H 3600 4450 50  0001 C CNN
+F 4 "digikey" H 3600 4500 50  0001 C CNN "Vendor"
+F 5 "296-UA78L08ACLPRE3CT-ND" H 3600 4500 50  0001 C CNN "Vendor part#"
+F 6 "UA78L08ACLPRE3" H 3600 4500 50  0001 C CNN "Manufacturer part#"
+	1    3600 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -182,12 +182,12 @@ P 8800 2950
 AR Path="/60273794/61208127" Ref="C?"  Part="1" 
 AR Path="/612A4892/61208127" Ref="C56"  Part="1" 
 F 0 "C56" V 9050 2950 50  0000 C CNN
-F 1 "10uF 25v" V 8900 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 8800 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1809291326_Lelon-VE-100M1ETR-0405_C134721.pdf" H 8800 2950 50  0001 C CNN
+F 1 "10uF 16v" V 8900 2950 50  0000 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 8800 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811071223_AVX-TAJA106K016RNJ_C7171.pdf" H 8800 2950 50  0001 C CNN
 F 4 "JLCPCB" V 8800 2950 50  0001 C CNN "Vendor"
-F 5 "C134721" V 8800 2950 50  0001 C CNN "Vendor part#"
-F 6 "VE-100M1ETR-0405" V 8800 2950 50  0001 C CNN "Manufacturer part#"
+F 5 "C7171" V 8800 2950 50  0001 C CNN "Vendor part#"
+F 6 "TAJA106K016RNJ" V 8800 2950 50  0001 C CNN "Manufacturer part#"
 	1    8800 2950
 	0    -1   -1   0   
 $EndComp
@@ -323,12 +323,12 @@ P 7900 2700
 AR Path="/60273794/611819DB" Ref="C?"  Part="1" 
 AR Path="/612A4892/611819DB" Ref="C55"  Part="1" 
 F 0 "C55" V 8050 2700 50  0000 C CNN
-F 1 "10uF 25v" V 7750 2700 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 7900 2700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1809291326_Lelon-VE-100M1ETR-0405_C134721.pdf" H 7900 2700 50  0001 C CNN
+F 1 "10uF 16v" V 7750 2700 50  0000 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 7900 2700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811071223_AVX-TAJA106K016RNJ_C7171.pdf" H 7900 2700 50  0001 C CNN
 F 4 "JLCPCB" V 7900 2700 50  0001 C CNN "Vendor"
-F 5 "C134721" V 7900 2700 50  0001 C CNN "Vendor part#"
-F 6 "VE-100M1ETR-0405" V 7900 2700 50  0001 C CNN "Manufacturer part#"
+F 5 "C7171" V 7900 2700 50  0001 C CNN "Vendor part#"
+F 6 "TAJA106K016RNJ" V 7900 2700 50  0001 C CNN "Manufacturer part#"
 	1    7900 2700
 	0    1    -1   0   
 $EndComp
@@ -1769,4 +1769,151 @@ Wire Wire Line
 	9200 2950 9600 2950
 Wire Wire Line
 	9200 3200 9200 3400
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1001
+U 1 1 616252FA
+P 5050 6100
+F 0 "J1001" H 5100 6417 50  0000 C CNN
+F 1 "RGB_2_ADAPTER_ADAPTER" H 5000 5850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 5050 6100 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75867.pdf" H 5050 6100 50  0001 C CNN
+F 4 "digikey" H 5050 6100 50  0001 C CNN "Vendor"
+F 5 "609-2846-ND" H 5050 6100 50  0001 C CNN "Vendor part#"
+F 6 "75867-131LF" H 5050 6100 50  0001 C CNN "Manufacturer part#"
+	1    5050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 6162A278
+P 4600 5550
+AR Path="/602A51A8/6162A278" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/6162A278" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/6162A278" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/6162A278" Ref="#PWR?"  Part="1" 
+AR Path="/6162A278" Ref="#PWR?"  Part="1" 
+AR Path="/612A4892/6162A278" Ref="#PWR01017"  Part="1" 
+F 0 "#PWR01017" H 4600 5300 50  0001 C CNN
+F 1 "GNDS" H 4600 5400 50  0000 C CNN
+F 2 "" H 4600 5550 50  0001 C CNN
+F 3 "" H 4600 5550 50  0001 C CNN
+	1    4600 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 6000 4750 6000
+Wire Wire Line
+	4750 6000 4750 5400
+Wire Wire Line
+	4750 5400 4600 5400
+Wire Wire Line
+	4600 5400 4600 5550
+$Comp
+L Diode:1N4148 D?
+U 1 1 6165164E
+P 5950 5500
+AR Path="/602A51A8/6165164E" Ref="D?"  Part="1" 
+AR Path="/603CF7B8/6165164E" Ref="D?"  Part="1" 
+AR Path="/612A4892/6165164E" Ref="D1003"  Part="1" 
+F 0 "D1003" H 5850 5650 50  0000 L CNN
+F 1 "1N4148" H 5850 5400 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323F" H 5950 5325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf" H 5950 5500 50  0001 C CNN
+F 4 "JLCPCB" H 5950 5500 50  0001 C CNN "Vendor"
+F 5 "C2128" H 5950 5500 50  0001 C CNN "Vendor part#"
+F 6 "1N4148WS" H 5950 5500 50  0001 C CNN "Manufacturer part#"
+	1    5950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 61659B49
+P 5950 5700
+AR Path="/602A51A8/61659B49" Ref="D?"  Part="1" 
+AR Path="/603CF7B8/61659B49" Ref="D?"  Part="1" 
+AR Path="/612A4892/61659B49" Ref="D1004"  Part="1" 
+F 0 "D1004" H 5850 5550 50  0000 L CNN
+F 1 "1N4148" H 5850 5600 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323F" H 5950 5525 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf" H 5950 5700 50  0001 C CNN
+F 4 "JLCPCB" H 5950 5700 50  0001 C CNN "Vendor"
+F 5 "C2128" H 5950 5700 50  0001 C CNN "Vendor part#"
+F 6 "1N4148WS" H 5950 5700 50  0001 C CNN "Manufacturer part#"
+	1    5950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5700 5650 5600
+Wire Wire Line
+	5650 5500 5800 5500
+Wire Wire Line
+	5650 5700 5800 5700
+Wire Wire Line
+	5650 5600 5550 5600
+Wire Wire Line
+	5550 5600 5550 6000
+Wire Wire Line
+	5550 6000 5350 6000
+Connection ~ 5650 5600
+Wire Wire Line
+	5650 5600 5650 5500
+Text Label 7750 4700 2    50   ~ 0
+HSYNC
+Text Label 10250 4550 0    50   ~ 0
+VSYNC
+Wire Wire Line
+	10250 4550 10100 4550
+Wire Wire Line
+	10100 4550 10100 4750
+Wire Wire Line
+	7750 4700 7950 4700
+Wire Wire Line
+	7950 4700 7950 4850
+Text Label 6200 5500 0    50   ~ 0
+HSYNC
+Text Label 6200 5700 0    50   ~ 0
+VSYNC
+Wire Wire Line
+	6100 5500 6200 5500
+Wire Wire Line
+	6200 5700 6100 5700
+Text Label 5450 6100 0    50   ~ 0
+G_OUT
+Text Label 4750 6100 2    50   ~ 0
+B_OUT
+Text Label 4750 6200 2    50   ~ 0
+R_OUT
+$Comp
+L power:+5V #PWR?
+U 1 1 616E09E4
+P 5750 6700
+AR Path="/602A51A8/616E09E4" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/616E09E4" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/616E09E4" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/616E09E4" Ref="#PWR?"  Part="1" 
+AR Path="/603D560B/616E09E4" Ref="#PWR?"  Part="1" 
+AR Path="/616E09E4" Ref="#PWR?"  Part="1" 
+AR Path="/61257512/616E09E4" Ref="#PWR?"  Part="1" 
+AR Path="/612A4892/616E09E4" Ref="#PWR01018"  Part="1" 
+F 0 "#PWR01018" H 5750 6550 50  0001 C CNN
+F 1 "+5V" H 5765 6873 50  0000 C CNN
+F 2 "" H 5750 6700 50  0001 C CNN
+F 3 "" H 5750 6700 50  0001 C CNN
+	1    5750 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 6200 5550 6200
+Wire Wire Line
+	5550 6200 5550 6850
+Wire Wire Line
+	5550 6850 5750 6850
+Wire Wire Line
+	5750 6850 5750 6700
+Wire Wire Line
+	5450 6100 5350 6100
+Wire Wire Line
+	4850 6100 4750 6100
+Wire Wire Line
+	4750 6200 4850 6200
 $EndSCHEMATC
