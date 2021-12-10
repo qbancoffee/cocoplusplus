@@ -14,59 +14,6 @@ Comment3 "This circuit replaces the SC77526P chip found in most CoCo's"
 Comment4 "Rocky Hill"
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J1
-U 1 1 615DE6E4
-P 8550 2100
-F 0 "J1" H 8600 2625 50  0000 C CNN
-F 1 "Conn_02x10_Counter_Clockwise" H 8600 2626 50  0001 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 8550 2100 50  0001 C CNN
-F 3 "~" H 8550 2100 50  0001 C CNN
-	1    8550 2100
-	1    0    0    -1  
-$EndComp
-Text Label 8350 1700 2    50   ~ 0
-SOUND_OUT
-Text Label 8350 1800 2    50   ~ 0
-SOUND_ENABLE
-Text Label 8350 1900 2    50   ~ 0
-D0
-Text Label 8350 2000 2    50   ~ 0
-D1
-Text Label 8350 2100 2    50   ~ 0
-D2
-Text Label 8350 2200 2    50   ~ 0
-D3
-Text Label 8350 2300 2    50   ~ 0
-D4
-Text Label 8350 2400 2    50   ~ 0
-D5
-Text Label 8350 2500 2    50   ~ 0
-HI-LO
-Text Label 8850 2600 0    50   ~ 0
-SELECT_A
-Text Label 8850 2500 0    50   ~ 0
-SELECT_B
-Text Label 8850 2400 0    50   ~ 0
-JOYSTICK_3
-Text Label 8850 2300 0    50   ~ 0
-JOYSTICK_2
-Text Label 8850 2200 0    50   ~ 0
-JOYSTICK_1
-Text Label 8850 2100 0    50   ~ 0
-JOYSTICK_0
-Text Label 8850 2000 0    50   ~ 0
-CASSETTE_OUT
-Text Label 8850 1800 0    50   ~ 0
-CASSETTE_ANALOG_SOUND_IN
-Wire Wire Line
-	8850 1700 9050 1700
-Wire Wire Line
-	9050 1700 9050 1550
-Wire Wire Line
-	8350 2600 8100 2600
-Wire Wire Line
-	8100 2600 8100 2700
-$Comp
 L Analog_Switch:CD4052B U4
 U 1 1 615E45D8
 P 2750 4750
@@ -312,8 +259,6 @@ Wire Wire Line
 Connection ~ 3800 1950
 Text Label 2250 4450 2    50   ~ 0
 DAC_OUT
-Text Label 8850 1900 0    50   ~ 0
-CARTRIDGE_SOUND
 Text Label 2250 4950 2    50   ~ 0
 JOYSTICK_0
 Text Label 2250 5050 2    50   ~ 0
@@ -1128,8 +1073,6 @@ EndData
 $EndBitmap
 Text Notes 3900 7150 0    50   ~ 0
 This comparator is used along with the DAC\nas a successive approximation analog to \ndigial converter.
-Text Notes 7900 1200 0    50   ~ 0
-This part will plug into the socket in place of the\nDAC chip
 Text Notes 1250 1100 0    50   ~ 0
 This buffer is used in conjuction with \nsome resistors to form a DAC.
 Wire Notes Line
@@ -1140,14 +1083,6 @@ Wire Notes Line
 	1100 850  4350 850 
 Wire Notes Line
 	4350 850  4350 3400
-Wire Notes Line
-	7650 950  9950 950 
-Wire Notes Line
-	9950 950  9950 2950
-Wire Notes Line
-	9950 2950 7650 2950
-Wire Notes Line
-	7650 2950 7650 950 
 Text Notes 1750 6350 0    50   ~ 0
 The anaog switch selects which\nsound source to use and which\njoystick channel to measure.
 Wire Notes Line
@@ -1209,114 +1144,114 @@ Wire Notes Line
 	3500 5700 3500 7450
 Wire Notes Line
 	3500 7450 5950 7450
-Text Label 5750 1550 2    50   ~ 0
+Text Label 8550 1400 2    50   ~ 0
 SOUND_OUT
-Text Label 5750 1650 2    50   ~ 0
+Text Label 8550 1500 2    50   ~ 0
 SOUND_ENABLE
-Text Label 5750 1750 2    50   ~ 0
+Text Label 8550 1600 2    50   ~ 0
 D0
-Text Label 5750 1850 2    50   ~ 0
+Text Label 8550 1700 2    50   ~ 0
 D1
-Text Label 5750 1950 2    50   ~ 0
+Text Label 8550 1800 2    50   ~ 0
 D2
-Text Label 5750 2050 2    50   ~ 0
+Text Label 8550 1900 2    50   ~ 0
 D3
-Text Label 5750 2150 2    50   ~ 0
+Text Label 8550 2000 2    50   ~ 0
 D4
-Text Label 5750 2250 2    50   ~ 0
+Text Label 8550 2100 2    50   ~ 0
 D5
-Text Label 5750 2350 2    50   ~ 0
+Text Label 8550 2200 2    50   ~ 0
 HI-LO
-Text HLabel 5800 1550 2    50   Input ~ 0
+Text HLabel 8600 1400 2    50   Input ~ 0
 SND_OUT
-Text HLabel 5800 1650 2    50   Input ~ 0
+Text HLabel 8600 1500 2    50   Input ~ 0
 SND_ENABLE
-Text HLabel 5800 1750 2    50   Input ~ 0
+Text HLabel 8600 1600 2    50   Input ~ 0
 D0
-Text HLabel 5800 1850 2    50   Input ~ 0
+Text HLabel 8600 1700 2    50   Input ~ 0
 D1
-Text HLabel 5800 1950 2    50   Input ~ 0
+Text HLabel 8600 1800 2    50   Input ~ 0
 D2
-Text HLabel 5800 2050 2    50   Input ~ 0
+Text HLabel 8600 1900 2    50   Input ~ 0
 D3
-Text HLabel 5800 2150 2    50   Input ~ 0
+Text HLabel 8600 2000 2    50   Input ~ 0
 D4
-Text HLabel 5800 2250 2    50   Input ~ 0
+Text HLabel 8600 2100 2    50   Input ~ 0
 D5
-Text HLabel 5800 2350 2    50   Input ~ 0
+Text HLabel 8600 2200 2    50   Input ~ 0
 HI_LO
-Text Label 5750 2450 2    50   ~ 0
+Text Label 8550 2300 2    50   ~ 0
 SELECT_A
-Text Label 5750 2550 2    50   ~ 0
+Text Label 8550 2400 2    50   ~ 0
 SELECT_B
-Text Label 5750 2650 2    50   ~ 0
+Text Label 8550 2500 2    50   ~ 0
 JOYSTICK_3
-Text Label 5750 2750 2    50   ~ 0
+Text Label 8550 2600 2    50   ~ 0
 JOYSTICK_2
-Text Label 5750 2850 2    50   ~ 0
+Text Label 8550 2700 2    50   ~ 0
 JOYSTICK_1
-Text Label 5750 2950 2    50   ~ 0
+Text Label 8550 2800 2    50   ~ 0
 JOYSTICK_0
-Text Label 5750 3050 2    50   ~ 0
+Text Label 8550 2900 2    50   ~ 0
 CASSETTE_OUT
-Text Label 5750 3250 2    50   ~ 0
+Text Label 8550 3100 2    50   ~ 0
 CASSETTE_ANALOG_SOUND_IN
-Text Label 5750 3150 2    50   ~ 0
+Text Label 8550 3000 2    50   ~ 0
 CARTRIDGE_SOUND
-Text HLabel 5800 2450 2    50   Input ~ 0
+Text HLabel 8600 2300 2    50   Input ~ 0
 SELECT_A
-Text HLabel 5800 2550 2    50   Input ~ 0
+Text HLabel 8600 2400 2    50   Input ~ 0
 SELECT_B
-Text HLabel 5800 2650 2    50   Input ~ 0
+Text HLabel 8600 2500 2    50   Input ~ 0
 JOYSTICK_3
-Text HLabel 5800 2750 2    50   Input ~ 0
+Text HLabel 8600 2600 2    50   Input ~ 0
 JOYSTICK_2
-Text HLabel 5800 2850 2    50   Input ~ 0
+Text HLabel 8600 2700 2    50   Input ~ 0
 JOYSTICK_1
-Text HLabel 5800 2950 2    50   Input ~ 0
+Text HLabel 8600 2800 2    50   Input ~ 0
 JOYSTICK_0
-Text HLabel 5800 3050 2    50   Input ~ 0
+Text HLabel 8600 2900 2    50   Input ~ 0
 CASSETTE_OUT
-Text HLabel 5800 3150 2    50   Input ~ 0
+Text HLabel 8600 3000 2    50   Input ~ 0
 CARTRIDGE_SND
-Text HLabel 5800 3250 2    50   Input ~ 0
+Text HLabel 8600 3100 2    50   Input ~ 0
 CASSETTE_SND_IN
 Wire Wire Line
-	5800 3250 5750 3250
+	8600 3100 8550 3100
 Wire Wire Line
-	5750 3150 5800 3150
+	8550 3000 8600 3000
 Wire Wire Line
-	5800 3050 5750 3050
+	8600 2900 8550 2900
 Wire Wire Line
-	5750 2950 5800 2950
+	8550 2800 8600 2800
 Wire Wire Line
-	5800 2850 5750 2850
+	8600 2700 8550 2700
 Wire Wire Line
-	5750 2750 5800 2750
+	8550 2600 8600 2600
 Wire Wire Line
-	5800 2650 5750 2650
+	8600 2500 8550 2500
 Wire Wire Line
-	5750 2550 5800 2550
+	8550 2400 8600 2400
 Wire Wire Line
-	5800 2450 5750 2450
+	8600 2300 8550 2300
 Wire Wire Line
-	5750 2350 5800 2350
+	8550 2200 8600 2200
 Wire Wire Line
-	5800 2250 5750 2250
+	8600 2100 8550 2100
 Wire Wire Line
-	5750 2150 5800 2150
+	8550 2000 8600 2000
 Wire Wire Line
-	5800 2050 5750 2050
+	8600 1900 8550 1900
 Wire Wire Line
-	5750 1950 5800 1950
+	8550 1800 8600 1800
 Wire Wire Line
-	5800 1850 5750 1850
+	8600 1700 8550 1700
 Wire Wire Line
-	5750 1750 5800 1750
+	8550 1600 8600 1600
 Wire Wire Line
-	5800 1650 5750 1650
+	8600 1500 8550 1500
 Wire Wire Line
-	5750 1550 5800 1550
+	8550 1400 8600 1400
 $Comp
 L 74xx:74LS367 U1
 U 1 1 615FF65C
@@ -1329,17 +1264,6 @@ F 4 "JLCPCB" H 1850 2300 50  0001 C CNN "Vendor"
 F 5 "C7655" H 1850 2300 50  0001 C CNN "Vendor part#"
 F 6 "SN74LS367ADR" H 1850 2300 50  0001 C CNN "Manufacturer part#"
 	1    1850 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR015
-U 1 1 620AE563
-P 9050 1550
-F 0 "#PWR015" H 9050 1400 50  0001 C CNN
-F 1 "+5V" H 9065 1723 50  0000 C CNN
-F 2 "" H 9050 1550 50  0001 C CNN
-F 3 "" H 9050 1550 50  0001 C CNN
-	1    9050 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1507,20 +1431,6 @@ F 1 "GNDS" H 2755 5477 50  0000 C CNN
 F 2 "" H 2750 5650 50  0001 C CNN
 F 3 "" H 2750 5650 50  0001 C CNN
 	1    2750 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDS #PWR?
-U 1 1 621064D0
-P 8100 2700
-AR Path="/602A51A8/621064D0" Ref="#PWR?"  Part="1" 
-AR Path="/603CF7B8/621064D0" Ref="#PWR?"  Part="1" 
-AR Path="/603CF7B8/61BA6208/621064D0" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 8100 2450 50  0001 C CNN
-F 1 "GNDS" H 8105 2527 50  0000 C CNN
-F 2 "" H 8100 2700 50  0001 C CNN
-F 3 "" H 8100 2700 50  0001 C CNN
-	1    8100 2700
 	1    0    0    -1  
 $EndComp
 $Comp
