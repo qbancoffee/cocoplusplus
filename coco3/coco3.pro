@@ -1,4 +1,4 @@
-update=Tue 07 Sep 2021 09:03:21 PM EDT
+update=Fri 10 Dec 2021 04:00:53 PM EST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../../../../Documents/tmp/coco3.net
+LastNetListRead=coco3.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -78,7 +78,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
